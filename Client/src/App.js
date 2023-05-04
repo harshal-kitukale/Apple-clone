@@ -1,7 +1,5 @@
-import {SingleProduct} from "./harshal/SingleProduct"
-import './App.css';
-import GG from "./harshal/GG";
 
+import './App.css';
 function App() {
   return (
     <div>
