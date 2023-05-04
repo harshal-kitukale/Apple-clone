@@ -2,13 +2,13 @@ import { Flex, Box, Text, Image } from "@chakra-ui/react";
 import React from "react";
 import "./Login.css";
 import { Link } from "react-router-dom";
-import apple from "../Images/apple.png";
-import left from "../Images/left.png";
-import googleplus from "../Images/googleplus.png";
-import appleplus from "../Images/appleplus.png";
-import imac from "../Images/imac.jpg";
-import Iphone14 from "../Images/Iphone14.jpg";
-import fast from "../Videos/fast.mp4";
+import apple from "../UtkarshImages/apple.png";
+import left from "../UtkarshImages/left.png";
+import googleplus from "../UtkarshImages/googleplus.png";
+import appleplus from "../UtkarshImages/appleplus.png";
+import imac from "../UtkarshImages/imac.jpg";
+import Iphone14 from "../UtkarshImages/Iphone14.jpg";
+import fast from "../UtkarshVideos/fast.mp4";
 const Login = () => {
   return (
     <div>

@@ -1,13 +1,13 @@
 import React from "react";
 import { Box, Text, Flex, Image } from "@chakra-ui/react";
 import "./Signup.css";
-import apple from "../Images/apple.png";
-import left from "../Images/left.png";
-import googleplus from "../Images/googleplus.png";
-import appleplus from "../Images/appleplus.png";
-import imac from "../Images/imac.jpg";
-import Iphone from "../Videos/Iphone.mp4";
-import girls from "../Videos/girls.mp4";
+import apple from "../UtkarshImages/apple.png";
+import left from "../UtkarshImages/left.png";
+import googleplus from "../UtkarshImages/googleplus.png";
+import appleplus from "../UtkarshImages/appleplus.png";
+import imac from "../UtkarshImages/imac.jpg";
+
+import girls from "../UtkarshVideos/girls.mp4";
 const Signup = () => {
   return (
     <div>
