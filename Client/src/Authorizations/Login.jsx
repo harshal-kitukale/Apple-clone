@@ -1,5 +1,5 @@
 import { Flex, Box, Text, Image } from "@chakra-ui/react";
-import React from "react";
+import React, { useState } from "react";
 import "./Login.css";
 import { Link } from "react-router-dom";
 import apple from "../UtkarshImages/apple.png";
@@ -10,6 +10,17 @@ import imac from "../UtkarshImages/imac.jpg";
 import Iphone14 from "../UtkarshImages/Iphone14.jpg";
 import fast from "../UtkarshVideos/fast.mp4";
 const Login = () => {
+  const [email, setEmail] = useState("");
+  const [password, setPassword] = useState("");
+
+  const handleClick = (e) => {
+    e.preventDefault();
+    let payload = {
+      email,
+      password,
+    };
+  };
+
   return (
     <div>
       <Text className="text_loginup">Sign in for faster checkout</Text>
@@ -80,6 +91,7 @@ const Login = () => {
                       Email
                     </label>
                     <input
+                      onChange={(e) => setEmail(e.target.value)}
                       id="email"
                       class="form__input"
                       name="email"
@@ -97,6 +109,7 @@ const Login = () => {
                       Password
                     </label>
                     <input
+                      onChange={(e) => setPassword(e.target.value)}
                       id="password"
                       class="form__input"
                       name="password"
@@ -107,6 +120,7 @@ const Login = () => {
 
                   <div class="form__field">
                     <button
+                      onClick={handleClick}
                       class="button button--full button--primary"
                       type="submit"
                     >

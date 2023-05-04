@@ -3,6 +3,10 @@ const app = express.json();
 const { connection } = require("./db");
 process("dotenv").require();
 const { userRouter } = require("./routes/User.routes");
+const { auth } = require("./middleware/auth.middleware");
+
+app.use("/user",userRouter)
+app.use(auth)
 
 app.listen(process.env.PORT, async () => {
   try {

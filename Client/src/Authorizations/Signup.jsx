@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import { Box, Text, Flex, Image } from "@chakra-ui/react";
 import "./Signup.css";
 import apple from "../UtkarshImages/apple.png";
@@ -9,6 +9,16 @@ import imac from "../UtkarshImages/imac.jpg";
 
 import girls from "../UtkarshVideos/girls.mp4";
 const Signup = () => {
+
+const [name,setName]=useState("");
+const [email,setEmail]=useState("");
+const [password,setPassword]=useState("")
+
+const handleClick=(e)=>{
+e.preventDefault();
+
+}
+
   return (
     <div>
       <Text className="text_signup">Sign in for faster checkout</Text>
@@ -84,6 +94,7 @@ const Signup = () => {
                       Name
                     </label>
                     <input
+                    onChange={(e)=>setName(e.target.value)}
                       id="name"
                       class="form__input"
                       name="name"
@@ -101,6 +112,7 @@ const Signup = () => {
                       Email
                     </label>
                     <input
+                     onChange={(e)=>setEmail(e.target.value)}
                       id="email"
                       class="form__input"
                       name="email"
@@ -118,6 +130,7 @@ const Signup = () => {
                       Password
                     </label>
                     <input
+                      onChange={(e)=>setPassword(e.target.value)}
                       id="password"
                       class="form__input"
                       name="password"
@@ -127,7 +140,7 @@ const Signup = () => {
                   </div>
 
                   <div class="form__field">
-                    <button
+                    <button onClick={handleClick}
                       class="button button--full button--primary"
                       type="submit"
                     >
