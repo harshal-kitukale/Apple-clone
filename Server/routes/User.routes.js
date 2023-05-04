@@ -3,12 +3,7 @@ const userRouter = express.Router();
 
 userRouter.post("/register", async (req, res) => {
   try {
-
-
-
-
-
-
+    
   } catch (err) {
     res.status(400).send("Something going wrong in the login request");
   }
