@@ -1,0 +1,129 @@
+footer {
+    width: 100%;
+    min-height: 105vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    background-color: #f5f5f7;
+    color: #6e6e73;
+    font-size: 12.8px;
+    font-weight: 400;
+    letter-spacing: 0.1px;
+    user-select:none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+  }
+  
+  div.footer-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    margin: 10px;
+    max-width: 1000px;
+  }
+  
+  .footer-section-1 p {
+    text-align: start;
+    color: #464649;
+    font-size: 12.5px;
+    line-height: 1.33337;
+    font-weight: 400;
+    letter-spacing: -.01em;
+    font-family: "SF Pro Text","Myriad Set Pro","SF Pro Icons","Apple Legacy Chevron","Helvetica Neue","Helvetica","Arial",sans-serif;
+  }
+  a{
+    text-decoration: none;
+    color:black;
+  }
+  .footer-h4-div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+  }
+  
+  .footer-plus {
+    display: none;
+  }
+  
+  h4.footer-h4 {
+    color: #464649;
+    font-weight: 700;
+    letter-spacing: 0.2px;
+    margin-bottom: -1px;
+  }
+  div.footer-section-2 {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 100%;
+    justify-content: space-between;
+    align-items: flex-start;
+    text-align: left;
+    margin: 15px 0;
+    line-height: 24.9px;
+  }
+  
+  .footer-section-2 ul {
+    margin-bottom: 15px;
+    padding-left: 0;
+  }
+  .footer-section-2 ul li {
+    display: block;
+  }
+  
+  .footer-h4-div {
+    pointer-events: none;
+  }
+  
+  .footer-h4 {
+    pointer-events: none;
+  }
+  .panel {
+    display: block;
+  }
+  
+  div.main-footer {
+    width: 100%;
+  }
+  
+  hr {
+    color: #87878a;
+    opacity: 0.3;
+    margin-top: 15px;
+  }
+  
+  div.main-footer-2 {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 15px 0;
+  }
+  
+  .main-footer-2 li {
+    display: inline-block;
+    margin-left: 8px;
+    padding-right: 8px;
+    line-height: 24px;
+    border-right: 0.6px solid #1212136c;
+  }
+  
+  div.footer-country {
+    margin-left: auto;
+  }
+  
+  a.blue-link {
+    color: #0066cc;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
