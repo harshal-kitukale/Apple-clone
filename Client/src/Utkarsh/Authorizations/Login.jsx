@@ -12,7 +12,9 @@ import fast from "../UtkarshVideos/fast.mp4";
 const Login = () => {
   return (
     <div>
+      <Box className="login_text_box">
       <Text className="text_loginup">Sign in for faster checkout</Text>
+      </Box>
       <br />
       <br />
       <br />
