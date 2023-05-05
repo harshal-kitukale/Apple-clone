@@ -1,0 +1,174 @@
+{
+  "ipad": [
+    {
+      "title": "Apple 2022 11-inch iPad Pro (Wi-Fi, 128GB) - Space Grey (4th Generation)",
+      "category": "ipad",
+      "image": "https://m.media-amazon.com/images/I/81gC7frRJyL._SX679_.jpg",
+      "specs": "Brilliant 11-inch Liquid Retina display with ProMotion, True Tone, and P3 wide colorM2 chip with 8-core CPU and 10-core GPU12MP Wide camera, 10MP Ultra Wide back camera, and LiDAR Scanner for immersive AR12MP Ultra Wide front camera with Center StageStay connected with ultrafast Wi-Fi 6E",
+      "price": 78499,
+      "dtlimage": [
+        "https://m.media-amazon.com/images/I/71zMz9YT0qL._SX522_.jpg",
+        "https://m.media-amazon.com/images/I/91qLD9hZWkL._SX522_.jpg",
+        "https://m.media-amazon.com/images/I/71TvEYgcolL._SX522_.jpg",
+        "https://m.media-amazon.com/images/I/61PL5ysNAxL._SX522_.jpg"
+      ],
+      "storage":[
+        "Ram":"4GB",
+      ]
+      "userId": ""
+    },
+    {
+      "title": "APPLE iPad (9th Gen) 64 GB ROM 10.2 inch with Wi-Fi Only (Space Grey)",
+      "category": "ipad",
+      "image": "https://rukminim1.flixcart.com/image/416/416/ktop5e80/tablet/x/9/o/mk2k3hn-a-apple-original-imag6yy7xjjugz4w.jpeg?q=70",
+      "specs": "64 GB ROM25.91 cm (10.2 inch) Display8 MP Primary Camera | 12 MP FrontiOS 15 | Battery: Lithium PolymerProcessor: A13 Bionic Chip with 64-bit Architecture",
+      "price": 27900,
+      "dtlimage": [
+        "https://rukminim1.flixcart.com/image/416/416/ktop5e80/tablet/v/r/t/mk473hn-a-apple-original-imag6yy7j2hnktfz.jpeg?q=70",
+        "https://rukminim1.flixcart.com/image/416/416/ktop5e80/tablet/s/l/b/mk2k3hn-a-apple-original-imag6yy7wn9are6s.jpeg?q=70",
+        "https://rukminim1.flixcart.com/image/416/416/ktop5e80/tablet/k/k/k/mk2k3hn-a-apple-original-imag6yy7yxawz4gy.jpeg?q=70",
+        "https://rukminim1.flixcart.com/image/416/416/ktop5e80/tablet/z/p/p/mk473hn-a-apple-original-imag6yy7rsevhdah.jpeg?q=70"
+      ],
+      "userId": ""
+    },
+    {
+      "title": "APPLE iPad Pro (4th Gen) 128 GB ROM 11.0 inch with Wi-Fi Only (Space Grey)",
+      "category": "ipad",
+      "image": "https://rukminim1.flixcart.com/image/416/416/xif0q/tablet/r/v/e/-original-imagj72vv3gydgem.jpeg?q=70",
+      "specs": "128 GB ROM27.94 cm (11.0 inch) Full HD Display12 MP Primary Camera | 12 MP FrontiPadOS 16 | Battery: Lithium PolymerProcessor: Apple M2 chip",
+      "price": 78670,
+      "dtlimage": [
+        "https://rukminim1.flixcart.com/image/416/416/xif0q/tablet/m/j/x/-original-imagj72vg8zkbph2.jpeg?q=70",
+        "https://rukminim1.flixcart.com/image/416/416/xif0q/tablet/a/m/i/-original-imagj72vytkf3rzh.jpeg?q=70",
+        "https://rukminim1.flixcart.com/image/416/416/xif0q/tablet/k/3/l/-original-imagj72v6ypmqxxc.jpeg?q=70",
+        "https://rukminim1.flixcart.com/image/416/416/xif0q/tablet/3/q/m/-original-imagj72vbtzm23mz.jpeg?q=70"
+      ],
+      "userId": ""
+    },
+    {
+      "title": "APPLE iPad Air (4th Gen) 64 GB ROM 10.9 inch with Wi-Fi Only (Sky Blue)",
+      "category": "ipad",
+      "image": "https://rukminim1.flixcart.com/image/416/416/kf75fgw0/tablet/n/h/h/apple-myfy2hn-a-original-imafvpqaebw8r7cv.jpeg?q=70",
+      "specs": "Stunning 10.9-inch Liquid Retina display with True Tone and P3 wide colorA14 Bionic chip with Neural EngineTouch ID for secure authentication and Apple Pay12MP back camera, 7MP FaceTime HD front cameraAvailable in silver, space gray, rose gold, green, and sky blueWide stereo audioWi-Fi 6 (802.11ax) and Gigabit-class LTE cellular dataUp to 10 hours of battery lifeUSB-C connector for charging and accessoriesSupport for Magic Keyboard, Smart Keyboard Folio, and Apple Pencil (2nd generation)iPadOS 14 brings new capabilities designed specifically for iPad64 GB ROM27.69 cm (10.9 inch) Full HD Display12 MP Primary Camera | 7 MP FrontiPadOS 14 | Battery: Lithium PolymerProcessor: A14 Bionic Chip (64‑bit Architecture) with Neural Engine",
+      "price": 49900,
+      "dtlimage": [
+        "https://rukminim1.flixcart.com/image/416/416/kf75fgw0/tablet/n/h/h/apple-myfy2hn-a-original-imafvpqajvzt77sa.jpeg?q=70",
+        "https://rukminim1.flixcart.com/image/416/416/kf75fgw0/tablet/n/h/h/apple-myfy2hn-a-original-imafvpqautq7jpbv.jpeg?q=70",
+        "https://rukminim1.flixcart.com/image/416/416/kf75fgw0/tablet/n/h/h/apple-myfy2hn-a-original-imafvpqayqxjggew.jpeg?q=70"
+      ],
+      "userId": ""
+    },
+    {
+      "title": "APPLE iPad Air (5th gen) 256 GB ROM 10.9 Inch with Wi-Fi Only (Pink)",
+      "category": "ipad",
+      "image": "https://rukminim1.flixcart.com/image/416/416/l0jwbrk0/tablet/z/u/w/-original-imagcbjayxa5jjxz.jpeg?q=70++",
+      "specs": "256 GB ROM27.69 cm (10.9 Inch) Display12 MP Primary Camera | 12 MP FrontiPadOS 15 | Battery: Lithium PolymerProcessor: Apple M1 Chip",
+      "price": "67900",
+      "dtlimage": [
+        "https://rukminim1.flixcart.com/image/416/416/l0jwbrk0/tablet/z/f/s/-original-imagcbja6mtuqcw4.jpeg?q=70",
+        "https://rukminim1.flixcart.com/image/416/416/l0jwbrk0/tablet/c/9/r/-original-imagcbja6nq8gyag.jpeg?q=70",
+        "https://rukminim1.flixcart.com/image/416/416/l0jwbrk0/tablet/o/k/8/-original-imagcbja829qvhd9.jpeg?q=70",
+        "https://rukminim1.flixcart.com/image/416/416/l0jwbrk0/tablet/c/y/3/-original-imagcbjabugv8vyk.jpeg?q=70"
+      ],
+      "userId": ""
+    },
+    {
+      "title": "APPLE ipad Mini (2019) 64 GB ROM 7.9 inch with Wi-Fi+4G (Gold)",
+      "category": "ipad",
+      "image": "APPLE ipad Mini (2019) 64 GB ROM 7.9 inch with Wi-Fi+4G (Gold)",
+      "specs": "7.9-inch Retina display with True Tone and wide colorA12 Bionic chipTouch ID fingerprint sensor and Apple Pay8MP back camera, 7MP FaceTime HD front cameraStereo speakers802.11ac Wi-Fi with Gigabit-class LTE cellular dataUp to 10 hours of battery lifeLightning connector for charging and accessoriesSupport for Apple Pencil (1st generation)iPadOS 14 brings new capabilities designed specifically for iPad64 GB ROM20.07 cm (7.9 inch) Full HD Display8 MP Primary Camera | 7 MP FrontiOS 12 | Battery: Lithium PolymerProcessor: A12 Bionic Chip, 64-bit Architecture with Neural Engine and Embedded M12 Co-processor",
+      "price": 31900,
+      "dtlimage": [
+        "https://rukminim1.flixcart.com/image/416/416/k2xmd8w0/tablet/y/h/z/apple-mux72hn-a-original-imafm69s7ndmkfns.jpeg?q=70",
+        "https://rukminim1.flixcart.com/image/416/416/k0lbdzk0pkrrdj/tablet/r/c/j/apple-muxe2hn-a-original-imaff849kjm3drwm.jpeg?q=70",
+        "https://rukminim1.flixcart.com/image/416/416/k2xmd8w0/tablet/y/h/z/apple-mux72hn-a-original-imafm69svf4pgtnr.jpeg?q=70",
+        "https://rukminim1.flixcart.com/image/416/416/k0lbdzk0pkrrdj/tablet/r/c/j/apple-muxe2hn-a-original-imaff849kmxfnqnu.jpeg?q=70"
+      ],
+      "userId": ""
+    },
+    {
+      "title": "APPLE iPad Air (5th gen) 64 GB ROM 10.9 Inch with Wi-Fi Only (Pink)",
+      "category": "ipad",
+      "image": "https://rukminim1.flixcart.com/image/416/416/l0jwbrk0/tablet/z/u/w/-original-imagcbjayxa5jjxz.jpeg?q=70",
+      "specs": "64 GB ROM27.69 cm (10.9 Inch) Display12 MP Primary Camera | 12 MP FrontiPadOS 15 | Battery: Lithium PolymerProcessor: Apple M1 Chip",
+      "price": 52900,
+      "dtlimage": [
+        "https://rukminim1.flixcart.com/image/416/416/l0jwbrk0/tablet/z/f/s/-original-imagcbja6mtuqcw4.jpeg?q=70",
+        "https://rukminim1.flixcart.com/image/416/416/l0jwbrk0/tablet/c/9/r/-original-imagcbja6nq8gyag.jpeg?q=70",
+        "https://rukminim1.flixcart.com/image/416/416/l0jwbrk0/tablet/o/k/8/-original-imagcbja829qvhd9.jpeg?q=70",
+        "https://rukminim1.flixcart.com/image/416/416/l0jwbrk0/tablet/e/w/y/-original-imagcbjam6j34cwb.jpeg?q=70"
+      ],
+      "userId": ""
+    },
+    {
+      "title": "APPLE iPad (9th Gen) 256 GB ROM 10.2 inch with Wi-Fi Only (Space Grey)",
+      "category": "ipad",
+      "image": "https://rukminim1.flixcart.com/image/416/416/ktop5e80/tablet/x/9/o/mk2k3hn-a-apple-original-imag6yy7xjjugz4w.jpeg?q=70",
+      "specs": "256 GB ROM25.91 cm (10.2 inch) Display8 MP Primary Camera | 12 MP FrontiOS 15 | Battery: Lithium PolymerProcessor: A13 Bionic Chip with 64-bit Architecture",
+      "price": 44900,
+      "dtlimage": [
+        "https://rukminim1.flixcart.com/image/416/416/ktop5e80/tablet/v/r/t/mk473hn-a-apple-original-imag6yy7j2hnktfz.jpeg?q=70",
+        "https://rukminim1.flixcart.com/image/416/416/ktop5e80/tablet/y/e/5/mk473hn-a-apple-original-imag6yy7kxnd5ewn.jpeg?q=70",
+        "https://rukminim1.flixcart.com/image/416/416/ktop5e80/tablet/1/d/x/mk2k3hn-a-apple-original-imag6yy79ymgfxt7.jpeg?q=70",
+        "https://rukminim1.flixcart.com/image/416/416/ktop5e80/tablet/u/p/n/mk2k3hn-a-apple-original-imag6yy7bx9wjefd.jpeg?q=70"
+      ],
+      "userId": ""
+    },
+    {
+      "title": "Apple 2022 iPad Air M1 Chip (10.9-inch/27.69 cm, Wi-Fi, 64GB) - Space Gray (5th Generation)",
+      "category": "ipad",
+      "image": "https://m.media-amazon.com/images/I/61XZQXFQeVL._SX522_.jpg",
+      "specs": "27.69 cm (10.9-inch) Liquid Retina display1 with True Tone, P3 wide colour and an anti-reflective coatingApple M1 chip with Neural Engine12MP Wide camera12MP Ultra Wide front camera with Center StageUp to 256GB of storageAvailable in blue, purple, pink, starlight, and space grayStereo landscape speakersTouch ID for secure authenticationAll-day battery lifeWorks with Magic Keyboard, Smart Keyboard Folio and Apple Pencil (2nd generation)",
+      "price": 51999,
+      "dtlimage": [
+        "https://m.media-amazon.com/images/I/61CjYtVb7cL._SX522_.jpg",
+        "https://m.media-amazon.com/images/I/81WoVc-anZL._SX522_.jpg",
+        "https://m.media-amazon.com/images/I/81ix87lLCpL._SX522_.jpg",
+        "https://m.media-amazon.com/images/I/71LZeFKdtbL._SX522_.jpg"
+      ],
+      "userId": ""
+    },
+    {
+      "title": "Apple 2022 12.9-inch iPad Pro (Wi-Fi + Cellular, 2TB) - Silver (6th Generation)",
+      "category": "ipad",
+      "image": "https://m.media-amazon.com/images/I/814P0ojHArL._SX522_.jpg",
+      "specs": "Brilliant 12.9-inch Liquid Retina XDR display with ProMotion, True Tone, and P3 wide colorM2 chip with 8-core CPU and 10-core GPU12MP Wide camera, 10MP Ultra Wide back camera, and LiDAR Scanner for immersive AR12MP Ultra Wide front camera with Center StageSuperfast Wi-Fi 6E and 5G cellular",
+      "price": 237900,
+      "dtlimage": [
+        "https://m.media-amazon.com/images/I/71wN1-1wkRL._SX522_.jpg",
+        "https://m.media-amazon.com/images/I/91qLD9hZWkL._SX522_.jpg",
+        "https://m.media-amazon.com/images/I/911AokjmKkL._SX522_.jpg",
+        "https://m.media-amazon.com/images/I/61BL8+gBfRL._SX522_.jpg"
+      ],
+      "userId": ""
+    },
+    {
+      "title": "Apple 2022 10.9-inch iPad (Wi-Fi, 64GB) - Silver (10th Generation)",
+      "category": "ipad",
+      "image": "https://m.media-amazon.com/images/I/61goypdjAYL._SX522_.jpg",
+      "specs": "Striking 10.9-inch Liquid Retina display with True ToneA14 Bionic chip with 6-core CPU and 4-core GPU12MP Wide back cameraLandscape 12MP Ultra Wide front camera with Center StageTouch ID for secure authentication and Apple Pay",
+      "price": 44900,
+      "dtlimage": [
+        "https://m.media-amazon.com/images/I/91psKPUkS4L._SX522_.jpg",
+        "https://m.media-amazon.com/images/I/71Xe1DNqYgL._SX522_.jpg",
+        "https://m.media-amazon.com/images/I/81b3zG8j2bL._SX522_.jpg",
+        "https://m.media-amazon.com/images/I/61AQp5v1P4L._SX522_.jpg"
+      ],
+      "userId": ""
+    },
+    {
+      "title": "Apple 2022 iPad Air M1 Chip (10.9-inch/27.69 cm, Wi-Fi, 256GB) - Purple (5th Generation)",
+      "category": "ipad",
+      "image": "https://m.media-amazon.com/images/I/61k05QwLuML._SX679_.jpg",
+      "specs": "27.69 cm (10.9-inch) Liquid Retina display1 with True Tone, P3 wide colour and an anti-reflective coatingApple M1 chip with Neural Engine12MP Wide camera12MP Ultra Wide front camera with Center StageUp to 256GB of storageAvailable in blue, purple, pink, starlight, and space grayStereo landscape speakersTouch ID for secure authenticationAll-day battery lifeWorks with Magic Keyboard, Smart Keyboard Folio and Apple Pencil (2nd generation)",
+      "price": 56000,
+      "dtlimage": [
+        "https://m.media-amazon.com/images/I/61Y39sE4nuL._SX679_.jpg",
+        "https://m.media-amazon.com/images/I/81rVQe86TKL._SX679_.jpg",
+        "https://m.media-amazon.com/images/I/81ix87lLCpL._SX679_.jpg",
+        "https://m.media-amazon.com/images/I/61Hj2Ydwh2L._SX679_.jpg"
+      ],
+      "userId": ""
+    }
+  ]
+}
