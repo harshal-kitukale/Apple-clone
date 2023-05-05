@@ -3,6 +3,7 @@ import styled from "styled-components";
 import { Link } from "react-router-dom";
 import { FiChevronRight } from "react-icons/fi";
 
+
 const Header = () => {
   return (
     <HeaderMain>
