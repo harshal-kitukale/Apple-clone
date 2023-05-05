@@ -34,5 +34,3 @@ app.listen(process.env.PORT, async () => {
     console.log("There is some error in the field");
   }
 });
-
-// Change MONGO_URL before finalizing the code
