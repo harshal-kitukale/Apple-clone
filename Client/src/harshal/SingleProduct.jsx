@@ -28,38 +28,36 @@ import {
   AiOutlineInstagram,
 } from "react-icons/ai";
 import { ImWhatsapp } from "react-icons/im";
-import { useDispatch, useSelector } from "react-redux";
-import { useParams } from "react-router";
-import Footer from "../Components/Footer";
-import Navbar from "../Components/Navbar";
-// import { color } from "framer-motion";
+// import { useDispatch, useSelector } from "react-redux";
+// import { useParams } from "react-router";
 import { StandardSizes } from "./StandardSizes";
-import { AddToCart } from "../Redux/cartReducer/action";
-import { getSingleProduct } from "../Redux/WomenReducer/action";
+// import { AddToCart } from "../Redux/cartReducer/action";
+// import { getSingleProduct } from "../Redux/WomenReducer/action";
 // import CaptionCarousel from "./Slider";
+import { arr } from "./data";
 
 export const SingleProduct = () => {
-  const [data, setData] = useState("");
-  const { id } = useParams();
+  console.log(arr);
+  // const [arr, setarr] = useState("");
+  // const { id } = useParams();
   // const {isloading}=useSelector((store)=>store.cartReducer)
   const [value, setValue] = useState(false);
-  const [loading, setLoading] = useState(false);
-  const dispatch = useDispatch();
- 
+  // const [loading, setLoading] = useState(false);
+  // const dispatch = useDispatch();
 
-const getItem=()=>{
-  let items = JSON.parse(localStorage.getItem("cart")) || [];
-  if (items.length > 0) {
-    items.map((item) => (item.id === id ? setValue(true) : ""));
-  }
-}
+  // const getItem=()=>{
+  //   let items = JSON.parse(localStorage.getItem("cart")) || [];
+  //   if (items.length > 0) {
+  //     items.map((item) => (item.id === id ? setValue(true) : ""));
+  //   }
+  // }
 
-  useEffect(() => {
-    dispatch(getSingleProduct(id)).then((res) => {
-      setData(res);
-    }); 
-    getItem()
-  }, []);
+  // useEffect(() => {
+  //   dispatch(getSingleProduct(id)).then((res) => {
+  //     setarr(res);
+  //   });
+  //   getItem()
+  // }, []);
 
   function changeTheproducts(key, value) {
     // let newproducts = {
@@ -68,18 +66,18 @@ const getItem=()=>{
     // };
     // console.log(newproducts, 1);
   }
-  console.log(data);
-  const AddToBasket = (e) => {
-    e.preventDefault();
-    dispatch(AddToCart(id));
-    setLoading(true)
-    setTimeout(() => {
-      setLoading(false)
-      getItem()
-    }, 1500);
-    // console.log(nproducts);
-  };
-  if (data === "") {
+  // console.log(arr);
+  // const AddToBasket = (e) => {
+  //   e.preventDefault();
+  //   dispatch(AddToCart(id));
+  //   setLoading(true)
+  //   setTimeout(() => {
+  //     setLoading(false)
+  //     getItem()
+  //   }, 1500);
+  //   // console.log(nproducts);
+  // };
+  if (arr === "") {
     return (
       <>
         <Spinner
@@ -94,9 +92,10 @@ const getItem=()=>{
       </>
     );
   }
+
   return (
     <>
-      <Navbar />
+      {/* <Navbar /> */}
       {/* <Box
         mt={{ base: "330px", sm: "260px", md: "60px" }}
         color="rgb(41, 43, 44)"
@@ -119,14 +118,10 @@ const getItem=()=>{
               ></Flex>
               {/* map image here */}
               <Grid templateColumns="repeat(2, 1fr)" gap={3}>
-                {data.images.map((image) => {
+                {arr.dtlimage.map((image) => {
                   return (
                     <GridItem>
-                      <Image
-                        width={"100%"}
-                        height={"100%"}
-                        src={`https://prod-img.thesouledstore.com/public/theSoul/uploads/catalog/product/${image}?format=webp&w=376&dpr=1.0`}
-                      />
+                      <Image width={"100%"} height={"100%"} src={image.img} />
                     </GridItem>
                   );
                 })}
@@ -140,27 +135,25 @@ const getItem=()=>{
               mt={{ base: "10px", md: "0px" }}
               fontSize={"30px"}
             >
-              {data.product}
+              {/* {arr.product} */}
             </Heading>
             <Text fontSize={"16px"} mt={"-5px"} align="left" color={"gray"}>
-              {data.category.name}
+              {arr.category}
             </Text>
             <Box borderTop={"1px"} my="20px"></Box>
             <HStack my={"20px"}>
               <Text fontSize={"25px"} fontWeight={"semibold"} align="left">
-                ₹ {data.exclusivePrice}
+                {arr.price}
               </Text>
               <Text
                 align="left"
                 style={{ textDecoration: "line-through", color: "gray" }}
               >
-                ₹ {data.price}
+                {arr.price}
               </Text>
               <Text align="left" color={"red"}>
-                {(
-                  ((data.price - data.exclusivePrice) / data.price) *
-                  100
-                ).toFixed(2)}
+                {// ((arr.price - arr.exclusivePrice) / arr.price) *
+                (100).toFixed(2)}
                 % OFF
               </Text>
             </HStack>
@@ -181,7 +174,7 @@ const getItem=()=>{
                 <HStack>
                   <Text>Quantity</Text>
                   <Select
-                    onChange={(e) => changeTheproducts("qty", e.target.value)}
+                    // onChange={(e) => changeTheproducts("qty", e.target.value)}
                     m={"10px"}
                     width="70px"
                     height="35px"
@@ -202,35 +195,23 @@ const getItem=()=>{
               <Box mt={"20px"}>
                 <HStack>
                   <Button
-                  colorScheme="red"
-                  bg="rgb(236, 61, 37)"
-                  w={"100%"}
-                  onClick={AddToBasket}
-                  isDisabled={value}
-                  isLoading={loading}
-                  loadingText={loading?"ADDING TO THE CART":""}
-                  spinnerPlacement="start"
-                >
-                  {value?"ADDED":"ADD TO CART"}
-                </Button>
-
-                  {/* <Button
-                    colorScheme="red"
-                    bg="rgb(236, 61, 37)"
+                    colorScheme="blue"
+                    // bg="rgb(236, 61, 37)"
                     w={"100%"}
-                    onClick={AddToBasket}
-                    isDisabled={value}
-                    loadingText={value?"Adding to the Text":"Added"}
+                    // onClick={AddToBasket}
+                    // isDisabled={value}
+                    // isLoading={loading}
+                    // loadingText={loading?"ADDING TO THE CART":""}
                     spinnerPlacement="start"
                   >
-                   ADD TO CART
-                  </Button> */}
+                    {value ? "Added" : "Add To Bag"}
+                  </Button>
                   <Button
                     colorScheme="teal"
                     variant="outline"
                     // leftIcon={<heartIcon />}
                     w={"80%"}
-                    onClick={AddToBasket}
+                    // onClick={AddToBasket}
                   >
                     <Icon as={AiOutlineHeart} mr="1px" /> ADD TO WISHLIST
                   </Button>
@@ -338,11 +319,11 @@ const getItem=()=>{
                   </h2>
                   <AccordionPanel pb={4} p="30px" pt={5}>
                     <Heading pb={2} fontSize={"14px"}>
-                      Official Licensed {data.product} {data.category.name}.
+                      Official Licensed {arr.product} {arr.category.name}.
                     </Heading>
                     <Text fontSize="sm" mb={7} mt={6}>
-                      Buy this {data.product} {data.category.name} for{" "}
-                      {data.genderType === 1 ? "Men" : "Women"} at The Souled
+                      Buy this {arr.product} {arr.category.name} for{" "}
+                      {arr.genderType === 1 ? "Men" : "Women"} at The Souled
                       Store.
                     </Text>
                     <Heading pb={2} fontSize={"14px"}>
@@ -485,7 +466,7 @@ const getItem=()=>{
           </Box>
         </Box>
       </Box>
-      <Footer />
+      {/* <Footer /> */}
       {/* <CaptionCarousel /> */}
     </>
   );
