@@ -99,7 +99,7 @@ const Cart = () => {
 
   return (
     <>
-      <Navbar />
+      {/* <Navbar /> */}
       <Box margin={"1rem"} color={"teal"} fontSize="0.8rem">
         {" "}
         <Span>MY BAG </Span>- - - - - - - - - - - - - ADDRESS - - - - - - - - -
@@ -393,7 +393,7 @@ const Cart = () => {
           </Box>
         </GridItem>
       </Grid>
-      <Footer />
+      {/* <Footer /> */}
     </>
   );
 };
