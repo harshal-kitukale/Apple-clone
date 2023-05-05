@@ -13,7 +13,9 @@
   font-family: SF Pro Display, SF Pro Icons, Helvetica Neue, Helvetica, Arial,
     sans-serif;
 }
-
+.login_text_box{
+  text-align: center;
+}
 a {
   color: #fcfcfc;
   text-decoration: none;

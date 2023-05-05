@@ -1,12 +1,10 @@
 
-import './App.css';
-// import Cart from './harshal/Cart';
-import { SingleProduct } from './harshal/SingleProduct';
+import "./App.css";
 function App() {
   return (
-    <div className='App'>
-      < SingleProduct/>
-      {/* <Cart/> */}
+    <div>
+    
+     {/* <Signup/> */}
     </div>
   );
 }
