@@ -5,7 +5,7 @@ import CartPage from './Pages/CartPage';
 function App() {
   return (
     <div className="App">
-      <CartPage/>
+      
     </div>
   );
 }
