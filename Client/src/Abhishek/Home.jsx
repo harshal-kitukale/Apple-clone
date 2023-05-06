@@ -6,7 +6,7 @@ import { Slider } from './Slider'
 // import {CaptionCarousel} from './Slider'
 export const Home = () => {
   return (
-    <div>
+    <div id='home_style'>
        <Navbar/>
 <div id='banner1'>
 <h2>iPhone 14 Pro</h2>
