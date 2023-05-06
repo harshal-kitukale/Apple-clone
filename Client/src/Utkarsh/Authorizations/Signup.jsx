@@ -11,13 +11,13 @@ import girls from "../UtkarshVideos/girls.mp4";
 const Signup = () => {
   return (
     <div>
-      <Text className="text_signup">Sign in for faster checkout</Text>
+      <Box className="text_sigup_box">
+        <Text className="text_signup">Sign in for faster checkout</Text>
+      </Box>
       <br />
       <br />
       <br />
-      <Flex className="media"
-       
-      >
+      <Flex className="media">
         <Box className="box1">
           <Flex
             style={{ justifyContent: "space-evenly", padding: "13px 20px" }}
@@ -146,19 +146,8 @@ const Signup = () => {
           </Box>
         </Box>
         <Box className="box2">
-          <video className="images_media"
-          
-          
-            src={girls}
-            autoPlay
-            loop
-            muted
-          />
-          <Image className="images_media"
-           
-            src={imac}
-            alt="imac"
-          />
+          <video className="images_media" src={girls} autoPlay loop muted />
+          <Image className="images_media" src={imac} alt="imac" />
         </Box>
       </Flex>
     </div>
