@@ -3,7 +3,6 @@ import styled from "styled-components";
 import { Link } from "react-router-dom";
 import { FiChevronRight } from "react-icons/fi";
 
-
 const Header = () => {
   return (
     <HeaderMain>
@@ -27,7 +26,7 @@ const Header = () => {
         <HeaderMainBb>
           <svg
             viewBox="0 0 35 35"
-            className="as-svgicon as-svgicon-applestore as-svgicon-base as-svgicon-applestorebase"
+            class="as-svgicon as-svgicon-applestore as-svgicon-base as-svgicon-applestorebase"
             role="img"
             aria-hidden="true"
             width="35px"
@@ -53,6 +52,7 @@ const Header = () => {
 export default Header;
 // STYLED CSS
 const HeaderMain = styled.div`
+
   width: 90%;
   margin: auto;
   max-width: 1248px;
@@ -65,6 +65,7 @@ const HeaderMain = styled.div`
   }
 `;
 const HeaderMainA = styled.div`
+
   width: 50%;
   @media (max-width: 1061px) {
     width: 60%;
@@ -106,6 +107,7 @@ const ParaB = styled.p`
   }
 `;
 const HeaderMainB = styled.div`
+
   width: 20%;
   display: flex;
   flex-direction: column;
