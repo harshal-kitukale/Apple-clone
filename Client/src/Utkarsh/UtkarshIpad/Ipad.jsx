@@ -9,7 +9,7 @@ import Music from "../UtkarshImages/Music.png";
 import Arcade from "../UtkarshImages/Arcade.png";
 import education from "../UtkarshImages/education.png";
 import EducationHello from "../UtkarshImages/EducationHello.png";
-const Ipad = () => {
+import AccessoriesSlider from "../UtkarshSlider/AccessoriesSlider";const Ipad = () => {
   return (
     <div style={{ backgroundColor: "rgb(255, 255, 255)" }}>
       <Box>
@@ -243,7 +243,10 @@ const Ipad = () => {
       </Box>
 
       {/* //Box4 */}
+      <br/>
+      <br/>
       <Box className="box4">
+        <br/>
         <Text className="ipad_essentials">Accessories</Text>
         <p style={{ fontSize: "25px", textAlign: "center" }}>
           {" "}
@@ -260,10 +263,11 @@ const Ipad = () => {
         />
       </Box>
       <br />
-      <Text className="make_an_ipad">
-        What makes an iPad&nbsp;an&nbsp;iPad?
-      </Text>
-
+   
+     
+      <br/>
+      <br/>
+      <br/>
       <Box className="box5">
         <Flex
           style={{ justifyContent: "space-evenly" }}
