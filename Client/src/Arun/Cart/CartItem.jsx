@@ -28,10 +28,10 @@ const CartItem = ({images, title, price}) => {
   // console.log(quantity)
 
   return (
-    <Stack gap="20px"border="1px solid" alignItems={{base: "center",md:"flex-start"}} py="20px" direction={{base: "column", md: "row", lg:"row"}}>
+    <Stack gap="20px" w={"100%"} border="1px solid" alignItems={{base: "center",md:"flex-start"}} py="20px" direction={{base: "column", md: "row", lg:"row"}}>
       <Image
         src={images[0]}
-        w={"160px"}
+        w={"100px"}
       />
 
       <VStack w="100%" gap="20px">
@@ -41,18 +41,10 @@ const CartItem = ({images, title, price}) => {
         w="100%"
         px="20px"
       >
-        <Heading size={{base: "sm", lg:"md"}} textAlign={{base: "center", md:"left"}} w={"300px"}>
+        <Heading size={{base: "sm", lg:"sm"}} textAlign={{base: "center", md:"left"}} w={"300px"}>
           {"Apple Watch Ultra GPS + Cellular, 49mm " + title + " - Medium"}
         </Heading>
 
-        <Box w={{base: "20px", lg:"60px"}} display={{base: "none", md: "block", lg:"block"}}>
-          <Select placeholder="1" onChange={(e)=>handleQuantityChange(e)}>
-            <option value="2">2</option>
-            <option value="3">3</option>
-            <option value="4">4</option>
-            <option value="5">5</option>
-          </Select>
-        </Box>
         <Heading size={{base: "sm", lg:"md"}} display={{base: "none", md: "block", lg:"block"}}>${price.split(" ")[1]}</Heading>
       </HStack>
       <HStack justify="space-between" w="100%" px="20px">
@@ -64,13 +56,12 @@ const CartItem = ({images, title, price}) => {
             <option value="5">5</option>
           </Select>
         </Box>
-      <Heading size={{base: "sm", lg:"md"}} textAlign={{base: "center", md:"left"}} display={{base: "block", md:"none", lg:"none"}}>${price.split(" ")[1]}</Heading>
+      <Heading size={{base: "sm", lg:"md"}} textAlign={{base: "center", md:"left"}} display={{base: "block", md:"none", lg:"none"}}>${price.split(" ")[0]}</Heading>
       </HStack>
       <HStack justify="space-between" border="1px solid orange" w="100%" px="20px">
           <Text fontSize="sm">Pay 0% APR for 24 months:</Text>
-          <Text fontSize="sm">{price.split(" ")[3]}</Text>
+          <Text fontSize="sm">{price.split(" ")[2]}</Text>
         </HStack>
-        <Button colorScheme="red" size={"sm"}>Remove</Button>
       </VStack>
       
 
