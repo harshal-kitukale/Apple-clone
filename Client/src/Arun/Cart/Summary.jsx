@@ -3,7 +3,7 @@ import React from 'react'
 
 const Summary = () => {
   return (
-    <Box border={"1px solid gray"} borderRadius={"5px"} w={"100%"} p={"20px"}>
+    <Box border={"1px solid gray"} borderRadius={"5px"} w={"100%"} p={"20px"} boxShadow= "rgb(38, 57, 77) 0px 20px 30px -10px">
         <VStack>
             <Box borderBottom={"1px solid"} >
             <Heading size={"md"}>Your Order Total</Heading>
