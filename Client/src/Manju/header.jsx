@@ -52,7 +52,6 @@ const Header = () => {
 export default Header;
 // STYLED CSS
 const HeaderMain = styled.div`
-
   width: 90%;
   margin: auto;
   max-width: 1248px;
@@ -65,7 +64,6 @@ const HeaderMain = styled.div`
   }
 `;
 const HeaderMainA = styled.div`
-
   width: 50%;
   @media (max-width: 1061px) {
     width: 60%;
@@ -107,7 +105,6 @@ const ParaB = styled.p`
   }
 `;
 const HeaderMainB = styled.div`
-
   width: 20%;
   display: flex;
   flex-direction: column;
@@ -139,6 +136,7 @@ const Div = styled.div`
 `;
 const Text = styled.p`
   margin-top: -4px;
+  margin-bottom: 12px;
 `;
 
 const StyledLink = styled(Link)`
