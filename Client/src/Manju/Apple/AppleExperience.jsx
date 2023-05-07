@@ -1,7 +1,7 @@
 import React from "react";
 import styled from "styled-components";
-import { HiOutlineChevronLeft, HiOutlineChevronRight } from "react-icons/hi";
 import Slider from "react-slick";
+import { HiOutlineChevronLeft, HiOutlineChevronRight } from "react-icons/hi";
 //
 //
 //
@@ -93,7 +93,7 @@ const AppleExperience = () => {
   return (
     <CarouselCategoryMain>
       <CarouselCategoryWrapper>
-        <SlickCarousel {...settings} >
+        <SlickCarousel {...settings} style={{ position: "relative" }}>
           {/*  */}
           <Div>
             <Image
