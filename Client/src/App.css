@@ -22,7 +22,7 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
-}
+ }
 
 .App-link {
   color: #61dafb;
@@ -36,3 +36,14 @@
     transform: rotate(360deg);
   }
 }
+
+
+/* Textbottom page */
+.bottomptag{
+  width: 80%;
+  margin: auto;
+  text-align: left;
+  margin-bottom: 2%;
+
+  }
+

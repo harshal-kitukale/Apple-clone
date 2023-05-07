@@ -1,11 +1,10 @@
 
-import "./App.css";
-import CheckoutPage from "./Arun/Cart/CheckoutPage";
+import './App.css';
 function App() {
   return (
-    <div>
-      <CheckoutPage/>
-     {/* <Signup/> */}
+    <div className="App">
+
+
     </div>
   );
 }
