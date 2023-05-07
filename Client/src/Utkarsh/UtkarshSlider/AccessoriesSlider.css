@@ -1,0 +1,46 @@
+.accessories_text {
+  color: #6e6e73;
+  font-size: 28px;
+  line-height: 1.14286;
+  font-weight: 600;
+  letter-spacing: 0.007em;
+  font-family: SF Pro Display, SF Pro Icons, AOS Icons, Helvetica Neue,
+    Helvetica, Arial, sans-serif;
+  display: inline;
+}
+.accessories_span_store {
+  text-align: center;
+  margin-left: 140px;
+  font-size: 28px;
+  line-height: 1.14286;
+  font-weight: 600;
+  letter-spacing: 0.007em;
+  font-family: SF Pro Display, SF Pro Icons, AOS Icons, Helvetica Neue,
+    Helvetica, Arial, sans-serif;
+  display: inline;
+
+  justify-content: center;
+}
+.div_apple {
+  width: 80%;
+  margin: auto;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 50px;
+}
+.truck_images {
+  width: 50px;
+}
+.Text_color_full {
+  color: #1d1d1f;
+  font-size: 22px;
+  font-weight: 700;
+}
+.box_shadow_property {
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+    rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+  border-radius: 14px;
+  height: 400px;
+}
+.slider_div {
+  padding: 20px 20px;
+  height: 250px;
+}
