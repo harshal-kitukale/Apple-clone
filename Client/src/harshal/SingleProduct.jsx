@@ -1,46 +1,32 @@
 import {
-  Accordion,
-  AccordionButton,
-  AccordionIcon,
-  AccordionItem,
-  AccordionPanel,
   Box,
   Button,
-  Center,
-  Divider,
   Flex,
   Grid,
   GridItem,
   Heading,
   HStack,
   Image,
-  Link,
   Select,
   Text,
-  Icon,
-  Spinner,
-  textDecoration,
 } from "@chakra-ui/react";
 import { useEffect, useState } from "react";
-import {
-  AiFillFacebook,
-  AiFillLinkedin,
-  AiOutlineHeart,
-  AiOutlineInstagram,
-} from "react-icons/ai";
-import { ImWhatsapp } from "react-icons/im";
 import { useDispatch, useSelector } from "react-redux";
 import { useParams } from "react-router";
-// import { color } from "framer-motion";
+
 import { StandardSizes } from "./StandardSizes";
-import {arr} from "./data"
+
+import { getSingleProduct } from "../Redux/productsReducer/products.action";
 export const SingleProduct = () => {
   const [data, setData] = useState("");
+const [prodData,setProdData]=useState({})
   const { id } = useParams();
-  // const {isloading}=useSelector((store)=>store.cartReducer)
+  console.log(id)
+  // const products=useSelector((store)=>store.productsReducer)
+  // console.log(products)
   const [value, setValue] = useState(true);
   const [loading, setLoading] = useState(true);
-  // const dispatch = useDispatch();
+  const dispatch = useDispatch();
 const getItem=()=>{
   let items = JSON.parse(localStorage.getItem("cart")) || [];
   if (items.length > 0) {
@@ -48,11 +34,12 @@ const getItem=()=>{
   }
 }
   useEffect(() => {
-    // dispatch(getSingleProduct(id)).then((res) => {
-    //   setData(res);
-    // });
-    // getItem()
+dispatch(getSingleProduct(id)).then((res)=>{
+setProdData(res)
+})
+
   }, []);
+  console.log(prodData)
   function changeTheproducts(key, value) {
     // let newproducts = {
     //   ...products,
@@ -70,6 +57,15 @@ const getItem=()=>{
     //   getItem()
     // }, 1500);
     // console.log(nproducts);
+    const {title,category,specs,memory,storage,dtlimage,price}=prodData
+    fetch('http://localhost:8080/cart/add',{
+      method:'POST',
+      headers:{
+          'Content-Type':'application/json'
+      },
+      body:JSON.stringify({title,category,specs,memory,storage,dtlimage,price})
+     }).then(res=>res.json())
+     .catch(err=>console.log(err))
   };
   // if (data === "") {
   //   return (
@@ -95,7 +91,7 @@ const getItem=()=>{
         m={"20px"}
         fontSize={"30px"}
       >
-        Buy {arr.title}
+        Buy {prodData.title}
       </Heading>
       <Box
         borderTop={"1px"}
@@ -122,7 +118,7 @@ const getItem=()=>{
               ></Flex>
               {/* map image here */}
               <Grid templateColumns="repeat(2, 1fr)" gap={3}>
-                {arr.dtlimage.map((image) => {
+                {prodData?.dtlimage?.map((image) => {
                   return (
                     <GridItem
                       borderRadius={"30px"}
@@ -131,7 +127,7 @@ const getItem=()=>{
                       boxShadow="lg"
                       p={"10px"}
                     >
-                      <Image width={"100%"} height={"100%"} src={image.img} />
+                      <Image width={"100%"} height={"100%"} src={image} />
                     </GridItem>
                   );
                 })}
@@ -147,10 +143,10 @@ const getItem=()=>{
             >
               <Text fontSize={"18px"} m={"10px"} fontWeight={"bold"}>
                 {" "}
-                Details of your Brand new {arr.category}
+                Details of your Brand new {prodData.category}
               </Text>
-              {arr.specs.length > 0 &&
-                arr.specs.map((ele) => {
+              {
+                prodData?.specs?.map((ele) => {
                   <Box></Box>;
                   if (ele == "unified memory") {
                     return (
@@ -184,12 +180,12 @@ const getItem=()=>{
               align="left"
               color={"black"}
             >
-              {arr.title}
+              {prodData.title}
             </Text>
             <Box borderTop={"1px"} my="20px"></Box>
             <HStack my={"20px"}>
               <Text fontSize={"25px"} fontWeight={"semibold"} align="left">
-                ${arr.price}
+                ${prodData.price}
               </Text>
             </HStack>
             <Box>
@@ -206,7 +202,7 @@ const getItem=()=>{
                     Choose how much space you’ll need.
                   </Text>
                 </Text>
-                <StandardSizes options={arr.storage} />
+                <StandardSizes options={prodData.storage} />
               </Box>
               <Box mt={"20px"}>
                 {/* <HStack> */}
@@ -222,7 +218,7 @@ const getItem=()=>{
                     Choose How much memory is right for you.
                   </Text>
                 </Text>
-                <StandardSizes options={arr.memory} />
+                <StandardSizes options={prodData.memory} />
               </Box>
               <Box my={5}>
                 <HStack>

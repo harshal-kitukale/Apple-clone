@@ -3,7 +3,7 @@ import { useNavigate } from "react-router-dom";
 import styled from "styled-components";
 
 const ProductCard = ({ product }) => {
-  console.log(product)
+  // console.log(product)
   const navigate = useNavigate();
   return (
     <Div>
@@ -14,7 +14,7 @@ const ProductCard = ({ product }) => {
         <Image src={product.image} alt="productimage" />
         <DetailsB>
           <TitleB>Price: ${product.price}</TitleB>
-          <Button onClick={() => navigate(`products/${product._id}`)}>
+          <Button onClick={() => navigate(`/singleProduct/${product._id}`)}>
             Buy
           </Button>
         </DetailsB>

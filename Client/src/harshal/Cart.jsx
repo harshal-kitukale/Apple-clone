@@ -27,6 +27,7 @@ import { FaWallet } from "react-icons/fa";
 import CartCard from "./CartCard";
 // import styled from "styled-components";
 import { arr1 } from "./data";
+import axios from "axios";
 
 export let billDetail;
 const billDetailFunction = (cart) => {
@@ -48,6 +49,7 @@ const billDetailFunction = (cart) => {
 };
 
 const Cart = () => {
+  const [cartData,setCartData]=useState([])
   // const { cart, isLoading } = useSelector((store) => store.cartReducer);
 
   // const navigate = useNavigate();
@@ -70,6 +72,17 @@ const Cart = () => {
   const handleOrder = () => {
     // navigate("/payment");
   };
+
+  useEffect(()=>{
+    axios
+    .get('http://localhost:8080/cart')
+    .then((res) => {
+      // dispatch(getProductsSuccess(res.data));
+      setCartData(res.data)
+    })
+    .catch((error) => console.log(error));
+     },[])
+     console.log(cartData)
 
   // useEffect(
   //   () => {
