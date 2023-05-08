@@ -151,6 +151,7 @@ p {
   padding: 1em 1.25em;
   transition: background-color 0.3s ease-in-out;
   width: 100%;
+  color:white
 }
 
 .form__input:focus,

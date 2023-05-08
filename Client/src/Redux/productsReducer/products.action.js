@@ -1,4 +1,4 @@
-import { getData } from "../../LocalStorage/ls";
+import { getData } from "../../Manju/LocalStorage/ls";
 import {
   GET_PRODUCTS_SUCCESS,
   PRODUCTS_FAILURE,
@@ -30,7 +30,7 @@ export const getProducts = (url) => (dispatch) => {
   axios
     .get(url, {
       headers: {
-        Authorization: `Bearer ${getData("token_bolt")}`,
+        Authorization: `${getData("token_bolt")}`,
       },
     })
     .then((res) => {
