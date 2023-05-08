@@ -15,7 +15,7 @@ import React from "react";
 
 
 
-const CartItem = ({images, title, price}) => {
+const CartItem = ({image, title, price}) => {
   const [toggleQuant, setToggleQuant] = React.useState(false);
   const [quantity, setQuantity] = React.useState(1);
 
@@ -30,7 +30,7 @@ const CartItem = ({images, title, price}) => {
   return (
     <Stack gap="20px" w={"100%"} border="1px solid" alignItems={{base: "center",md:"flex-start"}} py="20px" direction={{base: "column", md: "row", lg:"row"}}>
       <Image
-        src={images[0]}
+        src={image}
         w={"100px"}
       />
 
@@ -45,7 +45,7 @@ const CartItem = ({images, title, price}) => {
           {"Apple Watch Ultra GPS + Cellular, 49mm " + title + " - Medium"}
         </Heading>
 
-        <Heading size={{base: "sm", lg:"md"}} display={{base: "none", md: "block", lg:"block"}}>${price.split(" ")[1]}</Heading>
+        <Heading size={{base: "sm", lg:"md"}} display={{base: "none", md: "block", lg:"block"}}>${price.split(" ")[0]}</Heading>
       </HStack>
       <HStack justify="space-between" w="100%" px="20px">
       <Box w="60px" display={{base: "block", md: "none", lg:"none"}}>
