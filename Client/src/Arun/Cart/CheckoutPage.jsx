@@ -17,12 +17,16 @@ import React from "react";
 import CartItem from "./CartItem";
 import Summary from "./Summary";
 import Payment from "./Payment";
+import data from "./db.json"
+import { useDispatch, useSelector } from "react-redux";
 
-
+console.log(data);
 
 const CheckoutPage = () => {
 
   const toast = useToast();
+  const dispatch = useDispatch();
+
   const [toggleForm, setToggleForm] = React.useState(false);
   const [addressDetails, setAddressDetails] = React.useState({
     fName: "",
@@ -37,6 +41,8 @@ const CheckoutPage = () => {
     email: "",
     mobile: "",
   });
+
+  const data = useSelector((store) => console.log(store));
 
   const handleAddress = (e) => {
     const newAddess = {
@@ -105,7 +111,7 @@ const CheckoutPage = () => {
       </HStack>
       <HStack gap="20px">
         <Box w={"70%"}>
-          {db.map((el) => (
+          {data && data.db.map((el) => (
             <CartItem key={el.price + el.title} {...el} />
           ))}
         </Box>
@@ -128,12 +134,13 @@ const CheckoutPage = () => {
         </Link>
       </Box>
 
-      <HStack pt={"20px"}>
+      <HStack pt={"20px"} gap={"20px"}>
         <VStack
           id="address"
           display={toggleForm ? "block" : "none"}
           w={"70%"}
           border={"1px solid black"}
+          p={"10px"}
         >
           <Heading fontFamily={"helvetica"} mb={"60px"} textAlign={"left"}>
             Where should we send your order?
@@ -237,8 +244,8 @@ const CheckoutPage = () => {
                   placeholder="Enter Email"
                 />
               </Box>
-              <Box w="40%">
-                <Text fontSize={"12px"}>
+              <Box w="45%">
+                <Text fontSize={"12px"} pt={"20px"}>
                   We’ll email you a receipt and send order updates to your
                   mobile phone via SMS or iMessage.
                 </Text>
@@ -253,8 +260,8 @@ const CheckoutPage = () => {
                   placeholder="Enter Number"
                 />
               </Box>
-              <Box w="40%">
-                <Text fontSize={"12px"}>
+              <Box w="45%">
+                <Text fontSize={"12px"} pt={"30px"}>
                   The phone number you enter can’t be changed after you place
                   your order, so please make sure it’s correct.
                 </Text>
