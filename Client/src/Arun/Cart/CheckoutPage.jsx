@@ -13,20 +13,19 @@ import {
   VStack,
   useToast,
 } from "@chakra-ui/react";
-import React from "react";
+import React, { useEffect } from "react";
 import CartItem from "./CartItem";
 import Summary from "./Summary";
 import Payment from "./Payment";
 import data from "./db.json"
-import { useDispatch, useSelector } from "react-redux";
-
-console.log(data);
+import { useSelector } from "react-redux";
+import { Navbar } from "../../Abhishek/Navbar";
+import { useNavigate } from "react-router";
 
 const CheckoutPage = () => {
-
+  const cartData = useSelector((store)=> (store.cartReducer))
   const toast = useToast();
-  const dispatch = useDispatch();
-
+  const navigate = useNavigate();
   const [toggleForm, setToggleForm] = React.useState(false);
   const [addressDetails, setAddressDetails] = React.useState({
     fName: "",
@@ -42,8 +41,6 @@ const CheckoutPage = () => {
     mobile: "",
   });
 
-  const data = useSelector((store) => console.log(store));
-
   const handleAddress = (e) => {
     const newAddess = {
       ...addressDetails,
@@ -58,38 +55,37 @@ const CheckoutPage = () => {
       ...contactDetails,
       [e.target.name]: e.target.value,
     };
-    console.log(newContact);
     setContactDetails(newContact);
   };
 
   const handleAddressSubmit = () => {
-    if (
-      addressDetails.fName === "" ||
-      addressDetails.lName === "" ||
-      addressDetails.street === "" ||
-      addressDetails.zip === "" ||
-      addressDetails.state === "" ||
-      addressDetails.country === "" ||
-      contactDetails.email === "" ||
-      contactDetails.mobile === ""
-    ) {
-      toast({
-        title: "Warning! Form Incomplete",
-        description: "Please fill all the details",
-        status: "warning",
-        duration: 3000,
-        isClosable: true,
-        position: "top",
-      });
+    // if (
+    //   addressDetails.fName === "" || addressDetails.lName === "" || addressDetails.street === "" || addressDetails.zip === "" || addressDetails.state === "" || addressDetails.country === "" || contactDetails.email === "" || contactDetails.mobile === ""
+    // ) {
+    //   toast({
+    //     title: "Warning! Form Incomplete",
+    //     description: "Please fill all the details",
+    //     status: "warning",
+    //     duration: 3000,
+    //     isClosable: true,
+    //     position: "bottom",
+    //   });
+    //   console.log(addressDetails)
+    //   return;
+    // } else {
+    // }
+    navigate("/payment")
 
-      // navigate(Payment)
-      return;
-    }
   };
+
+useEffect(()=> {
+
+},[])
 
   return (
     <Box w={"80%"} m={"auto"}>
-      <VStack alignItems={"flex-start"} border={"1px solid black"} mb={"80px"}>
+      <Navbar/>
+      <VStack alignItems={"flex-start"} borderBottom={"1px solid gray"} my={"70px"} pb={"15px"}>
         <Heading fontFamily={"helvetica"}>Review your bag.</Heading>
         <Text fontSize={"md"}>Free delivery and free returns.</Text>
       </VStack>
@@ -97,6 +93,7 @@ const CheckoutPage = () => {
         alignItems={"flex-start"}
         w={{ base: "95%", md: "80%" }}
         m={"auto"}
+        py={"20px"}
       >
         <Image
           pt={1}
@@ -115,7 +112,7 @@ const CheckoutPage = () => {
             <CartItem key={el.price + el.title} {...el} />
           ))}
         </Box>
-        <Box w={"30%"} position={"sticky"} top={"10"} alignSelf={"flex-start"}>
+        <Box w={"30%"} position={"sticky"} top={"20"} alignSelf={"flex-start"}>
           <Summary />
         </Box>
       </HStack>
@@ -134,13 +131,16 @@ const CheckoutPage = () => {
         </Link>
       </Box>
 
-      <HStack pt={"20px"} gap={"20px"}>
+      <HStack pt={"20px"}>
         <VStack
           id="address"
           display={toggleForm ? "block" : "none"}
           w={"70%"}
-          border={"1px solid black"}
-          p={"10px"}
+          border={"1px solid lightGray"}
+          pl={"20px"}
+          py={"20px"}
+          boxShadow= "rgba(0, 0, 0, 0.1) 0px 4px 12px"
+          borderRadius={"5px"}
         >
           <Heading fontFamily={"helvetica"} mb={"60px"} textAlign={"left"}>
             Where should we send your order?
@@ -244,8 +244,8 @@ const CheckoutPage = () => {
                   placeholder="Enter Email"
                 />
               </Box>
-              <Box w="45%">
-                <Text fontSize={"12px"} pt={"20px"}>
+              <Box w="45%" pt={"15px"}>
+                <Text fontSize={"12px"}>
                   We’ll email you a receipt and send order updates to your
                   mobile phone via SMS or iMessage.
                 </Text>
@@ -260,8 +260,8 @@ const CheckoutPage = () => {
                   placeholder="Enter Number"
                 />
               </Box>
-              <Box w="45%">
-                <Text fontSize={"12px"} pt={"30px"}>
+              <Box w="45%" pt={"20px"}>
+                <Text fontSize={"12px"}>
                   The phone number you enter can’t be changed after you place
                   your order, so please make sure it’s correct.
                 </Text>
@@ -270,7 +270,7 @@ const CheckoutPage = () => {
           </FormControl>
           <Link>
             <Button
-              my={"55px"}
+              my={"30px"}
               colorScheme="blue"
               width={"50%"}
               onClick={handleAddressSubmit}
@@ -283,7 +283,7 @@ const CheckoutPage = () => {
           display={toggleForm ? "block" : "none"}
           w={"30%"}
           position={"sticky"}
-          top={"10"}
+          top={"20"}
           alignSelf={"flex-start"}
         >
           <Summary />
