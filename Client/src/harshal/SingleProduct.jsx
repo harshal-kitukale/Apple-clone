@@ -19,6 +19,7 @@ import {
   Text,
   Icon,
   Spinner,
+  textDecoration,
 } from "@chakra-ui/react";
 import { useEffect, useState } from "react";
 import {
@@ -26,7 +27,6 @@ import {
   AiFillLinkedin,
   AiOutlineHeart,
   AiOutlineInstagram,
-  
 } from "react-icons/ai";
 import { ImWhatsapp } from "react-icons/im";
 import { BiShoppingBag } from "react-icons/bi";
@@ -99,14 +99,20 @@ export const SingleProduct = () => {
     <>
       {/* <Navbar /> */}
       <Heading
-              align="center"
-              // mt={{ base: "10px", md: "0px" }}
-              m={"20px"}
-              fontSize={"30px"}
-            >
-              Buy {arr.title}
-            </Heading>
-            <Box borderTop={"1px"} m={"auto"} mb={"10px"} width={"80%"} my="20px"></Box>
+        align="center"
+        // mt={{ base: "10px", md: "0px" }}
+        m={"20px"}
+        fontSize={"30px"}
+      >
+        Buy {arr.title}
+      </Heading>
+      <Box
+        borderTop={"1px"}
+        m={"auto"}
+        mb={"10px"}
+        width={"80%"}
+        my="20px"
+      ></Box>
       <Box mb={"100px"}>
         <Flex
           w={"90%"}
@@ -127,13 +133,50 @@ export const SingleProduct = () => {
               <Grid templateColumns="repeat(2, 1fr)" gap={4}>
                 {arr.dtlimage.map((image) => {
                   return (
-                    <GridItem borderRadius={"30px"} border={"1px"} boxShadow='lg' p={"10px"}>
+                    <GridItem
+                      borderRadius={"30px"}
+                      border={"1px"}
+                      borderColor={"gray.200"}
+                      boxShadow="lg"
+                      p={"10px"}
+                    >
                       <Image width={"100%"} height={"100%"} src={image.img} />
                     </GridItem>
                   );
                 })}
               </Grid>
             </Flex>
+            <Box
+              mt={"30px"}
+              borderRadius={"20px"}
+              border={"1px"}
+              borderColor={"gray.100"}
+              boxShadow="md"
+              p={"10px"}
+            >
+              <Text fontSize={"18px"} m={"10px"} fontWeight={"bold"}>
+                {" "}
+                Details of your Brand new {arr.category}
+              </Text>
+              {arr.specs.length > 0 &&
+                arr.specs.map((ele) => {
+                  <Box></Box>;
+                  if (ele == "unified memory") {
+                    return (
+                      <Text lineHeight={"30px"}>
+                        - {"8 GB"} {ele}
+                      </Text>
+                    );
+                  } else if (ele == "SSD storage") {
+                    return (
+                      <Text lineHeight={"30px"}>
+                        - {"64 GB"} {ele}
+                      </Text>
+                    );
+                  }
+                  return <Text lineHeight={"30px"}>- {ele}</Text>;
+                })}
+            </Box>
           </Box>
 
           <Box w={{ base: "100%", md: "40%" }}>
@@ -144,23 +187,59 @@ export const SingleProduct = () => {
             >
               {/* {arr.product} */}
             </Heading>
-            <Text fontSize={"22px"} mt={"-5px"} align="left" color={"black"}>
+            <Text
+              fontSize={"24px"}
+              fontWeight={"medium"}
+              mt={"-5px"}
+              align="left"
+              color={"black"}
+            >
               {arr.title}
             </Text>
             <Box borderTop={"1px"} my="20px"></Box>
             <HStack my={"20px"}>
               <Text fontSize={"25px"} fontWeight={"semibold"} align="left">
-                {arr.price}
+                ${arr.price}
               </Text>
             </HStack>
 
             <Box>
-              <Box my={6}>
-                <StandardSizes />
+              {/* //StandardSizes */}
+              <Box>
+                <Text
+                  fontSize={"18px"}
+                  m={"10px"}
+                  fontWeight={"bold"}
+                  mr={"0px"}
+                >
+                  Storage.{" "}
+                  <Text as="span" color={"gray.500"}>
+                    Choose how much space you’ll need.
+                  </Text>
+                </Text>
+                <StandardSizes options={arr.storage} />
+              </Box>
+              <Box mt={"20px"}>
+                {/* <HStack> */}
+                <Text
+                  fontSize={"18px"}
+                  m={"10px"}
+                  mr={"0px"}
+                  fontWeight={"bold"}
+                >
+                  Memory.{" "}
+                  <Text as="span" color={"gray.500"}>
+                    {" "}
+                    Choose How much memory is right for you.
+                  </Text>
+                </Text>
+                <StandardSizes options={arr.memory} />
               </Box>
               <Box my={5}>
                 <HStack>
-                  <Text>Quantity</Text>
+                  <Text fontSize={"18px"} fontWeight={"bold"}>
+                    Quantity :
+                  </Text>
                   <Select
                     // onChange={(e) => changeTheproducts("qty", e.target.value)}
                     m={"10px"}
@@ -192,7 +271,8 @@ export const SingleProduct = () => {
                     // loadingText={loading?"ADDING TO THE CART":""}
                     spinnerPlacement="start"
                   >
-                    <Icon as={BiShoppingBag} mr="3px" />Add To Bag
+                    <Icon as={BiShoppingBag} mr="3px" />
+                    Add To Bag
                   </Button>
                   {/* <Button
                     colorScheme="teal"

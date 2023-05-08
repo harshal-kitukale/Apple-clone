@@ -1,4 +1,4 @@
-import { Box, HStack, useRadio, useRadioGroup } from "@chakra-ui/react"
+import { Box, HStack, Text, VStack, useRadio, useRadioGroup } from "@chakra-ui/react"
 
 // 1. Create a component that consumes the `useRadio` hook
 const RadioCard=(props)=> {
@@ -8,23 +8,33 @@ const RadioCard=(props)=> {
     const checkbox = getCheckboxProps()
   
     return (
-      <Box  as='label'>
+      <Box  as='label' w="100%">
         <input {...input} />
         <Box
           {...checkbox}
-          minW="60px"
-          fontSize="sm"
+          minW="80%"
+          minH={"70px"}
+          
+          // height={"50px"}
+          fontSize="md"
+          fontWeight={"bold"}
           cursor='pointer'
-          borderWidth='2px'
-          borderRadius='full'
+          borderWidth='1px'
+          borderColor={"grey.600"}
+          borderRadius='20px'
           boxShadow='md'
           _checked={{
-            bg: 'rgb(236, 61, 37)',
-            color: 'white',
-            borderColor: 'teal.600',
+            // bg: 'rgb(236, 61, 37)',
+            // color: 'black',
+            border:"2px",
+            borderColor: 'rgb(40,126,212)',
+          }}
+          _hover={{
+            borderColor: 'gray.500',
           }}
           _focus={{
             boxShadow: 'inline',
+            borderColor: 'rgb(40,126,212)'
           }}
         //   px={6}
           py={1}
@@ -36,9 +46,9 @@ const RadioCard=(props)=> {
   }
   
   // Step 2: Use the `useRadioGroup` hook to control a group of custom radios.
-export const StandardSizes=()=> {
-    const options = ['S', 'M', 'L', 'XL', 'XXL']
-  
+export const StandardSizes=({options})=> {
+    // const options = ['S', 'M', 'L', 'XL', 'XXL']
+  // console.log(options);
     const { getRootProps, getRadioProps } = useRadioGroup({
       name: 'framework',
       defaultValue: 'react',
@@ -48,16 +58,16 @@ export const StandardSizes=()=> {
     const group = getRootProps()
   
     return (
-      <HStack {...group}>
+      <VStack {...group}>
         {options.map((value) => {
           const radio = getRadioProps({ value })
           return (
             <RadioCard key={value} {...radio}>
-              {value}
+              <Text paddingTop={"20px"} paddingBottom={"20px"} ml={"20px"}>{value}</Text>
             </RadioCard>
           )
         })}
-      </HStack>
+      </VStack>
     )
   }
   
