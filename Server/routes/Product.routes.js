@@ -20,6 +20,7 @@ productRouter.get("/", async (req, res) => {
   }
 });
 
+
 //get by search Route
 
 productRouter.get("/search", async (req, res) => {
@@ -37,7 +38,7 @@ productRouter.get("/search", async (req, res) => {
 
 //get by id
 
-productRouter.get("/:id", async (req, res) => {
+productRouter.get("/singleProduct/:id", async (req, res) => {
   const { id } = req.params;
   try {
     const products = await ProductModel.findOne({ _id: id });

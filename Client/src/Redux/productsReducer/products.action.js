@@ -23,6 +23,18 @@ export const getProductsSuccess = (payload) => {
     payload,
   };
 };
+export const getSingleProduct =  (id) => (dispatch) => {
+  dispatch({ type: PRODUCTS_REQUEST });
+
+  return axios
+    .get(`http://localhost:8080/product/singleProduct/${id}`)
+    .then((res) => {
+      return(res.data);
+    })
+    .catch(() => {
+      dispatch({ type: PRODUCTS_FAILURE });
+    });
+};
 //
 //
 export const getProducts = (url) => (dispatch) => {

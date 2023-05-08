@@ -23,7 +23,7 @@ app.use("/user", userRouter);
 app.use("/product", productRouter);
 
 // Cart Routes + middleware
-app.use(authentication);
+// app.use(authentication);
 app.use("/cart", cartRouter);
 
 app.listen(process.env.PORT, async () => {

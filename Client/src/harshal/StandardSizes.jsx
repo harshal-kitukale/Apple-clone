@@ -59,7 +59,7 @@ export const StandardSizes=({options})=> {
   
     return (
       <VStack {...group}>
-        {options.map((value) => {
+        {options?.map((value) => {
           const radio = getRadioProps({ value })
           return (
             <RadioCard key={value} {...radio}>
