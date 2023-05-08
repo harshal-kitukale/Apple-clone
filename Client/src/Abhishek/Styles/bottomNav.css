@@ -1,0 +1,37 @@
+#flexGrp{
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    text-align: center;
+    height: 100px;
+    z-index: 9987;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    }
+.card{
+text-align: center;
+align-items: center;
+display: inline-block;
+vertical-align: top;
+margin: 0 -.11765em;
+padding: 0 9px;
+animation: chapternav-slidein 350ms backwards;
+}
+
+.card img{
+    width: 80px;
+    height: 54px;
+   margin: 0 auto  7px;
+}
+.card p{
+    font-size: 12px;
+    line-height: 1.33337;
+    font-weight: 400;
+    letter-spacing: -.01em;
+    font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    display: block;
+    margin: 0
+}

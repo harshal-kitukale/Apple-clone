@@ -2,14 +2,14 @@ import React, { useEffect } from "react";
 import styled from "styled-components";
 import ProductCard from "./ProductCard";
 import { useDispatch, useSelector } from "react-redux";
-import {getProducts} from ".//Redux/Products/products.action"
+import {getProducts} from "../Redux/productsReducer/products.action"
 //
 
 //
 const Products = () => {
   const dispatch = useDispatch();
   useEffect(() => {
-    dispatch(getProducts("https://different-bell-bottoms-fox.cyclic.app/quickdeal"));
+    dispatch(getProducts("http://localhost:8080/product"));
   }, []);
   let { isLoading, isError, products } = useSelector(
     (store) => store.productsReducer
@@ -26,7 +26,7 @@ const Products = () => {
       </HeaderMainA>
       {/* PRODUCTS */}
          <ProductsContainer>
-        {products.map((product) => (
+        {products?.products?.map((product) => (
           <ProductCard key={product._id} product={product} />
         ))}
       </ProductsContainer>

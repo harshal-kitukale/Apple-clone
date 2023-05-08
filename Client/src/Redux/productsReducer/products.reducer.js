@@ -2,13 +2,14 @@ import {
   GET_PRODUCTS_SUCCESS,
   PRODUCTS_FAILURE,
   PRODUCTS_REQUEST,
-} from "./products.actiontypes";
+} from "./products.actiontypes"
 const initState = {
   isLoading: false,
   isError: false,
   products: [],
 };
 export const productsReducer = (state = initState, { type, payload }) => {
+  // console.log(payload)
   switch (type) {
     case PRODUCTS_REQUEST: {
       return {
