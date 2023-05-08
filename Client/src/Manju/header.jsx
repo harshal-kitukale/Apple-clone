@@ -26,7 +26,7 @@ const Header = () => {
         <HeaderMainBb>
           <svg
             viewBox="0 0 35 35"
-            className="as-svgicon as-svgicon-applestore as-svgicon-base as-svgicon-applestorebase"
+            class="as-svgicon as-svgicon-applestore as-svgicon-base as-svgicon-applestorebase"
             role="img"
             aria-hidden="true"
             width="35px"
@@ -136,6 +136,7 @@ const Div = styled.div`
 `;
 const Text = styled.p`
   margin-top: -4px;
+  margin-bottom: 12px;
 `;
 
 const StyledLink = styled(Link)`
