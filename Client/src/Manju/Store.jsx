@@ -1,14 +1,23 @@
 import React from "react";
 import styled from "styled-components";
-import Header from "./header";
+import Header from "./Header";
+import Products from "./Products";
+import AppleExperience from "./Apple/AppleExperience";
+import Textbottom from "./Apple/Textbottom";
+import CarouselCategory from "./Carausal";
 import HelpHere from "./Helper";
 
 
 const Store = () => {
   return (
     <StoreMain>
- <Header></Header>
-<HelpHere></HelpHere>
+         <Header />
+<CarouselCategory></CarouselCategory>
+      <Products /> 
+      {/*  */}
+ <HelpHere></HelpHere>      
+     <AppleExperience></AppleExperience>
+     <Textbottom></Textbottom>
 
     </StoreMain>
   );
