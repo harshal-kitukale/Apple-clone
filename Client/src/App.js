@@ -8,9 +8,7 @@ import { BannerComp } from './Abhishek/BannerComp';
 function App() {
   return (
     <div>
-function App() {
-  return (
-    <div>
+
     </div>
   );
 }

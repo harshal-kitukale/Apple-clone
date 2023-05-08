@@ -1,0 +1,913 @@
+{ 
+  "apple_data":[
+    {
+      "title": "iMac 24”",
+      "category": "mac",
+      "image": "https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/mac-card-40-imac-24-202108?wid=490&hei=500&fmt=jpeg&qlt=95&.v=1625868688000",
+      "price": 999,
+      "specs": ["Apple M2 chip with 8‑core CPU, 8‑core GPU, 16‑core Neural Engine","unified memory","SSD storage","13.6-inch Liquid Retina display with True Tone","1080p FaceTime HD camera","MagSafe 3 charging port","Two Thunderbolt / USB 4 ports","30W USB-C Power Adapter","Backlit Magic Keyboard with Touch ID - US English"   ],
+      "dtlimage": ["https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/imac24-digitalmat-gallery-1-202111?wid=364&hei=333&fmt=png-alpha&.v=1635186197000","https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/imac24-digitalmat-gallery-2-202111?wid=364&hei=333&fmt=png-alpha&.v=1635186198000","https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/imac24-digitalmat-gallery-3-202111?wid=364&hei=333&fmt=png-alpha&.v=1635186200000","https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/imac24-digitalmat-gallery-4-202111?wid=364&hei=333&fmt=png-alpha&.v=1635186199000","https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/imac24-digitalmat-gallery-5-202111?wid=364&hei=333&fmt=png-alpha&.v=1635186199000" ],
+      "memory": ["8 GB","16 GB","24 GB"],
+      "storage": ["256 GB","512 GB","1 TB","2 TB"]
+    },
+    {
+      "title": "MacBook Air with M2 chip",
+      "category": "mac",
+      "image": "https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/mac-card-40-macbook-pro-13-202206?wid=600&hei=500&fmt=p-jpg&qlt=95&.v=1665082744007",
+      "price": 799,
+      "specs": ["Apple M2 chip with 8‑core CPU, 8‑core GPU, 16‑core Neural Engine","unified memory","SSD storage","13.6-inch Liquid Retina display with True Tone","1080p FaceTime HD camera","MagSafe 3 charging port","Two Thunderbolt / USB 4 ports","30W USB-C Power Adapter","Backlit Magic Keyboard with Touch ID - US English"   ],
+      "dtlimage": ["https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/macbook-air-digitalmat-gallery-1-202206?wid=364&hei=333&fmt=png-alpha&.v=1652827325377","https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/macbook-air-digitalmat-gallery-2-202206?wid=364&hei=333&fmt=png-alpha&.v=1652827325363","https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/macbook-air-digitalmat-gallery-3-202206?wid=364&hei=333&fmt=png-alpha&.v=1652827325419","https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/macbook-air-digitalmat-gallery-4-202206?wid=364&hei=333&fmt=png-alpha&.v=1652827325434","https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/macbook-air-digitalmat-gallery-5-202206?wid=364&hei=333&fmt=png-alpha&.v=1652827325475" ],
+      "memory": ["8 GB","16 GB","24 GB"],
+      "storage": ["256 GB","512 GB","1 TB","2 TB"]
+    },
+    {
+      "title": "MacBook Pro 14” and 16”",
+      "category": "mac",
+      "image": "https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/mac-card-40-macbook-pro-14-16-202301?wid=600&hei=500&fmt=p-jpg&qlt=95&.v=1670463778272",
+      "price": 429,
+      "specs": ["Apple M2 chip with 8‑core CPU, 8‑core GPU, 16‑core Neural Engine","unified memory","SSD storage","13.6-inch Liquid Retina display with True Tone","1080p FaceTime HD camera","MagSafe 3 charging port","Two Thunderbolt / USB 4 ports","30W USB-C Power Adapter","Backlit Magic Keyboard with Touch ID - US English"   ],
+      "dtlimage": ["https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/mbp-14-digitalmat-gallery-1-202301?wid=364&hei=333&fmt=png-alpha&.v=1670360625864","https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/mbp-14-digitalmat-gallery-2-202301_GEO_IN?wid=364&hei=333&fmt=png-alpha&.v=1671026237130","https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/mbp-14-digitalmat-gallery-3-202301?wid=364&hei=333&fmt=png-alpha&.v=1670360625668","https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/mbp-14-digitalmat-gallery-4-202301?wid=364&hei=333&fmt=png-alpha&.v=1670360625870","https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/mbp-14-digitalmat-gallery-6-202301?wid=364&hei=333&fmt=png-alpha&.v=1670360625853" ],
+      "memory": ["8 GB","16 GB","24 GB"],
+      "storage": ["256 GB","512 GB","1 TB","2 TB"]
+    },
+    {
+      "title": "MacBook Air with M1 chip",
+      "category": "mac",
+      "image": "https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/mac-card-40-macbook-air-202110?wid=600&hei=500&fmt=p-jpg&qlt=95&.v=1664576115052",
+      "price": 999,
+      "specs": ["Apple M2 chip with 8‑core CPU, 8‑core GPU, 16‑core Neural Engine","unified memory","SSD storage","13.6-inch Liquid Retina display with True Tone","1080p FaceTime HD camera","MagSafe 3 charging port","Two Thunderbolt / USB 4 ports","30W USB-C Power Adapter","Backlit Magic Keyboard with Touch ID - US English"   ],
+      "dtlimage": ["https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/mba-digitalmat-gallery-1-202111?wid=364&hei=333&fmt=png-alpha&.v=1636156517000","https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/mba-digitalmat-gallery-2-202111?wid=364&hei=333&fmt=png-alpha&.v=1664581580690","https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/mba-digitalmat-gallery-3-202111?wid=364&hei=333&fmt=png-alpha&.v=1635187293000","https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/mba-digitalmat-gallery-4-202111?wid=364&hei=333&fmt=png-alpha&.v=1665185957075","https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/mba-digitalmat-gallery-5-202111?wid=364&hei=333&fmt=png-alpha&.v=1635187292000" ],
+      "memory": ["8 GB","16 GB","24 GB"],
+      "storage": ["256 GB","512 GB","1 TB","2 TB"]
+    },
+    {
+      "title": "iPad (9th gen.)",
+      "category": "ipad",
+      "image": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/ipad-card-40-ipad-202109?wid=340&hei=264&fmt=p-jpg&qlt=95&.v=1674662574498",
+      "price": 999,
+      "specs": ["Apple M2 chip with 8‑core CPU, 8‑core GPU, 16‑core Neural Engine","unified memory","SSD storage","13.6-inch Liquid Retina display with True Tone","1080p FaceTime HD camera","MagSafe 3 charging port","Two Thunderbolt / USB 4 ports","30W USB-C Power Adapter","Backlit Magic Keyboard with Touch ID - US English"   ],
+      "dtlimage": ["https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/ipad-digitalmat-gallery-1-202111?wid=365&hei=333&fmt=png-alpha&.v=1635183151000","https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/ipad-digitalmat-gallery-2-202111?wid=365&hei=333&fmt=png-alpha&.v=1635183151000","https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/ipad-digitalmat-gallery-3-202111?wid=365&hei=333&fmt=png-alpha&.v=1635183152000","https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/ipad-digitalmat-gallery-4-202111?wid=365&hei=333&fmt=png-alpha&.v=1635183154000","https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/ipad-digitalmat-gallery-5-202111?wid=365&hei=333&fmt=png-alpha&.v=1635183153000" ],
+      "memory": ["4 GB","8 GB","16 GB"],
+      "storage": ["128 GB", "256 GB", "512 GB", "1 TB", "2 TB"]
+    },
+    {
+      "title": "iPhone 14 & iPhone 14 Plus",
+      "category": "iphone",
+      "image": "https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/iphone-card-40-iphone14-202209?wid=340&hei=264&fmt=p-jpg&qlt=95&.v=1661958160674",
+      "price": 799,
+      "specs": ["Apple M2 chip with 8‑core CPU, 8‑core GPU, 16‑core Neural Engine","unified memory","SSD storage","13.6-inch Liquid Retina display with True Tone","1080p FaceTime HD camera","MagSafe 3 charging port","Two Thunderbolt / USB 4 ports","30W USB-C Power Adapter","Backlit Magic Keyboard with Touch ID - US English"   ],
+      "dtlimage": ["https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/proxdr-digitalmat-gallery-2-202111?wid=364&hei=333&fmt=jpeg&qlt=95&.v=1635206790000","https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/proxdr-digitalmat-gallery-3-202111?wid=364&hei=333&fmt=png-alpha&.v=1635206789000","https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/proxdr-digitalmat-gallery-4-202111?wid=364&hei=333&fmt=jpeg&qlt=95&.v=1635206789000","https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/proxdr-digitalmat-gallery-5-202111?wid=364&hei=333&fmt=jpeg&qlt=95&.v=1635206791000" ],
+      "memory": ["4 GB","6 GB","8 GB"],
+      "storage": ["256 GB","512 GB","1 TB","2 TB"]
+    },
+    {
+      "title": "Apple Watch Ultra",
+      "category": "apple watch",
+      "image": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/watch-card-40-ultra-202209?wid=340&hei=264&fmt=png-alpha&.v=1678733152901",
+      "price": 429,
+      "specs": ["40mm or 44mm case","Retina LTPO OLED display","Up to 1000 nits brightness","S8 SiP with 64-bit dual-core","Built-in speaker and mic","Water resistant 50 meters","International Emergency Calling","S8 SiP with 64-bit dual-core processor","GPS and GPS + Cellular models","Second-generation optical heart sensor","High and low heart rate notifications","Bluetooth 5.3","Emergency SOS"],
+      "memory": [],
+      "storage": [],
+      "dtlimage": ["https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/mbp-digitalmat-gallery-1-202206?wid=364&hei=333&fmt=png-alpha&.v=1664613515821","https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/mbp-digitalmat-gallery-2-202206?wid=364&hei=333&fmt=png-alpha&.v=1665427483152","https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/mbp-digitalmat-gallery-3-202206?wid=364&hei=333&fmt=png-alpha&.v=1652888111181","https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/mbp-digitalmat-gallery-4-202206?wid=364&hei=333&fmt=png-alpha&.v=1652888111195" ]
+    },
+    {
+      "title": "MacBook Pro 13”",
+      "category": "mac",
+      "image": "https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/mac-card-40-macbook-air-202110?wid=600&hei=500&fmt=p-jpg&qlt=95&.v=1664576115052",
+      "price": 429,
+      "specs": ["Apple M2 chip with 8‑core CPU, 8‑core GPU, 16‑core Neural Engine","unified memory","SSD storage","13.6-inch Liquid Retina display with True Tone","1080p FaceTime HD camera","MagSafe 3 charging port","Two Thunderbolt / USB 4 ports","30W USB-C Power Adapter","Backlit Magic Keyboard with Touch ID - US English"   ],
+      "dtlimage": ["https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/mbp-digitalmat-gallery-1-202206?wid=364&hei=333&fmt=png-alpha&.v=1664613515821","https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/mbp-digitalmat-gallery-2-202206?wid=364&hei=333&fmt=png-alpha&.v=1665427483152","https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/mbp-digitalmat-gallery-3-202206?wid=364&hei=333&fmt=png-alpha&.v=1652888111181","https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/mbp-digitalmat-gallery-4-202206?wid=364&hei=333&fmt=png-alpha&.v=1652888111195" ],
+      "memory": ["8 GB","16 GB","24 GB"],
+      "storage": ["256 GB","512 GB","1 TB","2 TB"]
+    },
+    {
+      "title": "iPhone SE",
+      "category": "iphone",
+      "image": "https://www.flipkart.com/apple-iphone-11-pro-max-space-grey-64-gb/p/itme0101031155f8?pid=MOBFKCTSKDMKCGQS",
+      "price": 799,
+      "specs": ["Apple M2 chip with 8‑core CPU, 8‑core GPU, 16‑core Neural Engine","unified memory","SSD storage","13.6-inch Liquid Retina display with True Tone","1080p FaceTime HD camera","MagSafe 3 charging port","Two Thunderbolt / USB 4 ports","30W USB-C Power Adapter","Backlit Magic Keyboard with Touch ID - US English"   ],
+      "dtlimage": ["https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/iphone13-digitalmat-gallery-1-202203_GEO_EMEA?wid=364&hei=333&fmt=png-alpha&.v=1677662648570","https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/iphone13-digitalmat-gallery-2-202203?wid=364&hei=333&fmt=png-alpha&.v=1644988764167","https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/iphone13-digitalmat-gallery-3-202203?wid=364&hei=333&fmt=png-alpha&.v=1644988765122","https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/iphone13-digitalmat-gallery-6-202203?wid=364&hei=333&fmt=png-alpha&.v=1644988764137" ],
+      "memory": ["4 GB","6 GB","8 GB"],
+      "storage": ["256 GB","512 GB","1 TB","2 TB"]
+    },
+    {
+      "title": "iPhone 12",
+      "category": "iphone",
+      "image": "https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/iphone-card-40-iphone12-202209?wid=340&hei=264&fmt=p-jpg&qlt=95&.v=1661958189616",
+      "price": 429,
+      "specs": ["Apple M2 chip with 8‑core CPU, 8‑core GPU, 16‑core Neural Engine","unified memory","SSD storage","13.6-inch Liquid Retina display with True Tone","1080p FaceTime HD camera","MagSafe 3 charging port","Two Thunderbolt / USB 4 ports","30W USB-C Power Adapter","Backlit Magic Keyboard with Touch ID - US English"   ],
+      "dtlimage": ["https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/iphonese-digitalmat-gallery-1-202203_GEO_EMEA?wid=364&hei=333&fmt=png-alpha&.v=1645574660944","https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/iphonese-digitalmat-gallery-2-202203?wid=364&hei=333&fmt=jpeg&qlt=95&.v=1646075827246","https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/iphonese-digitalmat-gallery-4-202203?wid=364&hei=333&fmt=png-alpha&.v=1644987579760","https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/iphonese-digitalmat-gallery-5-202203?wid=364&hei=333&fmt=png-alpha&.v=1644987579701" ],
+      "memory": ["4 GB","6 GB","8 GB"],
+      "storage": ["256 GB","512 GB","1 TB","2 TB"]
+    },
+    {
+      "title": "iPhone SE",
+      "category": "iphone",
+      "image": "https://www.flipkart.com/apple-iphone-11-pro-max-space-grey-64-gb/p/itme0101031155f8?pid=MOBFKCTSKDMKCGQS",
+      "price": 599,
+      "specs": ["Apple M2 chip with 8‑core CPU, 8‑core GPU, 16‑core Neural Engine","unified memory","SSD storage","13.6-inch Liquid Retina display with True Tone","1080p FaceTime HD camera","MagSafe 3 charging port","Two Thunderbolt / USB 4 ports","30W USB-C Power Adapter","Backlit Magic Keyboard with Touch ID - US English"   ],
+      "dtlimage": ["https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/iphone12-digitalmat-gallery-1-202111?wid=364&hei=333&fmt=png-alpha&.v=1635980933000","https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/iphone12-digitalmat-gallery-2-202111?wid=364&hei=333&fmt=png-alpha&.v=1635178709000","https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/iphone12-digitalmat-gallery-3-202111?wid=364&hei=333&fmt=png-alpha&.v=1636673254000","https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/iphone12-digitalmat-gallery-6-202111?wid=364&hei=333&fmt=png-alpha&.v=1635178710000" ],
+      "memory": ["4 GB","6 GB","8 GB"],
+      "storage": ["256 GB","512 GB","1 TB","2 TB"]
+    },
+    {
+      "title": "Apple Watch SE",
+      "category": "apple watch",
+      "image": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/watch-card-40-se-202303?wid=340&hei=264&fmt=png-alpha&.v=1676335512377",
+      "price": 999,
+      "specs": ["40mm or 44mm case","Retina LTPO OLED display","Up to 1000 nits brightness","S8 SiP with 64-bit dual-core","Built-in speaker and mic","Water resistant 50 meters","International Emergency Calling","S8 SiP with 64-bit dual-core processor","GPS and GPS + Cellular models","Second-generation optical heart sensor","High and low heart rate notifications","Bluetooth 5.3","Emergency SOS"],
+      "memory": [],
+      "storage": [],
+      "dtlimage": ["https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/watch-se-digitalmat-gallery-1-202303?wid=364&hei=333&fmt=png-alpha&.v=1676329218814F","https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/watch-se-digitalmat-gallery-2-202303?wid=364&hei=333&fmt=png-alpha&.v=1676329218740","https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/watch-se-digitalmat-gallery-3-202303?wid=364&hei=333&fmt=png-alpha&.v=1676329218754","https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/watch-se-digitalmat-gallery-4-202303?wid=364&hei=333&fmt=png-alpha&.v=1676329218927","https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/watch-se-digitalmat-gallery-5-202303?wid=364&hei=333&fmt=png-alpha&.v=1676329218956" ]
+    },
+    {
+      "title": "iPad (10th gen.)",
+      "category": "ipad",
+      "image": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/ipad-card-40-ipad-202210?wid=340&hei=264&fmt=p-jpg&qlt=95&.v=1665519729404",
+      "price": 799,
+      "specs": ["Apple M2 chip with 8‑core CPU, 8‑core GPU, 16‑core Neural Engine","unified memory","SSD storage","13.6-inch Liquid Retina display with True Tone","1080p FaceTime HD camera","MagSafe 3 charging port","Two Thunderbolt / USB 4 ports","30W USB-C Power Adapter","Backlit Magic Keyboard with Touch ID - US English"   ],
+      "dtlimage": ["https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/ipad-digitalmat-gallery-1-202210?wid=364&hei=333&fmt=png-alpha&.v=1664392871297","https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/ipad-digitalmat-gallery-2-202210?wid=364&hei=333&fmt=png-alpha&.v=1664392871246","https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/ipad-digitalmat-gallery-3-202210?wid=364&hei=333&fmt=png-alpha&.v=1664392871324","https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/ipad-digitalmat-gallery-4-202210?wid=364&hei=333&fmt=png-alpha&.v=1664392871337","https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/ipad-digitalmat-gallery-5-202210?wid=364&hei=333&fmt=png-alpha&.v=1664392871595" ],
+      "memory": ["4 GB","8 GB","16 GB"],
+      "storage": ["128 GB", "256 GB", "512 GB", "1 TB", "2 TB"]
+    },
+    {
+      "title": "Studio Display",
+      "category": "mac",
+      "image": "https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/studio-display-digitalmat-gallery-1-202203?wid=364&hei=333&fmt=png-alpha&.v=1645207692041",
+      "price": 999,
+      "specs": ["Apple M2 chip with 8‑core CPU, 8‑core GPU, 16‑core Neural Engine","unified memory","SSD storage","13.6-inch Liquid Retina display with True Tone","1080p FaceTime HD camera","MagSafe 3 charging port","Two Thunderbolt / USB 4 ports","30W USB-C Power Adapter","Backlit Magic Keyboard with Touch ID - US English"   ],
+      "dtlimage": ["https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/studio-display-digitalmat-gallery-2-202203?wid=364&hei=333&fmt=jpeg&qlt=95&.v=1645207692037","https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/studio-display-digitalmat-gallery-3-202203?wid=364&hei=333&fmt=png-alpha&.v=1645207691982","https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/studio-display-digitalmat-gallery-4-202203?wid=364&hei=333&fmt=jpeg&qlt=95&.v=1645207693063","https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/studio-display-digitalmat-gallery-5-202203?wid=364&hei=333&fmt=png-alpha&.v=1665097673521" ],
+      "memory": ["8 GB","16 GB","24 GB"],
+      "storage": ["256 GB","512 GB","1 TB","2 TB"]
+    },
+    {
+      "title": "Apple Watch Series 8",
+      "category": "apple watch",
+      "image": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/watch-card-40-s8-202303?wid=340&hei=264&fmt=jpeg&qlt=95&.v=1676335512343",
+      "price": 799,
+      "specs": ["40mm or 44mm case","Retina LTPO OLED display","Up to 1000 nits brightness","S8 SiP with 64-bit dual-core","Built-in speaker and mic","Water resistant 50 meters","International Emergency Calling","S8 SiP with 64-bit dual-core processor","GPS and GPS + Cellular models","Second-generation optical heart sensor","High and low heart rate notifications","Bluetooth 5.3","Emergency SOS"],
+      "memory": [],
+      "storage": [],
+      "dtlimage": ["https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/watch-s8-digitalmat-gallery-1-202303?wid=364&hei=333&fmt=png-alpha&.v=1677278025563","https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/watch-s8-digitalmat-gallery-2-202303?wid=364&hei=333&fmt=png-alpha&.v=1676329178529","https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/watch-s8-digitalmat-gallery-3-202303?wid=364&hei=333&fmt=png-alpha&.v=1676329178550","https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/watch-s8-digitalmat-gallery-4-202303?wid=364&hei=333&fmt=png-alpha&.v=1676329178550","https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/watch-s8-digitalmat-gallery-5-202303?wid=364&hei=333&fmt=png-alpha&.v=1676329178531" ]
+    },
+    {
+      "title": "Pro Display XDR",
+      "category": "mac",
+      "image": "https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/proxdr-digitalmat-gallery-1-202111?wid=364&hei=333&fmt=jpeg&qlt=95&.v=1635206791000",
+      "price": 599,
+      "specs": ["Apple M2 chip with 8‑core CPU, 8‑core GPU, 16‑core Neural Engine","unified memory","SSD storage","13.6-inch Liquid Retina display with True Tone","1080p FaceTime HD camera","MagSafe 3 charging port","Two Thunderbolt / USB 4 ports","30W USB-C Power Adapter","Backlit Magic Keyboard with Touch ID - US English"   ],
+      "dtlimage": ["https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/proxdr-digitalmat-gallery-2-202111?wid=364&hei=333&fmt=jpeg&qlt=95&.v=1635206790000","https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/proxdr-digitalmat-gallery-3-202111?wid=364&hei=333&fmt=png-alpha&.v=1635206789000","https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/proxdr-digitalmat-gallery-4-202111?wid=364&hei=333&fmt=jpeg&qlt=95&.v=1635206789000","https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/proxdr-digitalmat-gallery-5-202111?wid=364&hei=333&fmt=jpeg&qlt=95&.v=1635206791000" ],
+      "memory": ["8 GB","16 GB","24 GB"],
+      "storage": ["256 GB","512 GB","1 TB","2 TB"]
+    },
+    {
+      "title": "iPad Pro 11-inch",
+      "category": "ipad",
+      "image": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/ipad-card-40-pro-202210?wid=340&hei=264&fmt=p-jpg&qlt=95&.v=1664578794100",
+      "price": 999,
+      "specs": ["Apple M2 chip with 8‑core CPU, 8‑core GPU, 16‑core Neural Engine","unified memory","SSD storage","13.6-inch Liquid Retina display with True Tone","1080p FaceTime HD camera","MagSafe 3 charging port","Two Thunderbolt / USB 4 ports","30W USB-C Power Adapter","Backlit Magic Keyboard with Touch ID - US English"   ],
+      "dtlimage": ["https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/ipadpro11-digitalmat-gallery-1-202210?wid=364&hei=333&fmt=png-alpha&.v=1664477161220","https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/ipadpro11-digitalmat-gallery-2-202210?wid=364&hei=333&fmt=png-alpha&.v=1665083965975","https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/ipadpro11-digitalmat-gallery-3-202210?wid=364&hei=333&fmt=png-alpha&.v=1664477161231","https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/ipadpro11-digitalmat-gallery-4-202210?wid=364&hei=333&fmt=png-alpha&.v=1664477161238","https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/ipadpro11-digitalmat-gallery-5-202210?wid=364&hei=333&fmt=png-alpha&.v=1664477161177" ],
+      "memory": ["4 GB","8 GB","16 GB"],
+      "storage": ["128 GB", "256 GB", "512 GB", "1 TB", "2 TB"]
+    },
+    {
+      "title": "mac mini",
+      "category": "mac",
+      "image": "https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/mac-mini-digitalmat-gallery-1-202301?wid=364&hei=333&fmt=png-alpha&.v=1670038163709",
+      "price": 799,
+      "specs": ["Apple M2 chip with 8‑core CPU, 8‑core GPU, 16‑core Neural Engine","unified memory","SSD storage","13.6-inch Liquid Retina display with True Tone","1080p FaceTime HD camera","MagSafe 3 charging port","Two Thunderbolt / USB 4 ports","30W USB-C Power Adapter","Backlit Magic Keyboard with Touch ID - US English"   ],
+      "dtlimage": ["https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/mac-mini-digitalmat-gallery-2-202301?wid=364&hei=333&fmt=png-alpha&.v=1670038166655","https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/mac-mini-digitalmat-gallery-3-202301?wid=364&hei=333&fmt=png-alpha&.v=1670038165453","https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/mac-mini-digitalmat-gallery-4-202301?wid=364&hei=333&fmt=png-alpha&.v=1670038169062","https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/mac-mini-digitalmat-gallery-5-202301?wid=364&hei=333&fmt=png-alpha&.v=1670038169187" ],
+      "memory": ["8 GB","16 GB","24 GB"],
+      "storage": ["256 GB","512 GB","1 TB","2 TB"]
+    },
+    {
+      "title": "mac Pro",
+      "category": "mac",
+      "image": "https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/mac-card-40-macbook-air-202110?wid=600&hei=500&fmt=p-jpg&qlt=95&.v=1664576115052",
+      "price": 999,
+      "specs": ["Apple M2 chip with 8‑core CPU, 8‑core GPU, 16‑core Neural Engine","unified memory","SSD storage","13.6-inch Liquid Retina display with True Tone","1080p FaceTime HD camera","MagSafe 3 charging port","Two Thunderbolt / USB 4 ports","30W USB-C Power Adapter","Backlit Magic Keyboard with Touch ID - US English"   ],
+      "dtlimage": ["https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/mac-pro-digitalmat-gallery-2-202111?wid=364&hei=333&fmt=png-alpha&.v=1636480313000","https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/mac-pro-digitalmat-gallery-3-202111?wid=364&hei=333&fmt=png-alpha&.v=1636480312000","https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/mac-pro-digitalmat-gallery-4-202111?wid=364&hei=333&fmt=png-alpha&.v=1636480312000","https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/mac-pro-digitalmat-gallery-5-202111?wid=364&hei=333&fmt=png-alpha&.v=1636480311000" ],
+      "memory": ["8 GB","16 GB","24 GB"],
+      "storage": ["256 GB","512 GB","1 TB","2 TB"]
+    },
+    {
+      "title": "iPhone 14 Pro",
+      "category": "iphone",
+      "image": "https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/iphone-card-40-iphone14pro-202209?wid=340&hei=264&fmt=p-jpg&qlt=95&.v=1663611329492",
+      "price": 599,
+      "specs": ["Apple M2 chip with 8‑core CPU, 8‑core GPU, 16‑core Neural Engine","unified memory","SSD storage","13.6-inch Liquid Retina display with True Tone","1080p FaceTime HD camera","MagSafe 3 charging port","Two Thunderbolt / USB 4 ports","30W USB-C Power Adapter","Backlit Magic Keyboard with Touch ID - US English"   ],
+      "dtlimage": ["https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/iphonese-digitalmat-gallery-1-202203_GEO_EMEA?wid=364&hei=333&fmt=png-alpha&.v=1645574660944","https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/iphonese-digitalmat-gallery-2-202203?wid=364&hei=333&fmt=jpeg&qlt=95&.v=1646075827246","https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/iphonese-digitalmat-gallery-4-202203?wid=364&hei=333&fmt=png-alpha&.v=1644987579760","https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/iphonese-digitalmat-gallery-5-202203?wid=364&hei=333&fmt=png-alpha&.v=1644987579701" ],
+      "memory": ["4 GB","6 GB","8 GB"],
+      "storage": ["256 GB","512 GB","1 TB","2 TB"]
+    },
+    {
+      "title": "Apple Watch Hermès",
+      "category": "apple watch",
+      "image": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/watch-card-40-hermes-202303?wid=340&hei=264&fmt=jpeg&qlt=95&.v=1676335512238",
+      "price": 999,
+      "specs": ["40mm or 44mm case","Retina LTPO OLED display","Up to 1000 nits brightness","S8 SiP with 64-bit dual-core","Built-in speaker and mic","Water resistant 50 meters","International Emergency Calling","S8 SiP with 64-bit dual-core processor","GPS and GPS + Cellular models","Second-generation optical heart sensor","High and low heart rate notifications","Bluetooth 5.3","Emergency SOS"],
+      "memory": [],
+      "storage": [],
+      "dtlimage": ["https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/watch-hermes-digitalmat-gallery-1-202303?wid=364&hei=333&fmt=jpeg&qlt=95&.v=1676329245698","https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/watch-hermes-digitalmat-gallery-2-202303?wid=364&hei=333&fmt=jpeg&qlt=95&.v=1676329245652","https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/watch-hermes-digitalmat-gallery-3-202303?wid=364&hei=333&fmt=jpeg&qlt=95&.v=1676329246162","https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/watch-hermes-digitalmat-gallery-4-202303?wid=364&hei=333&fmt=jpeg&qlt=95&.v=1676329246143","https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/watch-hermes-digitalmat-gallery-5-202303?wid=364&hei=333&fmt=jpeg&qlt=95&.v=1676329246142" ]
+    },
+    {
+      "title": "iPad Air",
+      "category": "ipad",
+      "image": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/ipad-card-40-air-202203?wid=340&hei=264&fmt=p-jpg&qlt=95&.v=1674662574485",
+      "price": 799,
+      "specs": ["Apple M2 chip with 8‑core CPU, 8‑core GPU, 16‑core Neural Engine","unified memory","SSD storage","13.6-inch Liquid Retina display with True Tone","1080p FaceTime HD camera","MagSafe 3 charging port","Two Thunderbolt / USB 4 ports","30W USB-C Power Adapter","Backlit Magic Keyboard with Touch ID - US English"   ],
+      "dtlimage": ["https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/ipadair-digitalmat-gallery-1-202203?wid=364&hei=333&fmt=jpeg&qlt=95&.v=1644962768135","https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/ipadair-digitalmat-gallery-2-202203_GEO_US?wid=364&hei=333&fmt=png-alpha&.v=1645724601636","https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/ipadair-digitalmat-gallery-3-202203?wid=364&hei=333&fmt=jpeg&qlt=95&.v=1644962768498","https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/ipadair-digitalmat-gallery-4-202203?wid=364&hei=333&fmt=jpeg&qlt=95&.v=1644962768511","https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/ipadair-digitalmat-gallery-5-202203?wid=364&hei=333&fmt=png-alpha&.v=1644962768260" ],
+      "memory": ["4 GB","8 GB","16 GB"],
+      "storage": ["128 GB", "256 GB", "512 GB", "1 TB", "2 TB"]
+    },
+    {
+      "title": "iPad mini",
+      "category": "ipad",
+      "image": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/ipad-card-40-ipad-mini-202109?wid=340&hei=264&fmt=p-jpg&qlt=95&.v=1674662574477",
+      "price": 999,
+      "specs": ["Apple M2 chip with 8‑core CPU, 8‑core GPU, 16‑core Neural Engine","unified memory","SSD storage","13.6-inch Liquid Retina display with True Tone","1080p FaceTime HD camera","MagSafe 3 charging port","Two Thunderbolt / USB 4 ports","30W USB-C Power Adapter","Backlit Magic Keyboard with Touch ID - US English"   ],
+      "dtlimage": ["https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/ipad-mini-digitalmat-gallery-1-202111?wid=365&hei=333&fmt=png-alpha&.v=1635183174000","https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/ipad-mini-digitalmat-gallery-2-202111?wid=365&hei=333&fmt=jpeg&qlt=95&.v=1635183177000","https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/ipad-mini-digitalmat-gallery-3-202111?wid=365&hei=333&fmt=png-alpha&.v=1635183176000","https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/ipad-mini-digitalmat-gallery-4-202111?wid=365&hei=333&fmt=jpeg&qlt=95&.v=1635183177000","https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/ipad-mini-digitalmat-gallery-5-202111?wid=365&hei=333&fmt=png-alpha&.v=1635183176000" ],
+      "memory": ["4 GB","8 GB","16 GB"],
+      "storage": ["128 GB", "256 GB", "512 GB", "1 TB", "2 TB"]
+    },
+    {
+      "title": "iMac 24”",
+      "category": "mac",
+      "image": "https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/mac-card-40-imac-24-202108?wid=490&hei=500&fmt=jpeg&qlt=95&.v=1625868688000",
+      "price": 599,
+      "specs": ["Apple M2 chip with 8‑core CPU, 8‑core GPU, 16‑core Neural Engine","unified memory","SSD storage","13.6-inch Liquid Retina display with True Tone","1080p FaceTime HD camera","MagSafe 3 charging port","Two Thunderbolt / USB 4 ports","30W USB-C Power Adapter","Backlit Magic Keyboard with Touch ID - US English"   ],
+      "dtlimage": ["https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/imac24-digitalmat-gallery-1-202111?wid=364&hei=333&fmt=png-alpha&.v=1635186197000","https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/imac24-digitalmat-gallery-2-202111?wid=364&hei=333&fmt=png-alpha&.v=1635186198000","https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/imac24-digitalmat-gallery-3-202111?wid=364&hei=333&fmt=png-alpha&.v=1635186200000","https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/imac24-digitalmat-gallery-4-202111?wid=364&hei=333&fmt=png-alpha&.v=1635186199000","https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/imac24-digitalmat-gallery-5-202111?wid=364&hei=333&fmt=png-alpha&.v=1635186199000" ],
+      "memory": ["8 GB","16 GB","24 GB"],
+      "storage": ["256 GB","512 GB","1 TB","2 TB"]
+    },
+    {
+      "title": "MacBook Air with M2 chip",
+      "category": "mac",
+      "image": "https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/mac-card-40-macbook-pro-13-202206?wid=600&hei=500&fmt=p-jpg&qlt=95&.v=1665082744007",
+      "price": 599,
+      "specs": ["Apple M2 chip with 8‑core CPU, 8‑core GPU, 16‑core Neural Engine","unified memory","SSD storage","13.6-inch Liquid Retina display with True Tone","1080p FaceTime HD camera","MagSafe 3 charging port","Two Thunderbolt / USB 4 ports","30W USB-C Power Adapter","Backlit Magic Keyboard with Touch ID - US English"   ],
+      "dtlimage": ["https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/macbook-air-digitalmat-gallery-1-202206?wid=364&hei=333&fmt=png-alpha&.v=1652827325377","https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/macbook-air-digitalmat-gallery-2-202206?wid=364&hei=333&fmt=png-alpha&.v=1652827325363","https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/macbook-air-digitalmat-gallery-3-202206?wid=364&hei=333&fmt=png-alpha&.v=1652827325419","https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/macbook-air-digitalmat-gallery-4-202206?wid=364&hei=333&fmt=png-alpha&.v=1652827325434","https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/macbook-air-digitalmat-gallery-5-202206?wid=364&hei=333&fmt=png-alpha&.v=1652827325475" ],
+      "memory": ["8 GB","16 GB","24 GB"],
+      "storage": ["256 GB","512 GB","1 TB","2 TB"]
+    },
+    {
+      "title": "MacBook Pro 14” and 16”",
+      "category": "mac",
+      "image": "https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/mac-card-40-macbook-pro-14-16-202301?wid=600&hei=500&fmt=p-jpg&qlt=95&.v=1670463778272",
+      "price": 799,
+      "specs": ["Apple M2 chip with 8‑core CPU, 8‑core GPU, 16‑core Neural Engine","unified memory","SSD storage","13.6-inch Liquid Retina display with True Tone","1080p FaceTime HD camera","MagSafe 3 charging port","Two Thunderbolt / USB 4 ports","30W USB-C Power Adapter","Backlit Magic Keyboard with Touch ID - US English"   ],
+      "dtlimage": ["https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/macbook-air-digitalmat-gallery-1-202206?wid=364&hei=333&fmt=png-alpha&.v=1652827325377","https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/macbook-air-digitalmat-gallery-2-202206?wid=364&hei=333&fmt=png-alpha&.v=1652827325363","https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/macbook-air-digitalmat-gallery-3-202206?wid=364&hei=333&fmt=png-alpha&.v=1652827325419","https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/macbook-air-digitalmat-gallery-4-202206?wid=364&hei=333&fmt=png-alpha&.v=1652827325434","https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/macbook-air-digitalmat-gallery-5-202206?wid=364&hei=333&fmt=png-alpha&.v=1652827325475" ],
+      "memory": ["8 GB","16 GB","24 GB"],
+      "storage": ["256 GB","512 GB","1 TB","2 TB"]
+    },
+    {
+      "title": "MacBook Air with M1 chip",
+      "category": "mac",
+      "image": "https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/mac-card-40-macbook-air-202110?wid=600&hei=500&fmt=p-jpg&qlt=95&.v=1664576115052",
+      "price": 429,
+      "specs": ["Apple M2 chip with 8‑core CPU, 8‑core GPU, 16‑core Neural Engine","unified memory","SSD storage","13.6-inch Liquid Retina display with True Tone","1080p FaceTime HD camera","MagSafe 3 charging port","Two Thunderbolt / USB 4 ports","30W USB-C Power Adapter","Backlit Magic Keyboard with Touch ID - US English"   ],
+      "dtlimage": ["https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/macbook-air-digitalmat-gallery-1-202206?wid=364&hei=333&fmt=png-alpha&.v=1652827325377","https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/macbook-air-digitalmat-gallery-2-202206?wid=364&hei=333&fmt=png-alpha&.v=1652827325363","https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/macbook-air-digitalmat-gallery-3-202206?wid=364&hei=333&fmt=png-alpha&.v=1652827325419","https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/macbook-air-digitalmat-gallery-4-202206?wid=364&hei=333&fmt=png-alpha&.v=1652827325434","https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/macbook-air-digitalmat-gallery-5-202206?wid=364&hei=333&fmt=png-alpha&.v=1652827325475" ],
+      "memory": ["8 GB","16 GB","24 GB"],
+      "storage": ["256 GB","512 GB","1 TB","2 TB"]
+    },
+    {
+      "title": "MacBook Pro 13”",
+      "category": "mac",
+      "image": "https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/mac-card-40-macbook-air-202110?wid=600&hei=500&fmt=p-jpg&qlt=95&.v=1664576115052",
+      "price": 599,
+      "specs": ["Apple M2 chip with 8‑core CPU, 8‑core GPU, 16‑core Neural Engine","unified memory","SSD storage","13.6-inch Liquid Retina display with True Tone","1080p FaceTime HD camera","MagSafe 3 charging port","Two Thunderbolt / USB 4 ports","30W USB-C Power Adapter","Backlit Magic Keyboard with Touch ID - US English"   ],
+      "dtlimage": ["https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/macbook-air-digitalmat-gallery-1-202206?wid=364&hei=333&fmt=png-alpha&.v=1652827325377","https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/macbook-air-digitalmat-gallery-2-202206?wid=364&hei=333&fmt=png-alpha&.v=1652827325363","https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/macbook-air-digitalmat-gallery-3-202206?wid=364&hei=333&fmt=png-alpha&.v=1652827325419","https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/macbook-air-digitalmat-gallery-4-202206?wid=364&hei=333&fmt=png-alpha&.v=1652827325434","https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/macbook-air-digitalmat-gallery-5-202206?wid=364&hei=333&fmt=png-alpha&.v=1652827325475" ],
+      "memory": ["8 GB","16 GB","24 GB"],
+      "storage": ["256 GB","512 GB","1 TB","2 TB"]
+    },
+    {
+      "title": "Studio Display",
+      "category": "mac",
+      "image": "https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/studio-display-digitalmat-gallery-1-202203?wid=364&hei=333&fmt=png-alpha&.v=1645207692041",
+      "price": 799,
+      "specs": ["Apple M2 chip with 8‑core CPU, 8‑core GPU, 16‑core Neural Engine","unified memory","SSD storage","13.6-inch Liquid Retina display with True Tone","1080p FaceTime HD camera","MagSafe 3 charging port","Two Thunderbolt / USB 4 ports","30W USB-C Power Adapter","Backlit Magic Keyboard with Touch ID - US English"   ],
+      "dtlimage": ["https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/macbook-air-digitalmat-gallery-1-202206?wid=364&hei=333&fmt=png-alpha&.v=1652827325377","https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/macbook-air-digitalmat-gallery-2-202206?wid=364&hei=333&fmt=png-alpha&.v=1652827325363","https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/macbook-air-digitalmat-gallery-3-202206?wid=364&hei=333&fmt=png-alpha&.v=1652827325419","https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/macbook-air-digitalmat-gallery-4-202206?wid=364&hei=333&fmt=png-alpha&.v=1652827325434","https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/macbook-air-digitalmat-gallery-5-202206?wid=364&hei=333&fmt=png-alpha&.v=1652827325475" ],
+      "memory": ["8 GB","16 GB","24 GB"],
+      "storage": ["256 GB","512 GB","1 TB","2 TB"]
+    },
+    {
+      "title": "Pro Display XDR",
+      "category": "mac",
+      "image": "https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/proxdr-digitalmat-gallery-1-202111?wid=364&hei=333&fmt=jpeg&qlt=95&.v=1635206791000",
+      "price": 799,
+      "specs": ["Apple M2 chip with 8‑core CPU, 8‑core GPU, 16‑core Neural Engine","unified memory","SSD storage","13.6-inch Liquid Retina display with True Tone","1080p FaceTime HD camera","MagSafe 3 charging port","Two Thunderbolt / USB 4 ports","30W USB-C Power Adapter","Backlit Magic Keyboard with Touch ID - US English"   ],
+      "dtlimage": ["https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/macbook-air-digitalmat-gallery-1-202206?wid=364&hei=333&fmt=png-alpha&.v=1652827325377","https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/macbook-air-digitalmat-gallery-2-202206?wid=364&hei=333&fmt=png-alpha&.v=1652827325363","https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/macbook-air-digitalmat-gallery-3-202206?wid=364&hei=333&fmt=png-alpha&.v=1652827325419","https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/macbook-air-digitalmat-gallery-4-202206?wid=364&hei=333&fmt=png-alpha&.v=1652827325434","https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/macbook-air-digitalmat-gallery-5-202206?wid=364&hei=333&fmt=png-alpha&.v=1652827325475" ],
+      "memory": ["8 GB","16 GB","24 GB"],
+      "storage": ["256 GB","512 GB","1 TB","2 TB"]
+    },
+    {
+      "title": "mac mini",
+      "category": "mac",
+      "image": "https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/mac-mini-digitalmat-gallery-1-202301?wid=364&hei=333&fmt=png-alpha&.v=1670038163709",
+      "price": 429,
+      "specs": ["Apple M2 chip with 8‑core CPU, 8‑core GPU, 16‑core Neural Engine","unified memory","SSD storage","13.6-inch Liquid Retina display with True Tone","1080p FaceTime HD camera","MagSafe 3 charging port","Two Thunderbolt / USB 4 ports","30W USB-C Power Adapter","Backlit Magic Keyboard with Touch ID - US English"   ],
+      "dtlimage": ["https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/macbook-air-digitalmat-gallery-1-202206?wid=364&hei=333&fmt=png-alpha&.v=1652827325377","https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/macbook-air-digitalmat-gallery-2-202206?wid=364&hei=333&fmt=png-alpha&.v=1652827325363","https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/macbook-air-digitalmat-gallery-3-202206?wid=364&hei=333&fmt=png-alpha&.v=1652827325419","https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/macbook-air-digitalmat-gallery-4-202206?wid=364&hei=333&fmt=png-alpha&.v=1652827325434","https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/macbook-air-digitalmat-gallery-5-202206?wid=364&hei=333&fmt=png-alpha&.v=1652827325475" ],
+      "memory": ["8 GB","16 GB","24 GB"],
+      "storage": ["256 GB","512 GB","1 TB","2 TB"]
+    },
+    {
+      "title": "mac Pro",
+      "category": "mac",
+      "image": "https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/mac-card-40-macbook-air-202110?wid=600&hei=500&fmt=p-jpg&qlt=95&.v=1664576115052",
+      "price": 999,
+      "specs": ["Apple M2 chip with 8‑core CPU, 8‑core GPU, 16‑core Neural Engine","unified memory","SSD storage","13.6-inch Liquid Retina display with True Tone","1080p FaceTime HD camera","MagSafe 3 charging port","Two Thunderbolt / USB 4 ports","30W USB-C Power Adapter","Backlit Magic Keyboard with Touch ID - US English"   ],
+      "dtlimage": ["https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/macbook-air-digitalmat-gallery-1-202206?wid=364&hei=333&fmt=png-alpha&.v=1652827325377","https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/macbook-air-digitalmat-gallery-2-202206?wid=364&hei=333&fmt=png-alpha&.v=1652827325363","https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/macbook-air-digitalmat-gallery-3-202206?wid=364&hei=333&fmt=png-alpha&.v=1652827325419","https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/macbook-air-digitalmat-gallery-4-202206?wid=364&hei=333&fmt=png-alpha&.v=1652827325434","https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/macbook-air-digitalmat-gallery-5-202206?wid=364&hei=333&fmt=png-alpha&.v=1652827325475" ],
+      "memory": ["8 GB","16 GB","24 GB"],
+      "storage": ["256 GB","512 GB","1 TB","2 TB"]
+    },
+    {
+      "title": "APPLE iPhone 8 (Silver, 256 GB)",
+      "category": "iphone",
+      "image": "https://www.flipkart.com/apple-iphone-8-silver-256-gb/p/itmexrgvae48gzhp?pid=MOBEXRGVMZWUHCBA",
+      "price": 999,
+      "specs": ["Apple M2 chip with 8‑core CPU, 8‑core GPU, 16‑core Neural Engine","unified memory","SSD storage","13.6-inch Liquid Retina display with True Tone","1080p FaceTime HD camera","MagSafe 3 charging port","Two Thunderbolt / USB 4 ports","30W USB-C Power Adapter","Backlit Magic Keyboard with Touch ID - US English"   ],
+      "dtlimage": ["https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/iphone12-digitalmat-gallery-1-202111?wid=364&hei=333&fmt=png-alpha&.v=1635980933000","https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/iphone12-digitalmat-gallery-2-202111?wid=364&hei=333&fmt=png-alpha&.v=1635178709000","https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/iphone12-digitalmat-gallery-3-202111?wid=364&hei=333&fmt=png-alpha&.v=1636673254000","https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/iphone12-digitalmat-gallery-6-202111?wid=364&hei=333&fmt=png-alpha&.v=1635178710000" ],
+      "memory": ["4 GB","6 GB","8 GB"],
+      "storage": ["256 GB","512 GB","1 TB","2 TB"]
+    },
+    {
+      "title": "APPLE iPhone 8 (Gold, 256 GB)",
+      "category": "iphone",
+      "image": "https://www.flipkart.com/apple-iphone-8-gold-256-gb/p/itmexrgv8bvfbzgw?pid=MOBEXRGVPK7PFEJZ",
+      "price": 429,
+      "specs": ["Apple M2 chip with 8‑core CPU, 8‑core GPU, 16‑core Neural Engine","unified memory","SSD storage","13.6-inch Liquid Retina display with True Tone","1080p FaceTime HD camera","MagSafe 3 charging port","Two Thunderbolt / USB 4 ports","30W USB-C Power Adapter","Backlit Magic Keyboard with Touch ID - US English"   ],
+      "dtlimage": ["https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/iphone12-digitalmat-gallery-1-202111?wid=364&hei=333&fmt=png-alpha&.v=1635980933000","https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/iphone12-digitalmat-gallery-2-202111?wid=364&hei=333&fmt=png-alpha&.v=1635178709000","https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/iphone12-digitalmat-gallery-3-202111?wid=364&hei=333&fmt=png-alpha&.v=1636673254000","https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/iphone12-digitalmat-gallery-6-202111?wid=364&hei=333&fmt=png-alpha&.v=1635178710000" ],
+      "memory": ["4 GB","6 GB","8 GB"],
+      "storage": ["256 GB","512 GB","1 TB","2 TB"]
+    },
+    {
+      "title": "APPLE iPhone 8 Plus (Silver, 64 GB)",
+      "category": "iphone",
+      "image": "https://www.flipkart.com/apple-iphone-8-plus-silver-64-gb/p/itmexrgv7yfjbryy?pid=MOBEXRGVQGYYP8FV",
+      "price": 429,
+      "specs": ["Apple M2 chip with 8‑core CPU, 8‑core GPU, 16‑core Neural Engine","unified memory","SSD storage","13.6-inch Liquid Retina display with True Tone","1080p FaceTime HD camera","MagSafe 3 charging port","Two Thunderbolt / USB 4 ports","30W USB-C Power Adapter","Backlit Magic Keyboard with Touch ID - US English"   ],
+      "dtlimage": ["https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/proxdr-digitalmat-gallery-2-202111?wid=364&hei=333&fmt=jpeg&qlt=95&.v=1635206790000","https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/proxdr-digitalmat-gallery-3-202111?wid=364&hei=333&fmt=png-alpha&.v=1635206789000","https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/proxdr-digitalmat-gallery-4-202111?wid=364&hei=333&fmt=jpeg&qlt=95&.v=1635206789000","https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/proxdr-digitalmat-gallery-5-202111?wid=364&hei=333&fmt=jpeg&qlt=95&.v=1635206791000" ],
+      "memory": ["4 GB","6 GB","8 GB"],
+      "storage": ["256 GB","512 GB","1 TB","2 TB"]
+    },
+    {
+      "title": "APPLE iPhone 8 Plus (Space Grey, 64 GB)",
+      "category": "iphone",
+      "image": "https://www.flipkart.com/apple-iphone-8-plus-space-grey-64-gb/p/itmexrgvehtzhh9v?pid=MOBEXRGVQKBREZP8",
+      "price": 799,
+      "specs": ["Apple M2 chip with 8‑core CPU, 8‑core GPU, 16‑core Neural Engine","unified memory","SSD storage","13.6-inch Liquid Retina display with True Tone","1080p FaceTime HD camera","MagSafe 3 charging port","Two Thunderbolt / USB 4 ports","30W USB-C Power Adapter","Backlit Magic Keyboard with Touch ID - US English"   ],
+      "dtlimage": ["https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/proxdr-digitalmat-gallery-2-202111?wid=364&hei=333&fmt=jpeg&qlt=95&.v=1635206790000","https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/proxdr-digitalmat-gallery-3-202111?wid=364&hei=333&fmt=png-alpha&.v=1635206789000","https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/proxdr-digitalmat-gallery-4-202111?wid=364&hei=333&fmt=jpeg&qlt=95&.v=1635206789000","https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/proxdr-digitalmat-gallery-5-202111?wid=364&hei=333&fmt=jpeg&qlt=95&.v=1635206791000" ],
+      "memory": ["4 GB","6 GB","8 GB"],
+      "storage": ["256 GB","512 GB","1 TB","2 TB"]
+    },
+    {
+      "title": "APPLE iPhone 8 (Space Grey, 256 GB)",
+      "category": "iphone",
+      "image": "https://www.flipkart.com/apple-iphone-8-space-grey-256-gb/p/itmexrgvypzqw6df?pid=MOBEXRGVZFZGZEWV",
+      "price": 429,
+      "specs": ["Apple M2 chip with 8‑core CPU, 8‑core GPU, 16‑core Neural Engine","unified memory","SSD storage","13.6-inch Liquid Retina display with True Tone","1080p FaceTime HD camera","MagSafe 3 charging port","Two Thunderbolt / USB 4 ports","30W USB-C Power Adapter","Backlit Magic Keyboard with Touch ID - US English"   ],
+      "dtlimage": ["https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/iphonese-digitalmat-gallery-1-202203_GEO_EMEA?wid=364&hei=333&fmt=png-alpha&.v=1645574660944","https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/iphonese-digitalmat-gallery-2-202203?wid=364&hei=333&fmt=jpeg&qlt=95&.v=1646075827246","https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/iphonese-digitalmat-gallery-4-202203?wid=364&hei=333&fmt=png-alpha&.v=1644987579760","https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/iphonese-digitalmat-gallery-5-202203?wid=364&hei=333&fmt=png-alpha&.v=1644987579701" ],
+      "memory": ["4 GB","6 GB","8 GB"],
+      "storage": ["256 GB","512 GB","1 TB","2 TB"]
+    },
+    {
+      "title": "APPLE iPhone XS Max (Silver, 64 GB)",
+      "category": "iphone",
+      "image": "https://www.flipkart.com/apple-iphone-xs-max-silver-64-gb/p/itmf944ehzsh7emx?pid=MOBF944E2XAHW8V5",
+      "price": 999,
+      "specs": ["Apple M2 chip with 8‑core CPU, 8‑core GPU, 16‑core Neural Engine","unified memory","SSD storage","13.6-inch Liquid Retina display with True Tone","1080p FaceTime HD camera","MagSafe 3 charging port","Two Thunderbolt / USB 4 ports","30W USB-C Power Adapter","Backlit Magic Keyboard with Touch ID - US English"   ],
+      "dtlimage": ["https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/iphonese-digitalmat-gallery-1-202203_GEO_EMEA?wid=364&hei=333&fmt=png-alpha&.v=1645574660944","https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/iphonese-digitalmat-gallery-2-202203?wid=364&hei=333&fmt=jpeg&qlt=95&.v=1646075827246","https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/iphonese-digitalmat-gallery-4-202203?wid=364&hei=333&fmt=png-alpha&.v=1644987579760","https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/iphonese-digitalmat-gallery-5-202203?wid=364&hei=333&fmt=png-alpha&.v=1644987579701" ],
+      "memory": ["4 GB","6 GB","8 GB"],
+      "storage": ["256 GB","512 GB","1 TB","2 TB"]
+    },
+    {
+      "title": "Apple iPhone XR ((PRODUCT)RED, 128 GB) (Includes EarPods, Power Adapter)",
+      "category": "iphone",
+      "image": "https://www.flipkart.com/apple-iphone-xr-product-red-128-gb-includes-earpods-power-adapter/p/itmf9z7zbkvjzegf?pid=MOBF9Z7ZHQC23PWQ",
+      "price": 799,
+      "specs": ["Apple M2 chip with 8‑core CPU, 8‑core GPU, 16‑core Neural Engine","unified memory","SSD storage","13.6-inch Liquid Retina display with True Tone","1080p FaceTime HD camera","MagSafe 3 charging port","Two Thunderbolt / USB 4 ports","30W USB-C Power Adapter","Backlit Magic Keyboard with Touch ID - US English"   ],
+      "memory": ["4 GB","6 GB","8 GB"],
+      "storage": ["256 GB","512 GB","1 TB","2 TB"]
+    },
+    {
+      "title": "Apple iPhone XR (Black, 64 GB) (Includes EarPods, Power Adapter)",
+      "category": "iphone",
+      "image": "https://www.flipkart.com/apple-iphone-xr-black-64-gb-includes-earpods-power-adapter/p/itmf9z7zxu4uqyz2?pid=MOBF9Z7ZPHGV4GNH",
+      "price": 999,
+      "specs": ["Apple M2 chip with 8‑core CPU, 8‑core GPU, 16‑core Neural Engine","unified memory","SSD storage","13.6-inch Liquid Retina display with True Tone","1080p FaceTime HD camera","MagSafe 3 charging port","Two Thunderbolt / USB 4 ports","30W USB-C Power Adapter","Backlit Magic Keyboard with Touch ID - US English"   ],
+      "dtlimage": ["https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/iphone13-digitalmat-gallery-1-202203_GEO_EMEA?wid=364&hei=333&fmt=png-alpha&.v=1677662648570","https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/iphone13-digitalmat-gallery-2-202203?wid=364&hei=333&fmt=png-alpha&.v=1644988764167","https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/iphone13-digitalmat-gallery-3-202203?wid=364&hei=333&fmt=png-alpha&.v=1644988765122","https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/iphone13-digitalmat-gallery-6-202203?wid=364&hei=333&fmt=png-alpha&.v=1644988764137" ],
+      "memory": ["4 GB","6 GB","8 GB"],
+      "storage": ["256 GB","512 GB","1 TB","2 TB"]
+    },
+    {
+      "title": "Apple iPhone XR (Coral, 128 GB) (Includes EarPods, Power Adapter)",
+      "category": "iphone",
+      "image": "https://www.flipkart.com/apple-iphone-xr-coral-128-gb-includes-earpods-power-adapter/p/itmf9z7zgxx5wgez?pid=MOBF9Z7ZS6GF5UAP",
+      "price": 799,
+      "specs": ["Apple M2 chip with 8‑core CPU, 8‑core GPU, 16‑core Neural Engine","unified memory","SSD storage","13.6-inch Liquid Retina display with True Tone","1080p FaceTime HD camera","MagSafe 3 charging port","Two Thunderbolt / USB 4 ports","30W USB-C Power Adapter","Backlit Magic Keyboard with Touch ID - US English"   ],
+      "dtlimage": ["https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/iphone14pro-digitalmat-gallery-1-202209_GEO_EMEA?wid=364&hei=333&fmt=png-alpha&.v=1676512691236","https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/iphone14pro-digitalmat-gallery-2-202209?wid=364&hei=333&fmt=png-alpha&.v=1660830896841","https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/iphone14pro-digitalmat-gallery-3-202209?wid=364&hei=333&fmt=png-alpha&.v=1663346233180","https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/iphone14pro-digitalmat-gallery-7-202209?wid=364&hei=333&fmt=png-alpha&.v=1661443551002" ],
+      "memory": ["4 GB","6 GB","8 GB"],
+      "storage": ["256 GB","512 GB","1 TB","2 TB"]
+    },
+    {
+      "title": "Apple iPhone XR (Black, 128 GB) (Includes EarPods, Power Adapter)",
+      "category": "iphone",
+      "image": "https://www.flipkart.com/apple-iphone-xr-black-128-gb-includes-earpods-power-adapter/p/itmf9z7zhdgzwmzm?pid=MOBF9Z7ZYWNFGZUC",
+      "price": 999,
+      "specs": ["Apple M2 chip with 8‑core CPU, 8‑core GPU, 16‑core Neural Engine","unified memory","SSD storage","13.6-inch Liquid Retina display with True Tone","1080p FaceTime HD camera","MagSafe 3 charging port","Two Thunderbolt / USB 4 ports","30W USB-C Power Adapter","Backlit Magic Keyboard with Touch ID - US English"   ],
+      "dtlimage": ["https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/iphone12-digitalmat-gallery-1-202111?wid=364&hei=333&fmt=png-alpha&.v=1635980933000","https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/iphone12-digitalmat-gallery-2-202111?wid=364&hei=333&fmt=png-alpha&.v=1635178709000","https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/iphone12-digitalmat-gallery-3-202111?wid=364&hei=333&fmt=png-alpha&.v=1636673254000","https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/iphone12-digitalmat-gallery-6-202111?wid=364&hei=333&fmt=png-alpha&.v=1635178710000" ],
+      "memory": ["4 GB","6 GB","8 GB"],
+      "storage": ["256 GB","512 GB","1 TB","2 TB"]
+    },
+    {
+      "title": "Apple iPhone XR (White, 128 GB) (Includes EarPods, Power Adapter)",
+      "category": "iphone",
+      "image": "https://www.flipkart.com/apple-iphone-xr-white-128-gb-includes-earpods-power-adapter/p/itmf9z7zrz4tbhwm?pid=MOBF9Z7ZZY3HCDZZ",
+      "price": 799,
+      "specs": ["Apple M2 chip with 8‑core CPU, 8‑core GPU, 16‑core Neural Engine","unified memory","SSD storage","13.6-inch Liquid Retina display with True Tone","1080p FaceTime HD camera","MagSafe 3 charging port","Two Thunderbolt / USB 4 ports","30W USB-C Power Adapter","Backlit Magic Keyboard with Touch ID - US English"   ],
+      "dtlimage": ["https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/proxdr-digitalmat-gallery-2-202111?wid=364&hei=333&fmt=jpeg&qlt=95&.v=1635206790000","https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/proxdr-digitalmat-gallery-3-202111?wid=364&hei=333&fmt=png-alpha&.v=1635206789000","https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/proxdr-digitalmat-gallery-4-202111?wid=364&hei=333&fmt=jpeg&qlt=95&.v=1635206789000","https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/proxdr-digitalmat-gallery-5-202111?wid=364&hei=333&fmt=jpeg&qlt=95&.v=1635206791000" ],
+      "memory": ["4 GB","6 GB","8 GB"],
+      "storage": ["256 GB","512 GB","1 TB","2 TB"]
+    },
+    {
+      "title": "APPLE iPhone 11 Pro Max (Gold, 256 GB)",
+      "category": "iphone",
+      "image": "https://www.flipkart.com/apple-iphone-11-pro-max-gold-256-gb/p/itm94c6536eefc46?pid=MOBFKCTS7HCHSPFH",
+      "price": 429,
+      "specs": ["Apple M2 chip with 8‑core CPU, 8‑core GPU, 16‑core Neural Engine","unified memory","SSD storage","13.6-inch Liquid Retina display with True Tone","1080p FaceTime HD camera","MagSafe 3 charging port","Two Thunderbolt / USB 4 ports","30W USB-C Power Adapter","Backlit Magic Keyboard with Touch ID - US English"   ],
+      "dtlimage": ["https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/iphone12-digitalmat-gallery-1-202111?wid=364&hei=333&fmt=png-alpha&.v=1635980933000","https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/iphone12-digitalmat-gallery-2-202111?wid=364&hei=333&fmt=png-alpha&.v=1635178709000","https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/iphone12-digitalmat-gallery-3-202111?wid=364&hei=333&fmt=png-alpha&.v=1636673254000","https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/iphone12-digitalmat-gallery-6-202111?wid=364&hei=333&fmt=png-alpha&.v=1635178710000" ],
+      "memory": ["4 GB","6 GB","8 GB"],
+      "storage": ["256 GB","512 GB","1 TB","2 TB"]
+    },
+    {
+      "title": "APPLE iPhone 11 Pro Max (Gold, 64 GB)",
+      "category": "iphone",
+      "image": "https://www.flipkart.com/apple-iphone-11-pro-max-gold-64-gb/p/itm6ef18218efdf6?pid=MOBFKCTSAPAYNSGG",
+      "price": 799,
+      "specs": ["Apple M2 chip with 8‑core CPU, 8‑core GPU, 16‑core Neural Engine","unified memory","SSD storage","13.6-inch Liquid Retina display with True Tone","1080p FaceTime HD camera","MagSafe 3 charging port","Two Thunderbolt / USB 4 ports","30W USB-C Power Adapter","Backlit Magic Keyboard with Touch ID - US English"   ],
+      "dtlimage": ["https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/iphonese-digitalmat-gallery-1-202203_GEO_EMEA?wid=364&hei=333&fmt=png-alpha&.v=1645574660944","https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/iphonese-digitalmat-gallery-2-202203?wid=364&hei=333&fmt=jpeg&qlt=95&.v=1646075827246","https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/iphonese-digitalmat-gallery-4-202203?wid=364&hei=333&fmt=png-alpha&.v=1644987579760","https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/iphonese-digitalmat-gallery-5-202203?wid=364&hei=333&fmt=png-alpha&.v=1644987579701" ],
+      "memory": ["4 GB","6 GB","8 GB"],
+      "storage": ["256 GB","512 GB","1 TB","2 TB"]
+    },
+    {
+      "title": "APPLE iPhone 11 Pro Max (Midnight Green, 256 GB)",
+      "category": "iphone",
+      "image": "https://www.flipkart.com/apple-iphone-11-pro-max-midnight-green-256-gb/p/itm68e0db18f9ecc?pid=MOBFKCTSCAAKGQV7",
+      "price": 799,
+      "specs": ["Apple M2 chip with 8‑core CPU, 8‑core GPU, 16‑core Neural Engine","unified memory","SSD storage","13.6-inch Liquid Retina display with True Tone","1080p FaceTime HD camera","MagSafe 3 charging port","Two Thunderbolt / USB 4 ports","30W USB-C Power Adapter","Backlit Magic Keyboard with Touch ID - US English"   ],
+      "dtlimage": ["https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/iphonese-digitalmat-gallery-1-202203_GEO_EMEA?wid=364&hei=333&fmt=png-alpha&.v=1645574660944","https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/iphonese-digitalmat-gallery-2-202203?wid=364&hei=333&fmt=jpeg&qlt=95&.v=1646075827246","https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/iphonese-digitalmat-gallery-4-202203?wid=364&hei=333&fmt=png-alpha&.v=1644987579760","https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/iphonese-digitalmat-gallery-5-202203?wid=364&hei=333&fmt=png-alpha&.v=1644987579701" ],
+      "memory": ["4 GB","6 GB","8 GB"],
+      "storage": ["256 GB","512 GB","1 TB","2 TB"]
+    },
+    {
+      "title": "APPLE iPhone 11 Pro Max (Space Grey, 64 GB)",
+      "category": "iphone",
+      "image": "https://www.flipkart.com/apple-iphone-11-pro-max-space-grey-64-gb/p/itme0101031155f8?pid=MOBFKCTSKDMKCGQS",
+      "price": 999,
+      "specs": ["Apple M2 chip with 8‑core CPU, 8‑core GPU, 16‑core Neural Engine","unified memory","SSD storage","13.6-inch Liquid Retina display with True Tone","1080p FaceTime HD camera","MagSafe 3 charging port","Two Thunderbolt / USB 4 ports","30W USB-C Power Adapter","Backlit Magic Keyboard with Touch ID - US English"   ],
+      "dtlimage": ["https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/iphonese-digitalmat-gallery-1-202203_GEO_EMEA?wid=364&hei=333&fmt=png-alpha&.v=1645574660944","https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/iphonese-digitalmat-gallery-2-202203?wid=364&hei=333&fmt=jpeg&qlt=95&.v=1646075827246","https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/iphonese-digitalmat-gallery-4-202203?wid=364&hei=333&fmt=png-alpha&.v=1644987579760","https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/iphonese-digitalmat-gallery-5-202203?wid=364&hei=333&fmt=png-alpha&.v=1644987579701" ],
+      "memory": ["4 GB","6 GB","8 GB"],
+      "storage": ["256 GB","512 GB","1 TB","2 TB"]
+    },
+    {
+      "title": "APPLE iPhone 11 Pro (Midnight Green, 64 GB)",
+      "category": "iphone",
+      "image": "https://www.flipkart.com/apple-iphone-11-pro-midnight-green-64-gb/p/itm471de0d2e8474?pid=MOBFKCTSN3TG3RFJ",
+      "price": 799,
+      "specs": ["Apple M2 chip with 8‑core CPU, 8‑core GPU, 16‑core Neural Engine","unified memory","SSD storage","13.6-inch Liquid Retina display with True Tone","1080p FaceTime HD camera","MagSafe 3 charging port","Two Thunderbolt / USB 4 ports","30W USB-C Power Adapter","Backlit Magic Keyboard with Touch ID - US English"   ],
+      "dtlimage": ["https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/iphone13-digitalmat-gallery-1-202203_GEO_EMEA?wid=364&hei=333&fmt=png-alpha&.v=1677662648570","https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/iphone13-digitalmat-gallery-2-202203?wid=364&hei=333&fmt=png-alpha&.v=1644988764167","https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/iphone13-digitalmat-gallery-3-202203?wid=364&hei=333&fmt=png-alpha&.v=1644988765122","https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/iphone13-digitalmat-gallery-6-202203?wid=364&hei=333&fmt=png-alpha&.v=1644988764137" ],
+      "memory": ["4 GB","6 GB","8 GB"],
+      "storage": ["256 GB","512 GB","1 TB","2 TB"]
+    },
+    {
+      "title": "APPLE iPhone 11 Pro (Space Grey, 512 GB)",
+      "category": "iphone",
+      "image": "https://www.flipkart.com/apple-iphone-11-pro-space-grey-512-gb/p/itmcd1f0ddbf1c21?pid=MOBFKCTSRTHRQTFT",
+      "price": 429,
+      "specs": ["Apple M2 chip with 8‑core CPU, 8‑core GPU, 16‑core Neural Engine","unified memory","SSD storage","13.6-inch Liquid Retina display with True Tone","1080p FaceTime HD camera","MagSafe 3 charging port","Two Thunderbolt / USB 4 ports","30W USB-C Power Adapter","Backlit Magic Keyboard with Touch ID - US English"   ],
+      "dtlimage": ["https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/iphone13-digitalmat-gallery-1-202203_GEO_EMEA?wid=364&hei=333&fmt=png-alpha&.v=1677662648570","https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/iphone13-digitalmat-gallery-2-202203?wid=364&hei=333&fmt=png-alpha&.v=1644988764167","https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/iphone13-digitalmat-gallery-3-202203?wid=364&hei=333&fmt=png-alpha&.v=1644988765122","https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/iphone13-digitalmat-gallery-6-202203?wid=364&hei=333&fmt=png-alpha&.v=1644988764137" ],
+      "memory": ["4 GB","6 GB","8 GB"],
+      "storage": ["256 GB","512 GB","1 TB","2 TB"]
+    },
+    {
+      "title": "APPLE iPhone 11 Pro Max (Midnight Green, 64 GB)",
+      "category": "iphone",
+      "image": "https://www.flipkart.com/apple-iphone-11-pro-max-midnight-green-64-gb/p/itmab1763b5ca244?pid=MOBFKCTSRYPAQNYT",
+      "price": 999,
+      "specs": ["Apple M2 chip with 8‑core CPU, 8‑core GPU, 16‑core Neural Engine","unified memory","SSD storage","13.6-inch Liquid Retina display with True Tone","1080p FaceTime HD camera","MagSafe 3 charging port","Two Thunderbolt / USB 4 ports","30W USB-C Power Adapter","Backlit Magic Keyboard with Touch ID - US English"   ],
+      "dtlimage": ["https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/iphone12-digitalmat-gallery-1-202111?wid=364&hei=333&fmt=png-alpha&.v=1635980933000","https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/iphone12-digitalmat-gallery-2-202111?wid=364&hei=333&fmt=png-alpha&.v=1635178709000","https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/iphone12-digitalmat-gallery-3-202111?wid=364&hei=333&fmt=png-alpha&.v=1636673254000","https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/iphone12-digitalmat-gallery-6-202111?wid=364&hei=333&fmt=png-alpha&.v=1635178710000" ],
+      "memory": ["4 GB","6 GB","8 GB"],
+      "storage": ["256 GB","512 GB","1 TB","2 TB"]
+    },
+    {
+      "title": "APPLE iPhone 11 Pro (Midnight Green, 512 GB)",
+      "category": "iphone",
+      "image": "https://www.flipkart.com/apple-iphone-11-pro-midnight-green-512-gb/p/itm0bdd954387ca9?pid=MOBFKCTSSJCWYGCC",
+      "price": 999,
+      "specs": ["Apple M2 chip with 8‑core CPU, 8‑core GPU, 16‑core Neural Engine","unified memory","SSD storage","13.6-inch Liquid Retina display with True Tone","1080p FaceTime HD camera","MagSafe 3 charging port","Two Thunderbolt / USB 4 ports","30W USB-C Power Adapter","Backlit Magic Keyboard with Touch ID - US English"   ],
+      "dtlimage": ["https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/iphonese-digitalmat-gallery-1-202203_GEO_EMEA?wid=364&hei=333&fmt=png-alpha&.v=1645574660944","https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/iphonese-digitalmat-gallery-2-202203?wid=364&hei=333&fmt=jpeg&qlt=95&.v=1646075827246","https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/iphonese-digitalmat-gallery-4-202203?wid=364&hei=333&fmt=png-alpha&.v=1644987579760","https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/iphonese-digitalmat-gallery-5-202203?wid=364&hei=333&fmt=png-alpha&.v=1644987579701" ],
+      "memory": ["4 GB","6 GB","8 GB"],
+      "storage": ["256 GB","512 GB","1 TB","2 TB"]
+    },
+    {
+      "title": "APPLE iPhone 11 Pro (Space Grey, 256 GB)",
+      "category": "iphone",
+      "image": "https://www.flipkart.com/apple-iphone-11-pro-space-grey-256-gb/p/itmbecef22a95790?pid=MOBFKCTSWGYSAS9X",
+      "price": 799,
+      "specs": ["Apple M2 chip with 8‑core CPU, 8‑core GPU, 16‑core Neural Engine","unified memory","SSD storage","13.6-inch Liquid Retina display with True Tone","1080p FaceTime HD camera","MagSafe 3 charging port","Two Thunderbolt / USB 4 ports","30W USB-C Power Adapter","Backlit Magic Keyboard with Touch ID - US English"   ],
+      "dtlimage": ["https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/iphone12-digitalmat-gallery-1-202111?wid=364&hei=333&fmt=png-alpha&.v=1635980933000","https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/iphone12-digitalmat-gallery-2-202111?wid=364&hei=333&fmt=png-alpha&.v=1635178709000","https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/iphone12-digitalmat-gallery-3-202111?wid=364&hei=333&fmt=png-alpha&.v=1636673254000","https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/iphone12-digitalmat-gallery-6-202111?wid=364&hei=333&fmt=png-alpha&.v=1635178710000" ],
+      "memory": ["4 GB","6 GB","8 GB"],
+      "storage": ["256 GB","512 GB","1 TB","2 TB"]
+    },
+    {
+      "title": "Apple iPhone SE (White, 256 GB) (Includes EarPods, Power Adapter)",
+      "category": "iphone",
+      "image": "https://www.flipkart.com/apple-iphone-se-white-256-gb-includes-earpods-power-adapter/p/itm4d73793c30c4c?pid=MOBFRFXHPZCHAPEH",
+      "price": 599,
+      "specs": ["Apple M2 chip with 8‑core CPU, 8‑core GPU, 16‑core Neural Engine","unified memory","SSD storage","13.6-inch Liquid Retina display with True Tone","1080p FaceTime HD camera","MagSafe 3 charging port","Two Thunderbolt / USB 4 ports","30W USB-C Power Adapter","Backlit Magic Keyboard with Touch ID - US English"   ],
+      "dtlimage": ["https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/iphonese-digitalmat-gallery-1-202203_GEO_EMEA?wid=364&hei=333&fmt=png-alpha&.v=1645574660944","https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/iphonese-digitalmat-gallery-2-202203?wid=364&hei=333&fmt=jpeg&qlt=95&.v=1646075827246","https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/iphonese-digitalmat-gallery-4-202203?wid=364&hei=333&fmt=png-alpha&.v=1644987579760","https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/iphonese-digitalmat-gallery-5-202203?wid=364&hei=333&fmt=png-alpha&.v=1644987579701" ],
+      "memory": ["4 GB","6 GB","8 GB"],
+      "storage": ["256 GB","512 GB","1 TB","2 TB"]
+    },
+    {
+      "title": "APPLE iPhone 12 Pro (Silver, 512 GB)",
+      "category": "iphone",
+      "image": "https://www.flipkart.com/apple-iphone-12-pro-silver-512-gb/p/itm0ccf9fc219a71?pid=MOBFWBYZ5UY6ZBVA",
+      "price": 999,
+      "specs": ["Apple M2 chip with 8‑core CPU, 8‑core GPU, 16‑core Neural Engine","unified memory","SSD storage","13.6-inch Liquid Retina display with True Tone","1080p FaceTime HD camera","MagSafe 3 charging port","Two Thunderbolt / USB 4 ports","30W USB-C Power Adapter","Backlit Magic Keyboard with Touch ID - US English"   ],
+      "dtlimage": ["https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/iphonese-digitalmat-gallery-1-202203_GEO_EMEA?wid=364&hei=333&fmt=png-alpha&.v=1645574660944","https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/iphonese-digitalmat-gallery-2-202203?wid=364&hei=333&fmt=jpeg&qlt=95&.v=1646075827246","https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/iphonese-digitalmat-gallery-4-202203?wid=364&hei=333&fmt=png-alpha&.v=1644987579760","https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/iphonese-digitalmat-gallery-5-202203?wid=364&hei=333&fmt=png-alpha&.v=1644987579701" ],
+      "memory": ["4 GB","6 GB","8 GB"],
+      "storage": ["256 GB","512 GB","1 TB","2 TB"]
+    },
+    {
+      "title": "APPLE iPhone 12 Pro Max (Pacific Blue, 256 GB)",
+      "category": "iphone",
+      "image": "https://www.flipkart.com/apple-iphone-12-pro-max-pacific-blue-256-gb/p/itm3a0860c94250e?pid=MOBFWBYZ8STJXCVT",
+      "price": 799,
+      "specs": ["Apple M2 chip with 8‑core CPU, 8‑core GPU, 16‑core Neural Engine","unified memory","SSD storage","13.6-inch Liquid Retina display with True Tone","1080p FaceTime HD camera","MagSafe 3 charging port","Two Thunderbolt / USB 4 ports","30W USB-C Power Adapter","Backlit Magic Keyboard with Touch ID - US English"   ],
+      "dtlimage": ["https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/iphone13-digitalmat-gallery-1-202203_GEO_EMEA?wid=364&hei=333&fmt=png-alpha&.v=1677662648570","https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/iphone13-digitalmat-gallery-2-202203?wid=364&hei=333&fmt=png-alpha&.v=1644988764167","https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/iphone13-digitalmat-gallery-3-202203?wid=364&hei=333&fmt=png-alpha&.v=1644988765122","https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/iphone13-digitalmat-gallery-6-202203?wid=364&hei=333&fmt=png-alpha&.v=1644988764137" ],
+      "memory": ["4 GB","6 GB","8 GB"],
+      "storage": ["256 GB","512 GB","1 TB","2 TB"]
+    },
+    {
+      "title": "APPLE iPhone 12 Mini (White, 128 GB)",
+      "category": "iphone",
+      "image": "https://www.flipkart.com/apple-iphone-12-mini-white-128-gb/p/itm9098fa76548ba?pid=MOBFWBYZAGXJRDGB",
+      "price": 999,
+      "specs": ["Apple M2 chip with 8‑core CPU, 8‑core GPU, 16‑core Neural Engine","unified memory","SSD storage","13.6-inch Liquid Retina display with True Tone","1080p FaceTime HD camera","MagSafe 3 charging port","Two Thunderbolt / USB 4 ports","30W USB-C Power Adapter","Backlit Magic Keyboard with Touch ID - US English"   ],
+      "dtlimage": ["https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/iphone13-digitalmat-gallery-1-202203_GEO_EMEA?wid=364&hei=333&fmt=png-alpha&.v=1677662648570","https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/iphone13-digitalmat-gallery-2-202203?wid=364&hei=333&fmt=png-alpha&.v=1644988764167","https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/iphone13-digitalmat-gallery-3-202203?wid=364&hei=333&fmt=png-alpha&.v=1644988765122","https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/iphone13-digitalmat-gallery-6-202203?wid=364&hei=333&fmt=png-alpha&.v=1644988764137" ],
+      "memory": ["4 GB","6 GB","8 GB"],
+      "storage": ["256 GB","512 GB","1 TB","2 TB"]
+    },
+    {
+      "title": "APPLE iPhone 12 Pro (Graphite, 256 GB)",
+      "category": "iphone",
+      "image": "https://www.flipkart.com/apple-iphone-12-pro-graphite-256-gb/p/itm4fa4da575698c?pid=MOBFWBYZBA36UB7G",
+      "price": 999,
+      "specs": ["Apple M2 chip with 8‑core CPU, 8‑core GPU, 16‑core Neural Engine","unified memory","SSD storage","13.6-inch Liquid Retina display with True Tone","1080p FaceTime HD camera","MagSafe 3 charging port","Two Thunderbolt / USB 4 ports","30W USB-C Power Adapter","Backlit Magic Keyboard with Touch ID - US English"   ],
+      "dtlimage": ["https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/iphonese-digitalmat-gallery-1-202203_GEO_EMEA?wid=364&hei=333&fmt=png-alpha&.v=1645574660944","https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/iphonese-digitalmat-gallery-2-202203?wid=364&hei=333&fmt=jpeg&qlt=95&.v=1646075827246","https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/iphonese-digitalmat-gallery-4-202203?wid=364&hei=333&fmt=png-alpha&.v=1644987579760","https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/iphonese-digitalmat-gallery-5-202203?wid=364&hei=333&fmt=png-alpha&.v=1644987579701" ],
+      "memory": ["4 GB","6 GB","8 GB"],
+      "storage": ["256 GB","512 GB","1 TB","2 TB"]
+    },
+    {
+      "title": "APPLE iPhone 12 Mini (White, 64 GB)",
+      "category": "iphone",
+      "image": "https://www.flipkart.com/apple-iphone-12-mini-white-64-gb/p/itmf3b16d1640898?pid=MOBFWBYZBH4CEC4C",
+      "price": 799,
+      "specs": ["Apple M2 chip with 8‑core CPU, 8‑core GPU, 16‑core Neural Engine","unified memory","SSD storage","13.6-inch Liquid Retina display with True Tone","1080p FaceTime HD camera","MagSafe 3 charging port","Two Thunderbolt / USB 4 ports","30W USB-C Power Adapter","Backlit Magic Keyboard with Touch ID - US English"   ],
+      "dtlimage": ["https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/iphone12-digitalmat-gallery-1-202111?wid=364&hei=333&fmt=png-alpha&.v=1635980933000","https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/iphone12-digitalmat-gallery-2-202111?wid=364&hei=333&fmt=png-alpha&.v=1635178709000","https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/iphone12-digitalmat-gallery-3-202111?wid=364&hei=333&fmt=png-alpha&.v=1636673254000","https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/iphone12-digitalmat-gallery-6-202111?wid=364&hei=333&fmt=png-alpha&.v=1635178710000" ],
+      "memory": ["4 GB","6 GB","8 GB"],
+      "storage": ["256 GB","512 GB","1 TB","2 TB"]
+    },
+    {
+      "title": "APPLE iPhone 12 (White, 128 GB)",
+      "category": "iphone",
+      "image": "https://www.flipkart.com/apple-iphone-12-white-128-gb/p/itm95393f4c6cc59?pid=MOBFWBYZBTZFGJF9",
+      "price": 429,
+      "specs": ["Apple M2 chip with 8‑core CPU, 8‑core GPU, 16‑core Neural Engine","unified memory","SSD storage","13.6-inch Liquid Retina display with True Tone","1080p FaceTime HD camera","MagSafe 3 charging port","Two Thunderbolt / USB 4 ports","30W USB-C Power Adapter","Backlit Magic Keyboard with Touch ID - US English"   ],
+      "dtlimage": ["https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/proxdr-digitalmat-gallery-2-202111?wid=364&hei=333&fmt=jpeg&qlt=95&.v=1635206790000","https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/proxdr-digitalmat-gallery-3-202111?wid=364&hei=333&fmt=png-alpha&.v=1635206789000","https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/proxdr-digitalmat-gallery-4-202111?wid=364&hei=333&fmt=jpeg&qlt=95&.v=1635206789000","https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/proxdr-digitalmat-gallery-5-202111?wid=364&hei=333&fmt=jpeg&qlt=95&.v=1635206791000" ],
+      "memory": ["4 GB","6 GB","8 GB"],
+      "storage": ["256 GB","512 GB","1 TB","2 TB"]
+    },
+    {
+      "title": "APPLE iPhone 12 Pro (Graphite, 128 GB)",
+      "category": "iphone",
+      "image": "https://www.flipkart.com/apple-iphone-12-pro-graphite-128-gb/p/itm03e5f2595d843?pid=MOBFWBYZBZ7Y56WD",
+      "price": 999,
+      "specs": ["Apple M2 chip with 8‑core CPU, 8‑core GPU, 16‑core Neural Engine","unified memory","SSD storage","13.6-inch Liquid Retina display with True Tone","1080p FaceTime HD camera","MagSafe 3 charging port","Two Thunderbolt / USB 4 ports","30W USB-C Power Adapter","Backlit Magic Keyboard with Touch ID - US English"   ],
+      "dtlimage": ["https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/iphonese-digitalmat-gallery-1-202203_GEO_EMEA?wid=364&hei=333&fmt=png-alpha&.v=1645574660944","https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/iphonese-digitalmat-gallery-2-202203?wid=364&hei=333&fmt=jpeg&qlt=95&.v=1646075827246","https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/iphonese-digitalmat-gallery-4-202203?wid=364&hei=333&fmt=png-alpha&.v=1644987579760","https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/iphonese-digitalmat-gallery-5-202203?wid=364&hei=333&fmt=png-alpha&.v=1644987579701" ],
+      "memory": ["4 GB","6 GB","8 GB"],
+      "storage": ["256 GB","512 GB","1 TB","2 TB"]
+    },
+    {
+      "title": "APPLE iPhone 12 Pro Max (Graphite, 256 GB)",
+      "category": "iphone",
+      "image": "https://www.flipkart.com/apple-iphone-12-pro-max-graphite-256-gb/p/itm8dbdf0b986725?pid=MOBFWBYZEF6XQ5ZW",
+      "price": 799,
+      "specs": ["Apple M2 chip with 8‑core CPU, 8‑core GPU, 16‑core Neural Engine","unified memory","SSD storage","13.6-inch Liquid Retina display with True Tone","1080p FaceTime HD camera","MagSafe 3 charging port","Two Thunderbolt / USB 4 ports","30W USB-C Power Adapter","Backlit Magic Keyboard with Touch ID - US English"   ],
+      "dtlimage": ["https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/iphone14pro-digitalmat-gallery-1-202209_GEO_EMEA?wid=364&hei=333&fmt=png-alpha&.v=1676512691236","https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/iphone14pro-digitalmat-gallery-2-202209?wid=364&hei=333&fmt=png-alpha&.v=1660830896841","https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/iphone14pro-digitalmat-gallery-3-202209?wid=364&hei=333&fmt=png-alpha&.v=1663346233180","https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/iphone14pro-digitalmat-gallery-7-202209?wid=364&hei=333&fmt=png-alpha&.v=1661443551002" ],
+      "memory": ["4 GB","6 GB","8 GB"],
+      "storage": ["256 GB","512 GB","1 TB","2 TB"]
+    },
+    {
+      "title": "APPLE iPhone 12 Pro Max (Graphite, 128 GB)",
+      "category": "iphone",
+      "image": "https://www.flipkart.com/apple-iphone-12-pro-max-graphite-128-gb/p/itm973c298184f51?pid=MOBFWBYZFDGQSDWS",
+      "price": 599,
+      "specs": ["Apple M2 chip with 8‑core CPU, 8‑core GPU, 16‑core Neural Engine","unified memory","SSD storage","13.6-inch Liquid Retina display with True Tone","1080p FaceTime HD camera","MagSafe 3 charging port","Two Thunderbolt / USB 4 ports","30W USB-C Power Adapter","Backlit Magic Keyboard with Touch ID - US English"   ],
+      "dtlimage": ["https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/iphone13-digitalmat-gallery-1-202203_GEO_EMEA?wid=364&hei=333&fmt=png-alpha&.v=1677662648570","https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/iphone13-digitalmat-gallery-2-202203?wid=364&hei=333&fmt=png-alpha&.v=1644988764167","https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/iphone13-digitalmat-gallery-3-202203?wid=364&hei=333&fmt=png-alpha&.v=1644988765122","https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/iphone13-digitalmat-gallery-6-202203?wid=364&hei=333&fmt=png-alpha&.v=1644988764137" ],
+      "memory": ["4 GB","6 GB","8 GB"],
+      "storage": ["256 GB","512 GB","1 TB","2 TB"]
+    },
+    {
+      "title": "APPLE iPhone 12 Mini (Black, 128 GB)",
+      "category": "iphone",
+      "image": "https://www.flipkart.com/apple-iphone-12-mini-black-128-gb/p/itm0eb512c195bdf?pid=MOBFWBYZH2AMPNPD",
+      "price": 429,
+      "specs": ["Apple M2 chip with 8‑core CPU, 8‑core GPU, 16‑core Neural Engine","unified memory","SSD storage","13.6-inch Liquid Retina display with True Tone","1080p FaceTime HD camera","MagSafe 3 charging port","Two Thunderbolt / USB 4 ports","30W USB-C Power Adapter","Backlit Magic Keyboard with Touch ID - US English"   ],
+      "dtlimage": ["https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/iphone13-digitalmat-gallery-1-202203_GEO_EMEA?wid=364&hei=333&fmt=png-alpha&.v=1677662648570","https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/iphone13-digitalmat-gallery-2-202203?wid=364&hei=333&fmt=png-alpha&.v=1644988764167","https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/iphone13-digitalmat-gallery-3-202203?wid=364&hei=333&fmt=png-alpha&.v=1644988765122","https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/iphone13-digitalmat-gallery-6-202203?wid=364&hei=333&fmt=png-alpha&.v=1644988764137" ],
+      "memory": ["4 GB","6 GB","8 GB"],
+      "storage": ["256 GB","512 GB","1 TB","2 TB"]
+    },
+    {
+      "title": "APPLE iPhone 12 Mini (Blue, 128 GB)",
+      "category": "iphone",
+      "image": "https://www.flipkart.com/apple-iphone-12-mini-blue-128-gb/p/itm9b6cdec9700ee?pid=MOBFWBYZHU58PHCZ",
+      "price": 799,
+      "specs": ["Apple M2 chip with 8‑core CPU, 8‑core GPU, 16‑core Neural Engine","unified memory","SSD storage","13.6-inch Liquid Retina display with True Tone","1080p FaceTime HD camera","MagSafe 3 charging port","Two Thunderbolt / USB 4 ports","30W USB-C Power Adapter","Backlit Magic Keyboard with Touch ID - US English"   ],
+      "dtlimage": ["https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/iphone12-digitalmat-gallery-1-202111?wid=364&hei=333&fmt=png-alpha&.v=1635980933000","https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/iphone12-digitalmat-gallery-2-202111?wid=364&hei=333&fmt=png-alpha&.v=1635178709000","https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/iphone12-digitalmat-gallery-3-202111?wid=364&hei=333&fmt=png-alpha&.v=1636673254000","https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/iphone12-digitalmat-gallery-6-202111?wid=364&hei=333&fmt=png-alpha&.v=1635178710000" ],
+      "memory": ["4 GB","6 GB","8 GB"],
+      "storage": ["256 GB","512 GB","1 TB","2 TB"]
+    },
+    {
+      "title": "APPLE iPhone 12 (Black, 128 GB)",
+      "category": "iphone",
+      "image": "https://www.flipkart.com/apple-iphone-12-black-128-gb/p/itmf1f0a58f1ecd7?pid=MOBFWBYZK3HACR72",
+      "price": 599,
+      "specs": ["Apple M2 chip with 8‑core CPU, 8‑core GPU, 16‑core Neural Engine","unified memory","SSD storage","13.6-inch Liquid Retina display with True Tone","1080p FaceTime HD camera","MagSafe 3 charging port","Two Thunderbolt / USB 4 ports","30W USB-C Power Adapter","Backlit Magic Keyboard with Touch ID - US English"   ],
+      "dtlimage": ["https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/iphone13-digitalmat-gallery-1-202203_GEO_EMEA?wid=364&hei=333&fmt=png-alpha&.v=1677662648570","https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/iphone13-digitalmat-gallery-2-202203?wid=364&hei=333&fmt=png-alpha&.v=1644988764167","https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/iphone13-digitalmat-gallery-3-202203?wid=364&hei=333&fmt=png-alpha&.v=1644988765122","https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/iphone13-digitalmat-gallery-6-202203?wid=364&hei=333&fmt=png-alpha&.v=1644988764137" ],
+      "memory": ["4 GB","6 GB","8 GB"],
+      "storage": ["256 GB","512 GB","1 TB","2 TB"]
+    },
+    {
+      "title": "APPLE iPhone 12 (Black, 128 GB)",
+      "category": "iphone",
+      "image": "https://www.flipkart.com/apple-iphone-12-blue-128-gb/p/itm02853ae92e90a?pid=MOBFWBYZKPTZF9VG",
+      "price": 999,
+      "specs": ["Apple M2 chip with 8‑core CPU, 8‑core GPU, 16‑core Neural Engine","unified memory","SSD storage","13.6-inch Liquid Retina display with True Tone","1080p FaceTime HD camera","MagSafe 3 charging port","Two Thunderbolt / USB 4 ports","30W USB-C Power Adapter","Backlit Magic Keyboard with Touch ID - US English"   ],
+      "dtlimage": ["https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/iphone13-digitalmat-gallery-1-202203_GEO_EMEA?wid=364&hei=333&fmt=png-alpha&.v=1677662648570","https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/iphone13-digitalmat-gallery-2-202203?wid=364&hei=333&fmt=png-alpha&.v=1644988764167","https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/iphone13-digitalmat-gallery-3-202203?wid=364&hei=333&fmt=png-alpha&.v=1644988765122","https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/iphone13-digitalmat-gallery-6-202203?wid=364&hei=333&fmt=png-alpha&.v=1644988764137" ],
+      "memory": ["4 GB","6 GB","8 GB"],
+      "storage": ["256 GB","512 GB","1 TB","2 TB"]
+    },
+    {
+      "title": "APPLE iPhone 12 (Black, 128 GB)",
+      "category": "iphone",
+      "image": "https://www.flipkart.com/apple-iphone-12-pro-max-silver-128-gb/p/itm5a51ba742a17e?pid=MOBFWBYZNSNVGGZC",
+      "price": 429,
+      "specs": ["Apple M2 chip with 8‑core CPU, 8‑core GPU, 16‑core Neural Engine","unified memory","SSD storage","13.6-inch Liquid Retina display with True Tone","1080p FaceTime HD camera","MagSafe 3 charging port","Two Thunderbolt / USB 4 ports","30W USB-C Power Adapter","Backlit Magic Keyboard with Touch ID - US English"   ],
+      "dtlimage": ["https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/iphone12-digitalmat-gallery-1-202111?wid=364&hei=333&fmt=png-alpha&.v=1635980933000","https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/iphone12-digitalmat-gallery-2-202111?wid=364&hei=333&fmt=png-alpha&.v=1635178709000","https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/iphone12-digitalmat-gallery-3-202111?wid=364&hei=333&fmt=png-alpha&.v=1636673254000","https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/iphone12-digitalmat-gallery-6-202111?wid=364&hei=333&fmt=png-alpha&.v=1635178710000" ],
+      "memory": ["4 GB","6 GB","8 GB"],
+      "storage": ["256 GB","512 GB","1 TB","2 TB"]
+    },
+    {
+      "title": "APPLE iPhone 12 (Black, 128 GB)",
+      "category": "iphone",
+      "image": "https://www.flipkart.com/apple-iphone-12-mini-red-64-gb/p/itm255dd64643767?pid=MOBFWBYZNVWGWN2U",
+      "price": 599,
+      "specs": ["Apple M2 chip with 8‑core CPU, 8‑core GPU, 16‑core Neural Engine","unified memory","SSD storage","13.6-inch Liquid Retina display with True Tone","1080p FaceTime HD camera","MagSafe 3 charging port","Two Thunderbolt / USB 4 ports","30W USB-C Power Adapter","Backlit Magic Keyboard with Touch ID - US English"   ],
+      "dtlimage": ["https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/iphone13-digitalmat-gallery-1-202203_GEO_EMEA?wid=364&hei=333&fmt=png-alpha&.v=1677662648570","https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/iphone13-digitalmat-gallery-2-202203?wid=364&hei=333&fmt=png-alpha&.v=1644988764167","https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/iphone13-digitalmat-gallery-3-202203?wid=364&hei=333&fmt=png-alpha&.v=1644988765122","https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/iphone13-digitalmat-gallery-6-202203?wid=364&hei=333&fmt=png-alpha&.v=1644988764137" ],
+      "memory": ["4 GB","6 GB","8 GB"],
+      "storage": ["256 GB","512 GB","1 TB","2 TB"]
+    },
+    {
+      "title": "APPLE iPhone 12 (Black, 128 GB)",
+      "category": "iphone",
+      "image": "https://www.flipkart.com/apple-iphone-12-pro-max-gold-128-gb/p/itme3ae592065711?pid=MOBFWBYZQVKT77YH",
+      "price": 799,
+      "specs": ["Apple M2 chip with 8‑core CPU, 8‑core GPU, 16‑core Neural Engine","unified memory","SSD storage","13.6-inch Liquid Retina display with True Tone","1080p FaceTime HD camera","MagSafe 3 charging port","Two Thunderbolt / USB 4 ports","30W USB-C Power Adapter","Backlit Magic Keyboard with Touch ID - US English"   ],
+      "dtlimage": ["https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/iphonese-digitalmat-gallery-1-202203_GEO_EMEA?wid=364&hei=333&fmt=png-alpha&.v=1645574660944","https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/iphonese-digitalmat-gallery-2-202203?wid=364&hei=333&fmt=jpeg&qlt=95&.v=1646075827246","https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/iphonese-digitalmat-gallery-4-202203?wid=364&hei=333&fmt=png-alpha&.v=1644987579760","https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/iphonese-digitalmat-gallery-5-202203?wid=364&hei=333&fmt=png-alpha&.v=1644987579701" ],
+      "memory": ["4 GB","6 GB","8 GB"],
+      "storage": ["256 GB","512 GB","1 TB","2 TB"]
+    },
+    {
+      "title": "APPLE iPhone 12 (Black, 128 GB)",
+      "category": "iphone",
+      "image": "https://www.flipkart.com/apple-iphone-12-green-128-gb/p/itm4e0a120f7d9c4?pid=MOBFWBYZQXUEHF48",
+      "price": 599,
+      "specs": ["Apple M2 chip with 8‑core CPU, 8‑core GPU, 16‑core Neural Engine","unified memory","SSD storage","13.6-inch Liquid Retina display with True Tone","1080p FaceTime HD camera","MagSafe 3 charging port","Two Thunderbolt / USB 4 ports","30W USB-C Power Adapter","Backlit Magic Keyboard with Touch ID - US English"   ],
+      "dtlimage": ["https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/iphone12-digitalmat-gallery-1-202111?wid=364&hei=333&fmt=png-alpha&.v=1635980933000","https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/iphone12-digitalmat-gallery-2-202111?wid=364&hei=333&fmt=png-alpha&.v=1635178709000","https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/iphone12-digitalmat-gallery-3-202111?wid=364&hei=333&fmt=png-alpha&.v=1636673254000","https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/iphone12-digitalmat-gallery-6-202111?wid=364&hei=333&fmt=png-alpha&.v=1635178710000" ],
+      "memory": ["4 GB","6 GB","8 GB"],
+      "storage": ["256 GB","512 GB","1 TB","2 TB"]
+    },
+    {
+      "title": "APPLE iPhone 12 (Black, 128 GB)",
+      "category": "iphone",
+      "image": "https://www.flipkart.com/apple-iphone-12-pro-pacific-blue-512-gb/p/itm8a39d6779b04e?pid=MOBFWBYZTHSXKMGW",
+      "price": 999,
+      "specs": ["Apple M2 chip with 8‑core CPU, 8‑core GPU, 16‑core Neural Engine","unified memory","SSD storage","13.6-inch Liquid Retina display with True Tone","1080p FaceTime HD camera","MagSafe 3 charging port","Two Thunderbolt / USB 4 ports","30W USB-C Power Adapter","Backlit Magic Keyboard with Touch ID - US English"   ],
+      "dtlimage": ["https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/proxdr-digitalmat-gallery-2-202111?wid=364&hei=333&fmt=jpeg&qlt=95&.v=1635206790000","https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/proxdr-digitalmat-gallery-3-202111?wid=364&hei=333&fmt=png-alpha&.v=1635206789000","https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/proxdr-digitalmat-gallery-4-202111?wid=364&hei=333&fmt=jpeg&qlt=95&.v=1635206789000","https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/proxdr-digitalmat-gallery-5-202111?wid=364&hei=333&fmt=jpeg&qlt=95&.v=1635206791000" ],
+      "memory": ["4 GB","6 GB","8 GB"],
+      "storage": ["256 GB","512 GB","1 TB","2 TB"]
+    },
+    {
+      "title": "APPLE iPhone 12 (Black, 128 GB)",
+      "category": "iphone",
+      "image": "https://www.flipkart.com/apple-iphone-12-white-64-gb/p/itm8b88bdc03cd79?pid=MOBFWBYZTK33MBG9",
+      "price": 799,
+      "specs": ["Apple M2 chip with 8‑core CPU, 8‑core GPU, 16‑core Neural Engine","unified memory","SSD storage","13.6-inch Liquid Retina display with True Tone","1080p FaceTime HD camera","MagSafe 3 charging port","Two Thunderbolt / USB 4 ports","30W USB-C Power Adapter","Backlit Magic Keyboard with Touch ID - US English"   ],
+      "dtlimage": ["https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/iphone14pro-digitalmat-gallery-1-202209_GEO_EMEA?wid=364&hei=333&fmt=png-alpha&.v=1676512691236","https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/iphone14pro-digitalmat-gallery-2-202209?wid=364&hei=333&fmt=png-alpha&.v=1660830896841","https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/iphone14pro-digitalmat-gallery-3-202209?wid=364&hei=333&fmt=png-alpha&.v=1663346233180","https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/iphone14pro-digitalmat-gallery-7-202209?wid=364&hei=333&fmt=png-alpha&.v=1661443551002" ],
+      "memory": ["4 GB","6 GB","8 GB"],
+      "storage": ["256 GB","512 GB","1 TB","2 TB"]
+    },
+    {
+      "title": "APPLE iPhone 12 (Black, 128 GB)",
+      "category": "iphone",
+      "image": "https://www.flipkart.com/apple-iphone-12-black-64-gb/p/itma2559422bf7c7?pid=MOBFWBYZU5FWK2VP",
+      "price": 999,
+      "specs": ["Apple M2 chip with 8‑core CPU, 8‑core GPU, 16‑core Neural Engine","unified memory","SSD storage","13.6-inch Liquid Retina display with True Tone","1080p FaceTime HD camera","MagSafe 3 charging port","Two Thunderbolt / USB 4 ports","30W USB-C Power Adapter","Backlit Magic Keyboard with Touch ID - US English"   ],
+      "dtlimage": ["https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/iphone12-digitalmat-gallery-1-202111?wid=364&hei=333&fmt=png-alpha&.v=1635980933000","https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/iphone12-digitalmat-gallery-2-202111?wid=364&hei=333&fmt=png-alpha&.v=1635178709000","https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/iphone12-digitalmat-gallery-3-202111?wid=364&hei=333&fmt=png-alpha&.v=1636673254000","https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/iphone12-digitalmat-gallery-6-202111?wid=364&hei=333&fmt=png-alpha&.v=1635178710000" ],
+      "memory": ["4 GB","6 GB","8 GB"],
+      "storage": ["256 GB","512 GB","1 TB","2 TB"]
+    },
+    {
+      "title": "APPLE iPhone 12 (Black, 128 GB)",
+      "category": "iphone",
+      "image": "https://www.flipkart.com/apple-iphone-12-red-128-gb/p/itma7bd86885ed98?pid=MOBFWBYZUHPFWQRD",
+      "price": 599,
+      "specs": ["Apple M2 chip with 8‑core CPU, 8‑core GPU, 16‑core Neural Engine","unified memory","SSD storage","13.6-inch Liquid Retina display with True Tone","1080p FaceTime HD camera","MagSafe 3 charging port","Two Thunderbolt / USB 4 ports","30W USB-C Power Adapter","Backlit Magic Keyboard with Touch ID - US English"   ],
+      "dtlimage": ["https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/iphonese-digitalmat-gallery-1-202203_GEO_EMEA?wid=364&hei=333&fmt=png-alpha&.v=1645574660944","https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/iphonese-digitalmat-gallery-2-202203?wid=364&hei=333&fmt=jpeg&qlt=95&.v=1646075827246","https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/iphonese-digitalmat-gallery-4-202203?wid=364&hei=333&fmt=png-alpha&.v=1644987579760","https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/iphonese-digitalmat-gallery-5-202203?wid=364&hei=333&fmt=png-alpha&.v=1644987579701" ],
+      "memory": ["4 GB","6 GB","8 GB"],
+      "storage": ["256 GB","512 GB","1 TB","2 TB"]
+    },
+    {
+      "title": "APPLE iPhone 12 (Black, 128 GB)",
+      "category": "iphone",
+      "image": "https://www.flipkart.com/apple-iphone-12-mini-black-64-gb/p/itm38b727191eb08?pid=MOBFWBYZXSEGBS6F",
+      "price": 799,
+      "specs": ["Apple M2 chip with 8‑core CPU, 8‑core GPU, 16‑core Neural Engine","unified memory","SSD storage","13.6-inch Liquid Retina display with True Tone","1080p FaceTime HD camera","MagSafe 3 charging port","Two Thunderbolt / USB 4 ports","30W USB-C Power Adapter","Backlit Magic Keyboard with Touch ID - US English"   ],
+      "dtlimage": ["https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/iphonese-digitalmat-gallery-1-202203_GEO_EMEA?wid=364&hei=333&fmt=png-alpha&.v=1645574660944","https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/iphonese-digitalmat-gallery-2-202203?wid=364&hei=333&fmt=jpeg&qlt=95&.v=1646075827246","https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/iphonese-digitalmat-gallery-4-202203?wid=364&hei=333&fmt=png-alpha&.v=1644987579760","https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/iphonese-digitalmat-gallery-5-202203?wid=364&hei=333&fmt=png-alpha&.v=1644987579701" ],
+      "memory": ["4 GB","6 GB","8 GB"],
+      "storage": ["256 GB","512 GB","1 TB","2 TB"]
+    },
+    {
+      "title": "APPLE iPhone 12 (Black, 128 GB)",
+      "category": "iphone",
+      "image": "https://www.flipkart.com/apple-iphone-12-pro-pacific-blue-128-gb/p/itm97c833296c221?pid=MOBFWBYZXYSCEEEH",
+      "price": 429,
+      "specs": ["Apple M2 chip with 8‑core CPU, 8‑core GPU, 16‑core Neural Engine","unified memory","SSD storage","13.6-inch Liquid Retina display with True Tone","1080p FaceTime HD camera","MagSafe 3 charging port","Two Thunderbolt / USB 4 ports","30W USB-C Power Adapter","Backlit Magic Keyboard with Touch ID - US English"   ],
+      "dtlimage": ["https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/iphone14pro-digitalmat-gallery-1-202209_GEO_EMEA?wid=364&hei=333&fmt=png-alpha&.v=1676512691236","https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/iphone14pro-digitalmat-gallery-2-202209?wid=364&hei=333&fmt=png-alpha&.v=1660830896841","https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/iphone14pro-digitalmat-gallery-3-202209?wid=364&hei=333&fmt=png-alpha&.v=1663346233180","https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/iphone14pro-digitalmat-gallery-7-202209?wid=364&hei=333&fmt=png-alpha&.v=1661443551002" ],
+      "memory": ["4 GB","6 GB","8 GB"],
+      "storage": ["256 GB","512 GB","1 TB","2 TB"]
+    },
+    {
+      "title": "APPLE iPhone 12 (Black, 128 GB)",
+      "category": "iphone",
+      "image": "https://www.flipkart.com/apple-iphone-12-pro-max-pacific-blue-128-gb/p/itmd89812b558a03?pid=MOBFWBYZZABKHZQA",
+      "price": 999,
+      "specs": ["Apple M2 chip with 8‑core CPU, 8‑core GPU, 16‑core Neural Engine","unified memory","SSD storage","13.6-inch Liquid Retina display with True Tone","1080p FaceTime HD camera","MagSafe 3 charging port","Two Thunderbolt / USB 4 ports","30W USB-C Power Adapter","Backlit Magic Keyboard with Touch ID - US English"   ],
+      "dtlimage": ["https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/iphone13-digitalmat-gallery-1-202203_GEO_EMEA?wid=364&hei=333&fmt=png-alpha&.v=1677662648570","https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/iphone13-digitalmat-gallery-2-202203?wid=364&hei=333&fmt=png-alpha&.v=1644988764167","https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/iphone13-digitalmat-gallery-3-202203?wid=364&hei=333&fmt=png-alpha&.v=1644988765122","https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/iphone13-digitalmat-gallery-6-202203?wid=364&hei=333&fmt=png-alpha&.v=1644988764137" ],
+      "memory": ["4 GB","6 GB","8 GB"],
+      "storage": ["256 GB","512 GB","1 TB","2 TB"]
+    },
+    {
+      "title": "APPLE iPhone 12 (Black, 128 GB)",
+      "category": "iphone",
+      "image": "https://www.flipkart.com/apple-iphone-12-pro-max-silver-256-gb/p/itm30faf74442adb?pid=MOBFWBYZZH4AM8FE",
+      "price": 599,
+      "specs": ["Apple M2 chip with 8‑core CPU, 8‑core GPU, 16‑core Neural Engine","unified memory","SSD storage","13.6-inch Liquid Retina display with True Tone","1080p FaceTime HD camera","MagSafe 3 charging port","Two Thunderbolt / USB 4 ports","30W USB-C Power Adapter","Backlit Magic Keyboard with Touch ID - US English"   ],
+      "dtlimage": ["https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/iphone13-digitalmat-gallery-1-202203_GEO_EMEA?wid=364&hei=333&fmt=png-alpha&.v=1677662648570","https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/iphone13-digitalmat-gallery-2-202203?wid=364&hei=333&fmt=png-alpha&.v=1644988764167","https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/iphone13-digitalmat-gallery-3-202203?wid=364&hei=333&fmt=png-alpha&.v=1644988765122","https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/iphone13-digitalmat-gallery-6-202203?wid=364&hei=333&fmt=png-alpha&.v=1644988764137" ],
+      "memory": ["4 GB","6 GB","8 GB"],
+      "storage": ["256 GB","512 GB","1 TB","2 TB"]
+    },
+    {
+      "title": "APPLE iPhone 12 (Black, 128 GB)",
+      "category": "iphone",
+      "image": "https://www.flipkart.com/apple-iphone-12-pro-max-gold-256-gb/p/itm1e0354f5bbc8c?pid=MOBFWBYZZPW8JHQF",
+      "price": 429,
+      "specs": ["Apple M2 chip with 8‑core CPU, 8‑core GPU, 16‑core Neural Engine","unified memory","SSD storage","13.6-inch Liquid Retina display with True Tone","1080p FaceTime HD camera","MagSafe 3 charging port","Two Thunderbolt / USB 4 ports","30W USB-C Power Adapter","Backlit Magic Keyboard with Touch ID - US English"   ],
+      "dtlimage": ["https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/iphone12-digitalmat-gallery-1-202111?wid=364&hei=333&fmt=png-alpha&.v=1635980933000","https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/iphone12-digitalmat-gallery-2-202111?wid=364&hei=333&fmt=png-alpha&.v=1635178709000","https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/iphone12-digitalmat-gallery-3-202111?wid=364&hei=333&fmt=png-alpha&.v=1636673254000","https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/iphone12-digitalmat-gallery-6-202111?wid=364&hei=333&fmt=png-alpha&.v=1635178710000" ],
+      "memory": ["4 GB","6 GB","8 GB"],
+      "storage": ["256 GB","512 GB","1 TB","2 TB"]
+    },
+    {
+      "title": "APPLE iPhone 12 (Black, 128 GB)",
+      "category": "iphone",
+      "image": "https://www.flipkart.com/apple-iphone-11-white-128-gb/p/itme32df47ea6742?pid=MOBFWQ6B7KKRXDDS",
+      "price": 999,
+      "specs": ["Apple M2 chip with 8‑core CPU, 8‑core GPU, 16‑core Neural Engine","unified memory","SSD storage","13.6-inch Liquid Retina display with True Tone","1080p FaceTime HD camera","MagSafe 3 charging port","Two Thunderbolt / USB 4 ports","30W USB-C Power Adapter","Backlit Magic Keyboard with Touch ID - US English"   ],
+      "dtlimage": ["https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/iphone13-digitalmat-gallery-1-202203_GEO_EMEA?wid=364&hei=333&fmt=png-alpha&.v=1677662648570","https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/iphone13-digitalmat-gallery-2-202203?wid=364&hei=333&fmt=png-alpha&.v=1644988764167","https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/iphone13-digitalmat-gallery-3-202203?wid=364&hei=333&fmt=png-alpha&.v=1644988765122","https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/iphone13-digitalmat-gallery-6-202203?wid=364&hei=333&fmt=png-alpha&.v=1644988764137" ],
+      "memory": ["4 GB","6 GB","8 GB"],
+      "storage": ["256 GB","512 GB","1 TB","2 TB"]
+    },
+    {
+      "title": "APPLE iPhone 12 (Black, 128 GB)",
+      "category": "iphone",
+      "image": "https://www.flipkart.com/apple-iphone-11-red-128-gb/p/itm8d14bd0e33a1c?pid=MOBFWQ6BEZTNK59G",
+      "price": 429,
+      "specs": ["Apple M2 chip with 8‑core CPU, 8‑core GPU, 16‑core Neural Engine","unified memory","SSD storage","13.6-inch Liquid Retina display with True Tone","1080p FaceTime HD camera","MagSafe 3 charging port","Two Thunderbolt / USB 4 ports","30W USB-C Power Adapter","Backlit Magic Keyboard with Touch ID - US English"   ],
+      "dtlimage": ["https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/iphone12-digitalmat-gallery-1-202111?wid=364&hei=333&fmt=png-alpha&.v=1635980933000","https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/iphone12-digitalmat-gallery-2-202111?wid=364&hei=333&fmt=png-alpha&.v=1635178709000","https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/iphone12-digitalmat-gallery-3-202111?wid=364&hei=333&fmt=png-alpha&.v=1636673254000","https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/iphone12-digitalmat-gallery-6-202111?wid=364&hei=333&fmt=png-alpha&.v=1635178710000" ],
+      "memory": ["4 GB","6 GB","8 GB"],
+      "storage": ["256 GB","512 GB","1 TB","2 TB"]
+    },
+    {
+      "title": "APPLE iPhone 12 (Black, 128 GB)",
+      "category": "iphone",
+      "image": "https://www.flipkart.com/apple-iphone-se-white-64-gb/p/itma00a19e11c81b?pid=MOBFWQ6BGWDVGF3E",
+      "price": 799,
+      "specs": ["Apple M2 chip with 8‑core CPU, 8‑core GPU, 16‑core Neural Engine","unified memory","SSD storage","13.6-inch Liquid Retina display with True Tone","1080p FaceTime HD camera","MagSafe 3 charging port","Two Thunderbolt / USB 4 ports","30W USB-C Power Adapter","Backlit Magic Keyboard with Touch ID - US English"   ],
+      "dtlimage": ["https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/iphonese-digitalmat-gallery-1-202203_GEO_EMEA?wid=364&hei=333&fmt=png-alpha&.v=1645574660944","https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/iphonese-digitalmat-gallery-2-202203?wid=364&hei=333&fmt=jpeg&qlt=95&.v=1646075827246","https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/iphonese-digitalmat-gallery-4-202203?wid=364&hei=333&fmt=png-alpha&.v=1644987579760","https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/iphonese-digitalmat-gallery-5-202203?wid=364&hei=333&fmt=png-alpha&.v=1644987579701" ],
+      "memory": ["4 GB","6 GB","8 GB"],
+      "storage": ["256 GB","512 GB","1 TB","2 TB"]
+    },
+    {
+      "title": "APPLE iPhone 12 (Black, 128 GB)",
+      "category": "iphone",
+      "image": "https://www.flipkart.com/apple-iphone-se-black-128-gb/p/itma9285ccc6af28?pid=MOBFWQ6BHUEVZPXD",
+      "price": 999,
+      "specs": ["Apple M2 chip with 8‑core CPU, 8‑core GPU, 16‑core Neural Engine","unified memory","SSD storage","13.6-inch Liquid Retina display with True Tone","1080p FaceTime HD camera","MagSafe 3 charging port","Two Thunderbolt / USB 4 ports","30W USB-C Power Adapter","Backlit Magic Keyboard with Touch ID - US English"   ],
+      "dtlimage": ["https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/iphonese-digitalmat-gallery-1-202203_GEO_EMEA?wid=364&hei=333&fmt=png-alpha&.v=1645574660944","https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/iphonese-digitalmat-gallery-2-202203?wid=364&hei=333&fmt=jpeg&qlt=95&.v=1646075827246","https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/iphonese-digitalmat-gallery-4-202203?wid=364&hei=333&fmt=png-alpha&.v=1644987579760","https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/iphonese-digitalmat-gallery-5-202203?wid=364&hei=333&fmt=png-alpha&.v=1644987579701" ],
+      "memory": ["4 GB","6 GB","8 GB"],
+      "storage": ["256 GB","512 GB","1 TB","2 TB"]
+    },
+    {
+      "title": "APPLE iPhone 12 (Black, 128 GB)",
+      "category": "iphone",
+      "image": "https://www.flipkart.com/apple-iphone-se-white-128-gb/p/itmc2a0f593a4ad8?pid=MOBFWQ6BJEHMUUZY",
+      "price": 599,
+      "specs": ["Apple M2 chip with 8‑core CPU, 8‑core GPU, 16‑core Neural Engine","unified memory","SSD storage","13.6-inch Liquid Retina display with True Tone","1080p FaceTime HD camera","MagSafe 3 charging port","Two Thunderbolt / USB 4 ports","30W USB-C Power Adapter","Backlit Magic Keyboard with Touch ID - US English"   ],
+      "dtlimage": ["https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/proxdr-digitalmat-gallery-2-202111?wid=364&hei=333&fmt=jpeg&qlt=95&.v=1635206790000","https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/proxdr-digitalmat-gallery-3-202111?wid=364&hei=333&fmt=png-alpha&.v=1635206789000","https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/proxdr-digitalmat-gallery-4-202111?wid=364&hei=333&fmt=jpeg&qlt=95&.v=1635206789000","https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/proxdr-digitalmat-gallery-5-202111?wid=364&hei=333&fmt=jpeg&qlt=95&.v=1635206791000" ],
+      "memory": ["4 GB","6 GB","8 GB"],
+      "storage": ["256 GB","512 GB","1 TB","2 TB"]
+    },
+    {
+      "title": "APPLE iPhone 12 (Black, 128 GB)",
+      "category": "iphone",
+      "image": "https://www.flipkart.com/apple-iphone-se-red-128-gb/p/itma4202509da171?pid=MOBFWQ6BJTVFKPEJ",
+      "price": 999,
+      "specs": ["Apple M2 chip with 8‑core CPU, 8‑core GPU, 16‑core Neural Engine","unified memory","SSD storage","13.6-inch Liquid Retina display with True Tone","1080p FaceTime HD camera","MagSafe 3 charging port","Two Thunderbolt / USB 4 ports","30W USB-C Power Adapter","Backlit Magic Keyboard with Touch ID - US English"   ],
+      "dtlimage": ["https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/iphone14pro-digitalmat-gallery-1-202209_GEO_EMEA?wid=364&hei=333&fmt=png-alpha&.v=1676512691236","https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/iphone14pro-digitalmat-gallery-2-202209?wid=364&hei=333&fmt=png-alpha&.v=1660830896841","https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/iphone14pro-digitalmat-gallery-3-202209?wid=364&hei=333&fmt=png-alpha&.v=1663346233180","https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/iphone14pro-digitalmat-gallery-7-202209?wid=364&hei=333&fmt=png-alpha&.v=1661443551002" ],
+      "memory": ["4 GB","6 GB","8 GB"],
+      "storage": ["256 GB","512 GB","1 TB","2 TB"]
+    },
+    {
+      "title": "APPLE iPhone 12 (Black, 128 GB)",
+      "category": "iphone",
+      "image": "https://www.flipkart.com/apple-iphone-11-black-128-gb/p/itm8244e8d955aba?pid=MOBFWQ6BKRYBP5X8",
+      "price": 799,
+      "specs": ["Apple M2 chip with 8‑core CPU, 8‑core GPU, 16‑core Neural Engine","unified memory","SSD storage","13.6-inch Liquid Retina display with True Tone","1080p FaceTime HD camera","MagSafe 3 charging port","Two Thunderbolt / USB 4 ports","30W USB-C Power Adapter","Backlit Magic Keyboard with Touch ID - US English"   ],
+      "dtlimage": ["https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/iphone12-digitalmat-gallery-1-202111?wid=364&hei=333&fmt=png-alpha&.v=1635980933000","https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/iphone12-digitalmat-gallery-2-202111?wid=364&hei=333&fmt=png-alpha&.v=1635178709000","https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/iphone12-digitalmat-gallery-3-202111?wid=364&hei=333&fmt=png-alpha&.v=1636673254000","https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/iphone12-digitalmat-gallery-6-202111?wid=364&hei=333&fmt=png-alpha&.v=1635178710000" ],
+      "memory": ["4 GB","6 GB","8 GB"],
+      "storage": ["256 GB","512 GB","1 TB","2 TB"]
+    },
+    {
+      "title": "APPLE iPhone 12 (Black, 128 GB)",
+      "category": "iphone",
+      "image": "https://www.flipkart.com/apple-iphone-se-black-64-gb/p/itm4d3d5718a5c95?pid=MOBFWQ6BR3MK7AUG",
+      "price": 429,
+      "specs": ["Apple M2 chip with 8‑core CPU, 8‑core GPU, 16‑core Neural Engine","unified memory","SSD storage","13.6-inch Liquid Retina display with True Tone","1080p FaceTime HD camera","MagSafe 3 charging port","Two Thunderbolt / USB 4 ports","30W USB-C Power Adapter","Backlit Magic Keyboard with Touch ID - US English"   ],
+      "dtlimage": ["https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/iphone12-digitalmat-gallery-1-202111?wid=364&hei=333&fmt=png-alpha&.v=1635980933000","https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/iphone12-digitalmat-gallery-2-202111?wid=364&hei=333&fmt=png-alpha&.v=1635178709000","https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/iphone12-digitalmat-gallery-3-202111?wid=364&hei=333&fmt=png-alpha&.v=1636673254000","https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/iphone12-digitalmat-gallery-6-202111?wid=364&hei=333&fmt=png-alpha&.v=1635178710000" ],
+      "memory": ["4 GB","6 GB","8 GB"],
+      "storage": ["256 GB","512 GB","1 TB","2 TB"]
+    },
+    {
+      "title": "APPLE iPhone 12 (Black, 128 GB)",
+      "category": "iphone",
+      "image": "https://www.flipkart.com/apple-iphone-11-purple-64-gb/p/itm2b8d03427ddac?pid=MOBFWQ6BTFFJKGKE",
+      "price": 999,
+      "specs": ["Apple M2 chip with 8‑core CPU, 8‑core GPU, 16‑core Neural Engine","unified memory","SSD storage","13.6-inch Liquid Retina display with True Tone","1080p FaceTime HD camera","MagSafe 3 charging port","Two Thunderbolt / USB 4 ports","30W USB-C Power Adapter","Backlit Magic Keyboard with Touch ID - US English"   ],
+      "dtlimage": ["https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/iphone13-digitalmat-gallery-1-202203_GEO_EMEA?wid=364&hei=333&fmt=png-alpha&.v=1677662648570","https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/iphone13-digitalmat-gallery-2-202203?wid=364&hei=333&fmt=png-alpha&.v=1644988764167","https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/iphone13-digitalmat-gallery-3-202203?wid=364&hei=333&fmt=png-alpha&.v=1644988765122","https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/iphone13-digitalmat-gallery-6-202203?wid=364&hei=333&fmt=png-alpha&.v=1644988764137" ],
+      "memory": ["4 GB","6 GB","8 GB"],
+      "storage": ["256 GB","512 GB","1 TB","2 TB"]
+    },
+    {
+      "title": "APPLE iPhone 12 (Black, 128 GB)",
+      "category": "iphone",
+      "image": "https://www.flipkart.com/apple-iphone-11-white-64-gb/p/itmfc6a7091eb20b?pid=MOBFWQ6BVWVEH3XE",
+      "price": 429,
+      "specs": ["Apple M2 chip with 8‑core CPU, 8‑core GPU, 16‑core Neural Engine","unified memory","SSD storage","13.6-inch Liquid Retina display with True Tone","1080p FaceTime HD camera","MagSafe 3 charging port","Two Thunderbolt / USB 4 ports","30W USB-C Power Adapter","Backlit Magic Keyboard with Touch ID - US English"   ],
+      "dtlimage": ["https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/iphone12-digitalmat-gallery-1-202111?wid=364&hei=333&fmt=png-alpha&.v=1635980933000","https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/iphone12-digitalmat-gallery-2-202111?wid=364&hei=333&fmt=png-alpha&.v=1635178709000","https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/iphone12-digitalmat-gallery-3-202111?wid=364&hei=333&fmt=png-alpha&.v=1636673254000","https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/iphone12-digitalmat-gallery-6-202111?wid=364&hei=333&fmt=png-alpha&.v=1635178710000" ],
+      "memory": ["4 GB","6 GB","8 GB"],
+      "storage": ["256 GB","512 GB","1 TB","2 TB"]
+    },
+    {
+      "title": "APPLE iPhone 12 (Black, 128 GB)",
+      "category": "iphone",
+      "image": "https://www.flipkart.com/apple-iphone-11-black-64-gb/p/itm4e5041ba101fd?pid=MOBFWQ6BXGJCEYNY",
+      "price": 999,
+      "specs": ["Apple M2 chip with 8‑core CPU, 8‑core GPU, 16‑core Neural Engine","unified memory","SSD storage","13.6-inch Liquid Retina display with True Tone","1080p FaceTime HD camera","MagSafe 3 charging port","Two Thunderbolt / USB 4 ports","30W USB-C Power Adapter","Backlit Magic Keyboard with Touch ID - US English"   ],
+      "dtlimage": ["https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/iphone12-digitalmat-gallery-1-202111?wid=364&hei=333&fmt=png-alpha&.v=1635980933000","https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/iphone12-digitalmat-gallery-2-202111?wid=364&hei=333&fmt=png-alpha&.v=1635178709000","https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/iphone12-digitalmat-gallery-3-202111?wid=364&hei=333&fmt=png-alpha&.v=1636673254000","https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/iphone12-digitalmat-gallery-6-202111?wid=364&hei=333&fmt=png-alpha&.v=1635178710000" ],
+      "memory": ["4 GB","6 GB","8 GB"],
+      "storage": ["256 GB","512 GB","1 TB","2 TB"]
+    },
+    {
+      "title": "APPLE iPhone 12 (Black, 128 GB)",
+      "category": "iphone",
+      "image": "https://www.flipkart.com/apple-iphone-11-red-64-gb/p/itmc3935326f2feb?pid=MOBFWQ6BYYV3FCU7",
+      "price": 799,
+      "specs": ["Apple M2 chip with 8‑core CPU, 8‑core GPU, 16‑core Neural Engine","unified memory","SSD storage","13.6-inch Liquid Retina display with True Tone","1080p FaceTime HD camera","MagSafe 3 charging port","Two Thunderbolt / USB 4 ports","30W USB-C Power Adapter","Backlit Magic Keyboard with Touch ID - US English"   ],
+      "dtlimage": ["https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/proxdr-digitalmat-gallery-2-202111?wid=364&hei=333&fmt=jpeg&qlt=95&.v=1635206790000","https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/proxdr-digitalmat-gallery-3-202111?wid=364&hei=333&fmt=png-alpha&.v=1635206789000","https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/proxdr-digitalmat-gallery-4-202111?wid=364&hei=333&fmt=jpeg&qlt=95&.v=1635206789000","https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/proxdr-digitalmat-gallery-5-202111?wid=364&hei=333&fmt=jpeg&qlt=95&.v=1635206791000" ],
+      "memory": ["4 GB","6 GB","8 GB"],
+      "storage": ["256 GB","512 GB","1 TB","2 TB"]
+    }
+  ]
+}

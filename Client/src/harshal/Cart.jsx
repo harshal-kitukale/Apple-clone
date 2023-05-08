@@ -17,19 +17,16 @@ import {
   Spacer,
   Text,
   Icon,
+  Heading,
+  HStack,
 } from "@chakra-ui/react";
-import { TfiGift } from "react-icons/tfi";
-import {useDispatch, useSelector } from "react-redux";
+import { HiOutlineGiftTop } from "react-icons/hi2";
+import { IoPricetagOutline } from "react-icons/io5";
+import { FaWallet } from "react-icons/fa";
+// import {useDispatch, useSelector } from "react-redux";
 import CartCard from "./CartCard";
-import Navbar from "../Components/Navbar";
-import Footer from "../Components/Footer";
-import { useNavigate } from "react-router";
-import {
-  AddToCart,
-  addToCartAction,
-  removeFromCartAction,
-} from "../Redux/cartReducer/action";
-import styled from "styled-components";
+// import styled from "styled-components";
+import { arr1 } from "./data";
 
 export let billDetail;
 const billDetailFunction = (cart) => {
@@ -39,52 +36,52 @@ const billDetailFunction = (cart) => {
     gst: 0,
     total_amount: 0,
   };
-  cart.forEach((item) => {
-    billDetail.cart_total = billDetail.cart_total + item.exclusivePrice;
-    let discountPrice = item.price - item.exclusivePrice;
-    // (discountPrice/item.exclusivePrice)*100
-    billDetail.discount = billDetail.discount + discountPrice;
-    billDetail.gst = (billDetail.cart_total * 18) / 100;
-    let Total = billDetail.cart_total - billDetail.discount + billDetail.gst;
-    billDetail.total_amount = Total.toFixed(3);
-  });
+  //   cart.forEach((item) => {
+  //     billDetail.cart_total = billDetail.cart_total + item.exclusivePrice;
+  //     let discountPrice = item.price - item.exclusivePrice;
+  //     // (discountPrice/item.exclusivePrice)*100
+  //     billDetail.discount = billDetail.discount + discountPrice;
+  //     billDetail.gst = (billDetail.cart_total * 18) / 100;
+  //     let Total = billDetail.cart_total - billDetail.discount + billDetail.gst;
+  //     billDetail.total_amount = Total.toFixed(3);
+  //   });
 };
 
 const Cart = () => {
-  const { cart, isLoading } = useSelector((store) => store.cartReducer);
-  
-  const navigate = useNavigate();
-  const dispatch = useDispatch();
-  // console.log(cart);
+  // const { cart, isLoading } = useSelector((store) => store.cartReducer);
 
-  billDetailFunction(cart);
+  // const navigate = useNavigate();
+  // const dispatch = useDispatch();
+  console.log(arr1);
+
+  // billDetailFunction(cart);
   const remove = (id) => {
-    dispatch(removeFromCartAction(id));
-    billDetailFunction(cart);
-
-    // console.log(id);
+    // dispatch(removeFromCartAction(id));
+    // billDetailFunction(cart);
+    console.log(id);
   };
   const changePrice = (id) => {
-    dispatch(removeFromCartAction(id));
-    billDetailFunction(cart);
+    // dispatch(removeFromCartAction(id));
+    // billDetailFunction(cart);
 
     console.log(id);
   };
 
   const handleOrder = () => {
-    navigate("/payment");
+    // navigate("/payment");
   };
 
-  useEffect(
-    () => {
-      let items=  JSON.parse( localStorage.getItem('cart'))||[]
-      if(cart.length===0){
-        items.map((item)=>dispatch(addToCartAction(item)))
-      }
-      // cart.length>0?"": 
-      console.log("items",items)
-    },[]
-  );
+  // useEffect(
+  //   () => {
+  //     let items=  JSON.parse( localStorage.getItem('cart'))||[]
+  //     if(cart.length===0){
+  //       items.map((item)=>dispatch(addToCartAction(item)))
+  //     }
+  //     // cart.length>0?"":
+  //     console.log("items",items)
+  //   },[]
+  // );
+  //********************** */
   // if (isLoading) {
   //   return (
   //     <>
@@ -100,11 +97,29 @@ const Cart = () => {
   return (
     <>
       {/* <Navbar /> */}
-      <Box margin={"1rem"} color={"teal"} fontSize="0.8rem">
+      {/* <Box margin={"1rem"} color={"teal"} fontSize="0.8rem">
         {" "}
         <Span>MY BAG </Span>- - - - - - - - - - - - - ADDRESS - - - - - - - - -
         - - - - PAYMENT{" "}
+      </Box> */}
+      <Box h="auto" w={"90%"} m="auto" my={"40px"}>
+        <HStack>
+          <Heading>Review your bag. </Heading>
+          <Image width={"3.5%"}
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTyKxIlXImnGAlQ-q1VEQKDVYINDGhQlKIPd9dz5IQO&s"
+            alt="apple"
+          />
+        </HStack>
+
+        <Text>Free delivery and free returns.</Text>
       </Box>
+      <Box
+        borderTop={"1px"}
+        m={"auto"}
+        mb={"10px"}
+        width={"90%"}
+        my="20px"
+      ></Box>
       <Grid
         fontFamily={"sans-serif"}
         h="auto"
@@ -117,13 +132,13 @@ const Cart = () => {
       >
         {/* cart cart */}
         <GridItem colSpan={{ base: 7, sm: 7, md: 5 }}>
-          {cart.length === 0 ? (
+          {arr1.length === 0 ? (
             <Image
               align={"center"}
               src="https://bakestudio.in/assets/images/cart/empty-cart.gif"
             />
           ) : (
-            cart.map((item) => {
+            arr1.map((item) => {
               return (
                 <CartCard {...item} remove={remove} changePrice={changePrice} />
               );
@@ -134,10 +149,10 @@ const Cart = () => {
           <Box>
             <Box>
               <Button
-                isDisabled={cart.length === 0 ? true : false}
+                isDisabled={arr1.length === 0 ? true : false}
                 size="md"
                 w={"100%"}
-                colorScheme="teal"
+                colorScheme="blue"
                 variant="solid"
                 fontWeight={"bold"}
                 onClick={handleOrder}
@@ -147,7 +162,7 @@ const Cart = () => {
             </Box>
             <Box
               p={"20px"}
-              bg="rgb(255,185,81)"
+              bg="gray.300"
               my={"10px"}
               borderRadius="5px"
               textAlign={"left"}
@@ -171,7 +186,7 @@ const Cart = () => {
                       <Image
                         mr={"10px"}
                         width={"20px"}
-                        src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADMAAAAvCAMAAAB5awL4AAAARVBMVEVHcEw1vK9IjYVYWFpXWFpXWFpVWlpLYWxYWFpXWFo2vK42va5YWFw2va5XWFpYWFo2va9YWFpXWVo2va5XWFpYWVs3va7cWG+0AAAAFXRSTlMARyDAXNAwEKDwp+xAynDgf4CQabANvZKzAAABeElEQVRIx5WUWxaDIAxEAVEUbbW+9r/UBlQQCEHz0WORK0kmA2NEyLbagqjbgZHRRMARM3nIhsdMI90vTEXJGlaz6bUme5EsK1hfKUQhLwScjhLKVN/iX4M3KFLnkQzTGOTL3jBNB8vS5b9MeuIFZgCkc8jU7yY+nGKsLM31T+9X8DzzhaXRIQts1gufPvveixwTyeK+D+fpDBMhHAo5u++eIiaRBVKb/IkYkyrJfUZQEMI0Y6KkgJ0qyvLOhEqeAf3Spl9L75o9bFt1yRIo6Q6yitof7ds0Y0reKupPSbXyG6VTsm7QEbd6utExYvxog51coF/lnxQrxuFEu5EyWMaJ80PEOvGohY2pLChy1w+eRRkJnbjiylBONMNQhGTgxDPTjiwJ0Q8dz9KdKm5tfHynEhdn/pVa3VhEsozEnYrPaaHUGYFkqaWp72RZunjLN1YyN4c+lYITsZKfOtGrq5460e99g5zqjoUJRNV9iUCPu9xtRzqZJv4YTCbCeHS4sAAAAABJRU5ErkJggg=="
+                        src="https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/APPLECARE-plus_ICON?"
                         alt="tag"
                       />
                       <Box
@@ -180,7 +195,7 @@ const Cart = () => {
                         textAlign="left"
                         fontWeight={"bold"}
                       >
-                        Apply Coupon
+                        Add Apple Coupon
                       </Box>
                       <AccordionIcon />
                     </AccordionButton>
@@ -214,11 +229,19 @@ const Cart = () => {
                 >
                   <h2>
                     <AccordionButton fontSize={"14px"}>
-                      <Image
+                      {/* <Image
                         mr={"10px"}
                         width={"20px"}
+                        color={"black"}
                         src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADMAAAAvCAMAAAB5awL4AAAARVBMVEVHcEw1vK9IjYVYWFpXWFpXWFpVWlpLYWxYWFpXWFo2vK42va5YWFw2va5XWFpYWFo2va9YWFpXWVo2va5XWFpYWVs3va7cWG+0AAAAFXRSTlMARyDAXNAwEKDwp+xAynDgf4CQabANvZKzAAABeElEQVRIx5WUWxaDIAxEAVEUbbW+9r/UBlQQCEHz0WORK0kmA2NEyLbagqjbgZHRRMARM3nIhsdMI90vTEXJGlaz6bUme5EsK1hfKUQhLwScjhLKVN/iX4M3KFLnkQzTGOTL3jBNB8vS5b9MeuIFZgCkc8jU7yY+nGKsLM31T+9X8DzzhaXRIQts1gufPvveixwTyeK+D+fpDBMhHAo5u++eIiaRBVKb/IkYkyrJfUZQEMI0Y6KkgJ0qyvLOhEqeAf3Spl9L75o9bFt1yRIo6Q6yitof7ds0Y0reKupPSbXyG6VTsm7QEbd6utExYvxog51coF/lnxQrxuFEu5EyWMaJ80PEOvGohY2pLChy1w+eRRkJnbjiylBONMNQhGTgxDPTjiwJ0Q8dz9KdKm5tfHynEhdn/pVa3VhEsozEnYrPaaHUGYFkqaWp72RZunjLN1YyN4c+lYITsZKfOtGrq5460e99g5zqjoUJRNV9iUCPu9xtRzqZJv4YTCbCeHS4sAAAAABJRU5ErkJggg=="
                         alt="tag"
+                        
+                      /> */}
+                      <Icon
+                        as={IoPricetagOutline}
+                        boxSize={5}
+                        color="black"
+                        mr="10px"
                       />
                       <Box
                         as="span"
@@ -276,9 +299,9 @@ const Cart = () => {
                       /> */}
 
                       <Icon
-                        as={TfiGift}
+                        as={HiOutlineGiftTop}
                         boxSize={5}
-                        color="teal.600"
+                        color="black"
                         mr="10px"
                       />
                       <Box
@@ -289,19 +312,20 @@ const Cart = () => {
                       >
                         Gift Wrap (₹ 25)
                       </Box>
-                      <Checkbox colorScheme="teal" />
+                      <Checkbox colorScheme="blue" />
                     </AccordionButton>
                   </h2>
                 </AccordionItem>
                 <AccordionItem py={"5px"} border={"none"}>
                   <h2>
                     <AccordionButton fontSize={"14px"}>
-                      <Image
+                      {/* <Image
                         mr={"10px"}
                         width={"20px"}
                         src="https://tss-static-images.gumlet.io/icons/tss-money.png"
                         alt="tag"
-                      />
+                      /> */}
+                      <Icon as={FaWallet} boxSize={5} color="black" mr="10px" />
                       <Box
                         as="span"
                         flex="1"
@@ -350,15 +374,15 @@ const Cart = () => {
                   <Flex justifyContent={"space-between"}>
                     <Text fontSize={"14px"}>Cart Total</Text>
                     <Text fontSize={"14px"} fontWeight={"bold"}>
-                      ₹ {billDetail.cart_total}
+                      {/* ₹ {billDetail.cart_total} */}
                     </Text>
                   </Flex>
                 </Box>
                 <Box p={"15px"} borderBottom={"1px"} borderColor={"gray.300"}>
-                  <Flex color={"teal.600"} justifyContent={"space-between"}>
+                  <Flex justifyContent={"space-between"}>
                     <Text fontSize={"14px"}>Discount</Text>
                     <Text fontSize={"14px"} fontWeight={"bold"}>
-                      - ₹ {billDetail.discount}
+                      {/* - ₹ {billDetail.discount} */}
                     </Text>
                   </Flex>
                 </Box>
@@ -366,7 +390,7 @@ const Cart = () => {
                   <Flex justifyContent={"space-between"}>
                     <Text fontSize={"14px"}>GST</Text>
                     <Text fontSize={"14px"} fontWeight={"bold"}>
-                      ₹ {billDetail.gst}
+                      {/* ₹ {billDetail.gst} */}
                     </Text>
                   </Flex>
                 </Box>
@@ -384,7 +408,7 @@ const Cart = () => {
                       Total Amount
                     </Text>
                     <Text fontSize={"14px"} fontWeight={"bold"}>
-                      ₹ {billDetail.total_amount}
+                      {/* ₹ {billDetail.total_amount} */}
                     </Text>
                   </Flex>
                 </Box>
@@ -400,6 +424,6 @@ const Cart = () => {
 
 export default Cart;
 
-const Span = styled.span`
-  font-weight: bold;
-`;
+// const Span = styled.span`
+//   font-weight: bold;
+// `;
