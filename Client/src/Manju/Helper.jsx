@@ -67,6 +67,7 @@ const HelpHereMain = styled.div`
 const HeaderMainA = styled.div`
   width: 100%;
   display: flex;
+  margin-top:10%;
 `;
 const ParaA = styled.h1`
   display: flex;
@@ -81,6 +82,7 @@ const ParaB = styled.p`
   color: #6e6e73;
   display: inline;
   font-weight: 600;
+  margin-top:10px;
 `;
 //
 const HelpHereDiv = styled.div`
@@ -135,7 +137,7 @@ const Comment = styled.p`
     font-size: 4vw;
   }
 `;
-//
+
 const HelpHereDivB = styled.div`
   position: relative;
   display: grid;

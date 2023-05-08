@@ -1,3 +1,5 @@
+import "./App.css";
+import Payment from "./Arun/Cart/Payment";
 
 import { BottomNav } from './Abhishek/BottomNav';
 import { Home } from './Abhishek/Home';

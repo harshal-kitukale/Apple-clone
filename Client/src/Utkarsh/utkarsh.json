@@ -12,9 +12,10 @@
         "https://m.media-amazon.com/images/I/71TvEYgcolL._SX522_.jpg",
         "https://m.media-amazon.com/images/I/61PL5ysNAxL._SX522_.jpg"
       ],
-      "storage":[
+      "storage":{
         "Ram":"4GB",
-      ]
+        "ROM":"128GB"
+      },
       "userId": ""
     },
     {
@@ -29,6 +30,10 @@
         "https://rukminim1.flixcart.com/image/416/416/ktop5e80/tablet/k/k/k/mk2k3hn-a-apple-original-imag6yy7yxawz4gy.jpeg?q=70",
         "https://rukminim1.flixcart.com/image/416/416/ktop5e80/tablet/z/p/p/mk473hn-a-apple-original-imag6yy7rsevhdah.jpeg?q=70"
       ],
+        "storage":{
+        "Ram":"4GB",
+        "ROM":"128GB"
+        },
       "userId": ""
     },
     {
@@ -43,6 +48,12 @@
         "https://rukminim1.flixcart.com/image/416/416/xif0q/tablet/k/3/l/-original-imagj72v6ypmqxxc.jpeg?q=70",
         "https://rukminim1.flixcart.com/image/416/416/xif0q/tablet/3/q/m/-original-imagj72vbtzm23mz.jpeg?q=70"
       ],
+        "storage":{
+          "Ram":"4GB",
+          "ROM":"128GB"
+        }
+       
+      ,
       "userId": ""
     },
     {
@@ -56,6 +67,10 @@
         "https://rukminim1.flixcart.com/image/416/416/kf75fgw0/tablet/n/h/h/apple-myfy2hn-a-original-imafvpqautq7jpbv.jpeg?q=70",
         "https://rukminim1.flixcart.com/image/416/416/kf75fgw0/tablet/n/h/h/apple-myfy2hn-a-original-imafvpqayqxjggew.jpeg?q=70"
       ],
+      "storage":{
+        "Ram":"4GB",
+        "ROM":"128GB"
+      },
       "userId": ""
     },
     {
@@ -70,6 +85,10 @@
         "https://rukminim1.flixcart.com/image/416/416/l0jwbrk0/tablet/o/k/8/-original-imagcbja829qvhd9.jpeg?q=70",
         "https://rukminim1.flixcart.com/image/416/416/l0jwbrk0/tablet/c/y/3/-original-imagcbjabugv8vyk.jpeg?q=70"
       ],
+      "storage":{
+        "Ram":"4GB",
+        "ROM":"128GB"
+      },
       "userId": ""
     },
     {
@@ -84,6 +103,10 @@
         "https://rukminim1.flixcart.com/image/416/416/k2xmd8w0/tablet/y/h/z/apple-mux72hn-a-original-imafm69svf4pgtnr.jpeg?q=70",
         "https://rukminim1.flixcart.com/image/416/416/k0lbdzk0pkrrdj/tablet/r/c/j/apple-muxe2hn-a-original-imaff849kmxfnqnu.jpeg?q=70"
       ],
+      "storage":{
+        "Ram":"12GB",
+        "ROM":"64GB"
+      },
       "userId": ""
     },
     {
@@ -98,6 +121,10 @@
         "https://rukminim1.flixcart.com/image/416/416/l0jwbrk0/tablet/o/k/8/-original-imagcbja829qvhd9.jpeg?q=70",
         "https://rukminim1.flixcart.com/image/416/416/l0jwbrk0/tablet/e/w/y/-original-imagcbjam6j34cwb.jpeg?q=70"
       ],
+      "storage":{
+        "Ram":"12GB",
+        "ROM":"128GB"
+      },
       "userId": ""
     },
     {
@@ -112,6 +139,10 @@
         "https://rukminim1.flixcart.com/image/416/416/ktop5e80/tablet/1/d/x/mk2k3hn-a-apple-original-imag6yy79ymgfxt7.jpeg?q=70",
         "https://rukminim1.flixcart.com/image/416/416/ktop5e80/tablet/u/p/n/mk2k3hn-a-apple-original-imag6yy7bx9wjefd.jpeg?q=70"
       ],
+      "storage":{
+        "Ram":"4GB",
+        "ROM":"512GB"
+      },
       "userId": ""
     },
     {
@@ -126,6 +157,10 @@
         "https://m.media-amazon.com/images/I/81ix87lLCpL._SX522_.jpg",
         "https://m.media-amazon.com/images/I/71LZeFKdtbL._SX522_.jpg"
       ],
+      "storage":{
+        "Ram":"8GB",
+        "ROM":"64GB"
+      },
       "userId": ""
     },
     {
@@ -140,6 +175,10 @@
         "https://m.media-amazon.com/images/I/911AokjmKkL._SX522_.jpg",
         "https://m.media-amazon.com/images/I/61BL8+gBfRL._SX522_.jpg"
       ],
+      "storage":{
+        "Ram":"8GB",
+        "ROM":"128GB"
+      },
       "userId": ""
     },
     {
@@ -154,6 +193,10 @@
         "https://m.media-amazon.com/images/I/81b3zG8j2bL._SX522_.jpg",
         "https://m.media-amazon.com/images/I/61AQp5v1P4L._SX522_.jpg"
       ],
+      "storage":{
+        "Ram":"12GB",
+        "ROM":"512GB"
+      },
       "userId": ""
     },
     {
@@ -168,6 +211,10 @@
         "https://m.media-amazon.com/images/I/81ix87lLCpL._SX679_.jpg",
         "https://m.media-amazon.com/images/I/61Hj2Ydwh2L._SX679_.jpg"
       ],
+      "storage":{
+        "Ram":"8GB",
+        "ROM":"128GB"
+      },
       "userId": ""
     }
   ]
