@@ -1,7 +1,7 @@
 import React from 'react'
 import "./Styles/bottomNav.css"
 export const BottomNav = ({data}) => {
-    console.log(data.iPhone)
+    // console.log(data.iPhone)
   return (
     <div id='flexGrp'>
         {data.Watch.map(el=>

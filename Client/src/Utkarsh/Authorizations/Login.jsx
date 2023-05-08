@@ -1,5 +1,5 @@
 import { Flex, Box, Text, Image } from "@chakra-ui/react";
-import React from "react";
+import React ,{useState} from "react";
 import "./Login.css";
 import { Link } from "react-router-dom";
 import apple from "../UtkarshImages/apple.png";
@@ -10,6 +10,25 @@ import imac from "../UtkarshImages/imac.jpg";
 import Iphone14 from "../UtkarshImages/Iphone14.jpg";
 import fast from "../UtkarshVideos/fast.mp4";
 const Login = () => {
+  const [email,setEmail]=useState('')
+  const [password,setPass]=useState('')
+
+const handleLogin=()=>{
+  const payload={
+  email,password
+   }
+// Connection between BE and FE
+   fetch('http://localhost:8080/user/login',{
+    method:'POST',
+    headers:{
+        'Content-Type':'application/json'
+    },
+    body:JSON.stringify(payload)
+   }).then(res=>res.json())
+   .then(res=>localStorage.setItem("token",res.token))
+   .catch(err=>console.log(err))
+}
+
   return (
     <div>
       <Box className="login_text_box">
@@ -72,7 +91,7 @@ const Login = () => {
                   </ul>
                 </div>
 
-                <form class="form" action="#">
+                <form class="form" action="#" onSubmit={handleLogin}>
                   <div class="form__field">
                     <label
                       style={{ color: "#fff", fontWeight: "800" }}
@@ -82,6 +101,8 @@ const Login = () => {
                       Email
                     </label>
                     <input
+                     value={email}
+                     onChange={(e)=>setEmail(e.target.value)}
                       id="email"
                       class="form__input"
                       name="email"
@@ -99,6 +120,8 @@ const Login = () => {
                       Password
                     </label>
                     <input
+                     value={password}
+                     onChange={(e)=>setPass(e.target.value)}
                       id="password"
                       class="form__input"
                       name="password"
