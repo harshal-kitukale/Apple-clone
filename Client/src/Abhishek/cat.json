@@ -1,0 +1,152 @@
+{
+"MacBook":[
+    {
+        "img":"https://www.apple.com/v/mac/home/bt/images/familybrowser/macbookair_light__f0o95rwae8ae_large.svg",
+        "title":"MacBook Air"
+    },
+    {
+      "img":"https://www.apple.com/v/mac/home/bt/images/familybrowser/macbook_pro_light__e791sjqzt32a_large.svg",
+      "title":"MacBook Pro"
+    },
+  {
+      "img":"https://www.apple.com/v/mac/home/bt/images/familybrowser/imac_24_light__colyztscbeeu_large.svg",
+      "title":"iMac 24"
+    },
+    {
+      "img":"https://www.apple.com/v/mac/home/bt/images/familybrowser/mac_mini_light__frtahmzmd4mm_large.svg",
+      "title":"Mac mini"
+    },
+    {
+      "img":"https://www.apple.com/v/mac/home/bt/images/familybrowser/mac_studio_light__ea3pb1auizu6_large.svg",
+      "title":"Mac Studio"
+    },
+    {
+      "img":"https://www.apple.com/v/mac/home/bt/images/familybrowser/mac_pro_light__cj4dvg7thx5y_large.svg",
+      "title":"Mac Pro"
+    },
+    {
+      "img":"https://www.apple.com/v/mac/home/bt/images/familybrowser/mac_compare_light__emml1umdv9m6_large.svg",
+      "title":"compare"
+    },
+    {
+      "img":"https://www.apple.com/v/mac/home/bt/images/familybrowser/displays_light__ewxqx5obdxci_large.svg",
+      "title":"Displays"
+    },
+    {
+      "img":"https://www.apple.com/v/mac/home/bt/images/familybrowser/mac_accessories_light__cuds10wyptyu_large.svg",
+      "title":"Accessories"
+    },
+    {
+        "img":"https://www.apple.com/v/mac/home/bt/images/familybrowser/mac_os_light__d0zczt34scq6_large.svg",
+        "title":"Ventura"
+      },
+      {
+        "img":"https://www.apple.com/v/mac/home/bt/images/familybrowser/mac_shop_light__layuggud1xe2_large.svg",
+        "title":"Shop Mac"
+      }
+],
+"iPhone":[
+    {
+        "img":"https://www.apple.com/v/iphone/home/bo/images/chapternav/iphone_14_pro_light__dfhcc00ur2oi_large.svg",
+        "title":"iPhone 14 Pro"
+      },
+      {
+        "img":"https://www.apple.com/v/iphone/home/bo/images/chapternav/iphone_14_light__fwknsxkf80uq_large.svg",
+        "title":"iPhone 14"
+      },
+      {
+        "img":"https://www.apple.com/v/iphone/home/bo/images/chapternav/iphone_13_light__ewo3e0sf67o2_large.svg",
+        "title":"iPhone 13"
+      },
+      {
+        "img":"https://www.apple.com/v/iphone/home/bo/images/chapternav/iphone_se_light__fhg8duy6ffau_large.svg",
+        "title":"iPhone SE"
+      },
+      {
+        "img":"https://www.apple.com/v/iphone/home/bo/images/chapternav/iphone_12_light__cxh2ll1zwpw2_large.svg",
+        "title":"iPhone 12"
+      },
+      {
+        "img":"https://www.apple.com/v/iphone/home/bo/images/chapternav/iphone_compare_light__f4jj7brpbvm2_large.svg",
+        "title":"Compare"
+      },
+      {
+        "img":"https://www.apple.com/v/iphone/home/bo/images/chapternav/airpods_light__8oj157p2476a_large.svg",
+        "title":"AirPods"
+      },
+      {
+        "img":"https://www.apple.com/v/iphone/home/bo/images/chapternav/airtag_light__cb2bmnv6aoeu_large.svg",
+        "title":"AirTag"
+      },
+      {
+        "img":"https://www.apple.com/v/iphone/home/bo/images/chapternav/accessories_light__ed5l6ipsevqu_large.svg",
+        "title":"Accessories"
+      },
+      {
+        "img":"https://www.apple.com/v/iphone/home/bo/images/chapternav/iphone_apple_card_light__dtut839e76c2_large.svg",
+        "title":"Apple Card"
+      },
+        {
+        "img":"https://www.apple.com/v/iphone/home/bo/images/chapternav/iphone_ios_light__b8s4ws8o77iq_large.svg",
+        "title":"iOS 16"
+      },
+      {
+        "img":"https://www.apple.com/v/iphone/home/bo/images/chapternav/shop_iphone_light__b2toggskllle_large.svg",
+        "title":"Shop iPhone"
+      }    
+],
+"Watch":[
+    {
+        "img":"https://www.apple.com/v/watch/bc/images/overview/icons/watch_nav_ultra_light__d7rvvbq6y24i_large.svg",
+        "title":"Apple Watch Ultra"
+      },
+      {
+        "img":"https://www.apple.com/v/watch/bc/images/overview/icons/watch_nav_series_8_light__e0t2xvrksw02_large.svg",
+        "title":"Apple Watch Series 8"
+      },
+      {
+        "img":"https://www.apple.com/v/watch/bc/images/overview/icons/watch_nav_se_light__be5frpk4lqwi_large.svg",
+        "title":"Apple Watch SE"
+      },
+      {
+        "img":"https://www.apple.com/v/watch/bc/images/overview/icons/watch_nav_nike_light__c2ki2g1h3no2_large.svg",
+        "title":"Apple Watch Nike"
+      },
+      {
+        "img":"https://www.apple.com/v/watch/bc/images/overview/icons/watch_nav_hermes_light__bpxy825rpa2u_large.svg",
+        "title":"Apple Watch Hermes"
+      },
+      {
+        "img":"https://www.apple.com/v/watch/bc/images/overview/icons/watch_nav_studio_light__je3o3w937dui_large.svg",
+        "title":"Apple Watch Studio"
+      },
+      {
+        "img":"https://www.apple.com/v/watch/bc/images/overview/icons/watch_nav_compare__ddqii56kbs6e_large.svg",
+        "title":"Compare"
+      },
+      {
+        "img":"https://www.apple.com/v/watch/bc/images/overview/icons/watch_nav_bands__dhuievn7j10m_large.svg",
+        "title":"Bands"
+      },
+      {
+        "img":"https://www.apple.com/v/watch/bc/images/overview/icons/watch_nav_airpods__tese7ac1fuau_large.svg",
+        "title":"AirPods"
+      },
+      {
+        "img":"https://www.apple.com/v/watch/bc/images/overview/icons/watch_nav_accessories__dy90sl4fnwae_large.svg",
+        "title":"Accessories"
+      },
+      {
+        "img":"https://www.apple.com/v/watch/bc/images/overview/icons/watch_nav_fitness__d79yrmga070i_large.svg",
+        "title":"Apple Fitness+"
+      },
+      {
+        "img":"https://www.apple.com/v/watch/bc/images/overview/icons/watch_nav_watch_os__f3i8z391amai_large.svg",
+        "title":"watch OS"
+      },
+      {
+        "img":"https://www.apple.com/v/watch/bc/images/overview/icons/watch_nav_shop_watch_light__dopzu91r0tyu_large.svg",
+        "title":"Shop Watch"
+      }
+]
+}
