@@ -26,7 +26,7 @@ const Products = () => {
       </HeaderMainA>
       {/* PRODUCTS */}
          <ProductsContainer>
-        {products?.products?.map((product) => (
+        {products?.map((product) => (
           <ProductCard key={product._id} product={product} />
         ))}
       </ProductsContainer>

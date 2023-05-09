@@ -16,6 +16,9 @@ import {
   ModalOverlay,
 } from "@chakra-ui/modal";
 import { Select } from "@chakra-ui/select";
+import {useDispatch, useSelector} from "react-redux";
+import {Navbar} from "../../Abhishek/Navbar";
+import {Footer} from '../../Abhishek/Footer'
 
 const Payment = () => {
   const [viewCard, setViewCard] = React.useState(false);
@@ -23,6 +26,12 @@ const Payment = () => {
   const [viewNetBanking, setViewNetBanking] = React.useState(false);
   const [payStatus, setPayStatus] = React.useState(false);
   const { isOpen, onOpen, onClose } = useDisclosure();
+
+  const dispatch = useDispatch();
+  
+  const data = useSelector((store) => console.log(store));
+
+  
 
   const handleCardPayment = () => {
     setViewCard(!viewCard);
@@ -49,7 +58,8 @@ const Payment = () => {
   };
 
   return (
-    <Box w={"90%"} margin={"auto"}>
+    <Box w={"90%"} margin={"auto"} pt={"40px"}>
+      <Navbar/>
       <>
         <Modal isOpen={isOpen} onClose={onClose}>
           <ModalOverlay />
@@ -65,13 +75,11 @@ const Payment = () => {
               />
               <Text>Your Order will be delivered soon.</Text>
             </ModalBody>
-
-            <ModalFooter>
-              <Button colorScheme="blue" mr={3} onClick={handlePaymentStatus}>
+            <HStack justifyContent={"flex-end"} p={"20px"}><Button colorScheme="blue" mr={3} onClick={handlePaymentStatus}>
                 Close
               </Button>
-              <Button variant="outline">Continue Shopping</Button>
-            </ModalFooter>
+              <Button variant="outline">Continue Shopping</Button></HStack>
+
           </ModalContent>
         </Modal>
       </>
@@ -81,7 +89,7 @@ const Payment = () => {
         </Heading>
       </HStack>
       <Heading textAlign={"left"}>How do you want to pay?</Heading>
-      <HStack py={"30px"} justifyContent={"space-between"}>
+      <HStack py={"30px"} justifyContent={"space-between"} pb={"80px"} mb={"30px"} borderBottom={"1px solid gray"}>
         <VStack w={"60%"} alignItems={"left"} boxShadow= "rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px" p={5} gap={5}>
         <VStack alignItems={"left"} >
           <Box
@@ -91,6 +99,7 @@ const Payment = () => {
             borderRadius={"8px"}
             p={"15px"}
             onClick={handleCardPayment}
+            _hover={{cursor: "pointer"}}
           >
             <Heading textAlign={"left"} size={"md"} mb={"10px"}>
               Credit or Debit Card
@@ -148,6 +157,7 @@ const Payment = () => {
             borderRadius={"8px"}
             p={"15px"}
             onClick={handleOnlinePayment}
+            _hover={{cursor: "pointer"}}
           >
             <Heading textAlign={"left"} size={"md"} mb={"10px"}>
               Internet Banking
@@ -205,6 +215,7 @@ const Payment = () => {
             borderRadius={"8px"}
             p={"15px"}
             onClick={handleCodPayment}
+            _hover={{cursor: "pointer"}}
           >
             <Heading textAlign={"left"} size={"md"} mb={"10px"}>
             Cash on Delivery/Pay on Delivery
@@ -230,7 +241,7 @@ const Payment = () => {
           <Summary />
         </Box>
       </HStack>
-      
+      <Footer/>
     </Box>
   );
 };
