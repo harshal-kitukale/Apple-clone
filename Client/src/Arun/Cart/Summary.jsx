@@ -30,7 +30,7 @@ const Summary = () => {
             py={"20px"}
           >
             <Text fontWeight={"bold"}>2 items</Text>
-            <Link>Edit Bag</Link>
+            <Link _hover={{color: "red"}}>Edit Bag</Link>
           </HStack>
           <HStack justify={"space-between"}>
             <Text  m={"1px"}>Subtotal</Text>

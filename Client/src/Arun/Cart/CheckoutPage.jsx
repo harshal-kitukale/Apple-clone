@@ -59,21 +59,23 @@ const CheckoutPage = () => {
   };
 
   const handleAddressSubmit = () => {
-    // if (
-    //   addressDetails.fName === "" || addressDetails.lName === "" || addressDetails.street === "" || addressDetails.zip === "" || addressDetails.state === "" || addressDetails.country === "" || contactDetails.email === "" || contactDetails.mobile === ""
-    // ) {
-    //   toast({
-    //     title: "Warning! Form Incomplete",
-    //     description: "Please fill all the details",
-    //     status: "warning",
-    //     duration: 3000,
-    //     isClosable: true,
-    //     position: "bottom",
-    //   });
-    //   console.log(addressDetails)
-    //   return;
-    // } else {
-    // }
+    if (
+      addressDetails.fName === "" || addressDetails.lName === "" || addressDetails.street === "" || addressDetails.zip === "" || addressDetails.state === "" || addressDetails.country === "" || contactDetails.email === "" || contactDetails.mobile === ""
+    ) {
+      // toast({
+      //   title: "Warning! Form Incomplete",
+      //   description: "Please fill all the details",
+      //   status: "warning",
+      //   duration: 3000,
+      //   isClosable: true,
+      //   position: "bottom",
+      // });
+      console.log(addressDetails)
+      window.alert("Form Incomplete, please fill all fields.")
+      return;
+    } else {
+    }
+    localStorage.setItem("userAddress", JSON.stringify(addressDetails));
     navigate("/payment")
 
   };
@@ -258,6 +260,7 @@ useEffect(()=> {
                   onChange={(e) => handleContact(e)}
                   name="moblie"
                   placeholder="Enter Number"
+                  maxLength={10}
                 />
               </Box>
               <Box w="45%" pt={"20px"}>
