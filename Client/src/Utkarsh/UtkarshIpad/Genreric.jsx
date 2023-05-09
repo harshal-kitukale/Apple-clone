@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "../UtkarshIpad/ipad.css";
 import { Image, Box, Text, Flex, Button, Divider } from "@chakra-ui/react";
 import IpadMini from "../UtkarshImages/ipad_mini.png";
@@ -11,8 +11,25 @@ import education from "../UtkarshImages/education.png";
 import EducationHello from "../UtkarshImages/EducationHello.png";
 
 import AccessoriesSlider from "../UtkarshSlider/AccessoriesSlider";
+import { useParams } from "react-router-dom";
+import axios from "axios";
 
-const Ipad = () => {
+const Generic = () => {
+const {category}=useParams()
+console.log(category)
+  const getCat=()=>{
+    // dispatch(productsRequest());
+    axios
+      .get(`http://localhost:8080/product/search?category=${category}`)
+      .then((res) => {
+        // dispatch(getProductsSuccess(res.data));
+        console.log(res.data)
+      })
+      .catch((err) => console.log(err))
+  }
+useEffect(()=>{
+  getCat()
+},[])
   return (
     <div style={{ backgroundColor: "rgb(255, 255, 255)" }}>
       <Box className="free_box">
@@ -166,4 +183,4 @@ const Ipad = () => {
   );
 };
 
-export default Ipad;
+export default Generic;

@@ -5,14 +5,13 @@
 
 #banner1{
     background-image: url('https://www.apple.com/in/home/images/heroes/iphone-14-pro/hero_iphone14pro_spring__9xo85pm6sbmm_large.jpg');
+    position:relative;
     top: 0;
-    position: absolute;
-    z-index: 1;
     left: 0;
-    height: 624px;
+    height: 80%;
     width: 100%;
     margin-top: 40px;
-    background-size: 3008px 624px;
+    background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
 }
@@ -55,13 +54,24 @@
     text-decoration: none;
 }
 #banner2{
-   /* margin-top: 500px; */
     background-image: url("https://www.apple.com/in/home/heroes/iphone-14/images/hero_iphone14_yellow__eun20sn4imi6_large.jpg");
+    position:absolute;
     width: 100%;
     height: 624px;
+    margin: auto;
     background-size:cover;
     background-repeat: no-repeat;
     background-position: center;
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 80%;
+    width: 100%;
+    margin-top: 40px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 #banner2 h2{
