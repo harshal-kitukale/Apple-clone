@@ -9,7 +9,7 @@ import {getProducts} from "../Redux/productsReducer/products.action"
 const Products = () => {
   const dispatch = useDispatch();
   useEffect(() => {
-    dispatch(getProducts("http://localhost:8080/product"));
+    dispatch(getProducts("https://different-bell-bottoms-fox.cyclic.app/quickdeal"));
   }, []);
   let { isLoading, isError, products } = useSelector(
     (store) => store.productsReducer
@@ -26,7 +26,7 @@ const Products = () => {
       </HeaderMainA>
       {/* PRODUCTS */}
          <ProductsContainer>
-        {products?.products?.map((product) => (
+        {products?.map((product) => (
           <ProductCard key={product._id} product={product} />
         ))}
       </ProductsContainer>
