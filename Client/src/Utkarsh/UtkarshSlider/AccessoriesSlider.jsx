@@ -15,7 +15,6 @@ import credit from "../UtkarshImages/credit.png";
 import smile from "../UtkarshImages/smile.png";
 import apple from "../UtkarshImages/apple_color.png";
 import applePay from "../UtkarshImages/applePay.png";
-
 export default function AccessoriesSlider() {
   return (
     <div className="div_apple">
@@ -61,9 +60,9 @@ export default function AccessoriesSlider() {
           <div className="slider_div">
             <Image className="truck_images" src={truck} alt="truck" />
             <Text className="Text_color_full">
-              Enjoy <span style={{ color: "#68cc45" }}>two-hour delivery</span>{" "}
+              Enjoy <span style={{ color: "#68CC45" }}>two-hour delivery</span>{" "}
               from an Apple Store,
-              <span style={{ color: "#68cc45" }}>free delivery,</span>or{" "}
+              <span style={{ color: "#68CC45" }}>free delivery,</span>or{" "}
               <span>easy pickup</span>
             </Text>
           </div>
@@ -73,7 +72,7 @@ export default function AccessoriesSlider() {
             <Image className="truck_images" src={credit} alt="truck" />
             <Text className="Text_color_full">
               Pay in full or{" "}
-              <span style={{ color: "#68cc45" }}>pay over time</span>.Your
+              <span style={{ color: "#68CC45" }}>pay over time</span>.Your
               choice
             </Text>
           </div>
@@ -82,7 +81,7 @@ export default function AccessoriesSlider() {
           <div className="slider_div">
             <Image className="truck_images" src={device} alt="truck" />
             <Text className="Text_color_full">
-              <span style={{ color: "#ac39ff" }}>
+              <span style={{ color: "#AC39FF" }}>
                 Trade in Your current device
               </span>{" "}
               from an Apple Store, Get credit toward a new one.
@@ -94,7 +93,7 @@ export default function AccessoriesSlider() {
           <Image className="truck_images" src={smile} alt="truck" />
           <Text className="Text_color_full">
             Make them yours.
-            <span style={{ color: "#007aff" }}>
+            <span style={{ color: "#007AFF" }}>
               Engrave a mix of emoji,names,and numbers for free,
             </span>
           </Text>
@@ -104,7 +103,7 @@ export default function AccessoriesSlider() {
           <div className="slider_div">
             <Image className="truck_images" src={apple} alt="truck" />
             <Text className="Text_color_full">
-              <span style={{ color: "#ac39ff" }}>Customize your Mac</span> and
+              <span style={{ color: "#AC39FF" }}>Customize your Mac</span> and
               create your own style of Apple Watch
             </Text>
           </div>
@@ -114,9 +113,9 @@ export default function AccessoriesSlider() {
             {" "}
             <Image className="truck_images" src={applePay} alt="truck" />
             <Text className="Text_color_full">
-              Get a<span style={{ color: "#007aff" }}>personalized</span>
+              Get a<span style={{ color: "#007AFF" }}>personalized</span>
               shopping experience in,
-              <span style={{ color: "#007aff" }}>Apple Store app.</span>
+              <span style={{ color: "#007AFF" }}>Apple Store app.</span>
             </Text>
           </div>
         </SwiperSlide>

@@ -9,7 +9,7 @@ import {getProducts} from "../Redux/productsReducer/products.action"
 const Products = () => {
   const dispatch = useDispatch();
   useEffect(() => {
-    dispatch(getProducts("https://different-bell-bottoms-fox.cyclic.app/quickdeal"));
+    dispatch(getProducts("http://localhost:8080/product"));
   }, []);
   let { isLoading, isError, products } = useSelector(
     (store) => store.productsReducer
