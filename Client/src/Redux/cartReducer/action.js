@@ -14,11 +14,10 @@ export const removeFromCartAction = (id) => {
   };
 };
 
-export const AddToCart =
-  (id, endpoint = "allproducts") =>
+export const AddToCart =(id) =>
   (dispatch) => {
     axios
-      .get(`https://whimsical-vintage-angelfish.glitch.me/${endpoint}/${id}`)
+      .get(`https://fancy-cyan-robe.cyclic.app/${id}`)
       .then((res) => {
         console.log(res.data)
         dispatch(addToCartAction(res.data));

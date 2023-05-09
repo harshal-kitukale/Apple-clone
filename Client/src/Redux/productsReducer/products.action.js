@@ -23,11 +23,11 @@ export const getProductsSuccess = (payload) => {
     payload,
   };
 };
-export const getSingleProduct =  (id) => (dispatch) => {
+export const getSingleProduct = (id) => (dispatch) => {
   dispatch({ type: PRODUCTS_REQUEST });
 
   return axios
-    .get(`http://localhost:8080/product/singleProduct/${id}`)
+    .get(`https://fancy-cyan-robe.cyclic.app/product/singleProduct/${id}`)
     .then((res) => {
       return(res.data);
     })
