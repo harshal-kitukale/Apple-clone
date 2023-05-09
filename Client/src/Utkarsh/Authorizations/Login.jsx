@@ -32,7 +32,7 @@ const handleLogin=()=>{
   return (
     <div>
       <Box className="login_text_box">
-      <Text className="text_loginup">Sign in for faster checkout</Text>
+        <Text className="text_loginup">Sign in for faster checkout</Text>
       </Box>
       <br />
       <br />
