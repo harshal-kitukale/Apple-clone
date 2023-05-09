@@ -5,8 +5,10 @@ import { useDispatch, useSelector } from "react-redux";
 import {getProducts} from "../Redux/productsReducer/products.action"
 //
 
+
 //
 const Products = () => {
+
   const dispatch = useDispatch();
   useEffect(() => {
     dispatch(getProducts("http://localhost:8080/product"));
@@ -14,7 +16,7 @@ const Products = () => {
   let { isLoading, isError, products } = useSelector(
     (store) => store.productsReducer
   );
-  console.log(products);
+  // console.log(products);
   return (
     <ProductsMain>
       {/* HEADER */}
@@ -26,8 +28,10 @@ const Products = () => {
       </HeaderMainA>
       {/* PRODUCTS */}
          <ProductsContainer>
-        {products?.map((product) => (
-          <ProductCard key={product._id} product={product} />
+        
+        {products?.products?.map((product) => (
+          
+          <ProductCard key={product._id} product={product}/>
         ))}
       </ProductsContainer>
     </ProductsMain>
