@@ -13,9 +13,9 @@ import {
 import React from "react";
 
 const CartCard = ({
-  images,
+  image,
+  title,
   price,
-  exclusivePrice,
   category,
   id,
   remove,
@@ -45,21 +45,21 @@ const CartCard = ({
               borderRadius={"5px"}
               boxShadow="md"
               height="100%"
-              src={`https://prod-img.thesouledstore.com/public/theSoul/uploads/catalog/product/${images[0]}?format=webp&w=376&dpr=1.0`}
+              src={image}
               alt="dummy"
             />
           </Box>
           <Box height={"100%"} width={"70%"}>
             <Flex justifyContent={"space-between"}>
               <Heading align="left" fontSize={"16px"}>
-                The Simpsons: Expressions
+                {title}
               </Heading>
               <Box>
                 <HStack>
                   <Text fontSize={{base:"12px",md:"16px",sm:"14px"}} fontWeight={"semibold"} align="left">
-                    ₹ {exclusivePrice}
+                    $ {price}
                   </Text>
-                  <Text
+                  {/* <Text
                     align="left"
                     style={{
                       textDecoration: "line-through",
@@ -67,20 +67,20 @@ const CartCard = ({
                     }}
                   >
                     ₹ {price}
-                  </Text>
+                  </Text> */}
                 </HStack>
               </Box>
             </Flex>
             <Flex justifyContent={"space-between"}>
               <Text fontSize={"14px"} my={"8px"} align="left" color={"gray"}>
-                {category.name}
+                {category}
               </Text>
-              <Text align="left" color={"red"} fontSize={"14px"}>
-              {((price-exclusivePrice)/price*100).toFixed(2)}% OFF
-              </Text>
+              {/* <Text align="left" color={"red"} fontSize={"14px"}>
+              {((price)/price*100).toFixed(2)}% OFF
+              </Text> */}
             </Flex>
             <HStack>
-              <Select
+              {/* <Select
                 my={"8px"}
                 mr={"10px"}
                 width="120px"
@@ -94,7 +94,7 @@ const CartCard = ({
                 <option value="L">L</option>
                 <option value="XL">XL</option>
                 <option value="XXL">XXL</option>
-              </Select>
+              </Select> */}
               <Select
                 onChange={handleSelect}
                 m={"10px"}
@@ -136,7 +136,7 @@ const CartCard = ({
           >
             Remove
           </Button>
-          <Button size="sm" variant="outline" colorScheme="teal">
+          <Button size="sm" variant="solid" colorScheme="blue">
             Move To Wishlist
           </Button>
         </Stack>

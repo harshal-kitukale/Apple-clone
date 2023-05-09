@@ -1,30 +1,27 @@
 import React from "react";
 import styled from "styled-components";
-import AppleExperience from "./Apple/AppleExperience";
-import CarouselCategory from "./Carausal";
-import Header from "./header";
+import Header from "./Header";
 import Products from "./Products";
-import HelpHere from "./Helper";
+import AppleExperience from "./Apple/AppleExperience";
 import Textbottom from "./Apple/Textbottom";
+import CarouselCategory from "./Carausal";
+import HelpHere from "./Helper";
 
 
 const Store = () => {
   return (
     <StoreMain>
-   <Header></Header>
+      <Header />
       <CarouselCategory></CarouselCategory>
-<Products></Products>
-<HelpHere></HelpHere>
-<AppleExperience></AppleExperience>
-<Textbottom></Textbottom>
+      <Products />
+           <HelpHere></HelpHere>
+      <AppleExperience></AppleExperience>
+      <Textbottom></Textbottom>
+
     </StoreMain>
   );
 };
 
 export default Store;
 // STYLED CSS
-const StoreMain = styled.div`
-// width:95%;
-// margin:auto;
-// border:2px solid red;
-`;
+const StoreMain = styled.div``;

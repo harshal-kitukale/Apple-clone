@@ -20,14 +20,15 @@ productRouter.get("/", async (req, res) => {
   }
 });
 
+
 //get by search Route
 
 productRouter.get("/search", async (req, res) => {
-  const name = req.query.name;
+  const name = req.query.category;
   const regex = new RegExp(name, "i");
   try {
     const products = await ProductModel.find({
-      title: regex,
+      category: regex,
     });
     res.status(200).send({ products });
   } catch (error) {
@@ -37,7 +38,7 @@ productRouter.get("/search", async (req, res) => {
 
 //get by id
 
-productRouter.get("/:id", async (req, res) => {
+productRouter.get("/singleProduct/:id", async (req, res) => {
   const { id } = req.params;
   try {
     const products = await ProductModel.findOne({ _id: id });

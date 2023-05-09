@@ -1,0 +1,89 @@
+#bannerDiv{
+    text-align: center;
+}
+
+.headings{
+    margin-top: -15%;
+}
+#bannerDiv h2{
+    font-size: 56px;
+    line-height: 1.07143;
+    margin-bottom: -3px;
+    font-weight: 600;
+    letter-spacing: -.005em;
+    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+
+}
+
+#bannerDiv h3{
+    font-size: 28px;
+    line-height: 1.10722;
+    margin-top: 2px;
+    font-weight: 400;
+    letter-spacing: .004em;
+    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    margin-top: 6px;
+}
+
+
+
+.banner_links a{
+    padding: 5px;
+    border: 1px solid rgb(38, 124, 211);
+  background-color: rgb(38, 124, 211);
+    border-radius: 18px;
+    margin-left: 15px;
+    color:rgb(38, 124, 211);
+    text-decoration: none;
+    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    text-align: center;
+}
+
+#macBanner{
+    background-image: url("https://www.apple.com/v/mac/home/bt/images/overview/hero/macbook_pro_14_16__dmqm5vr9l7yq_large_2x.jpg");
+    width: 100%;
+    height: 760px;
+    background-size:60% 380px;
+    padding-top: 250px;
+    background-repeat: no-repeat;
+    background-position: center;
+    color:white;
+    background-color: black;
+}
+#iPhoneBanner{
+    background-image: url("https://www.apple.com/v/iphone/home/bo/images/overview/hero/hero_iphone_14_pro__e8bufymdlseq_large_2x.jpg");
+    width: 100%;
+    height: 760px;
+    background-size:60% 380px;
+    padding-top: 250px;
+    background-repeat: no-repeat;
+    background-position: center;
+    color:white;
+    background-color: black;
+}
+#iPadBanner{
+    background-image: url("https://www.apple.com/v/ipad/home/cd/images/overview/hero/ipad_hero__d0tgmaq6shm6_large.jpg");
+    width: 100%;
+    height: 760px;
+    background-size:60% 680px;
+    padding-top: 250px;
+    background-repeat: no-repeat;
+    background-position: center;
+    color:rgb(0, 0, 0);
+    background-color: rgb(253, 253, 253);
+}
+#iWatchBanner{
+    background-image: url("https://www.apple.com/v/watch/bc/images/overview/ultra/hero_ultra__ej2pfpkgr2ie_large_2x.jpg");
+    width: 100%;
+    height: 760px;
+    background-size:60% 380px;
+    padding-top: 250px;
+    background-repeat: no-repeat;
+    background-position: center;
+    color:white;
+    background-color: black;
+}
+
+.banner_links a:hover{
+    cursor: pointer;
+}

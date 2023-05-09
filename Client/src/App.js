@@ -1,13 +1,10 @@
-
-
 import "./App.css";
-import Signup from "./Utkarsh/Authorizations/Signup";
 
+import AllRoutes from "./Routes/AllRoutes";
 function App() {
   return (
     <div>
-<Signup/>
-
+      <AllRoutes />
     </div>
   );
 }
