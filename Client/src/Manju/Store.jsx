@@ -11,13 +11,12 @@ import HelpHere from "./Helper";
 const Store = () => {
   return (
     <StoreMain>
-         <Header />
-<CarouselCategory></CarouselCategory>
-      <Products /> 
-      {/*  */}
- <HelpHere></HelpHere>      
-     <AppleExperience></AppleExperience>
-     <Textbottom></Textbottom>
+      <Header />
+      <CarouselCategory></CarouselCategory>
+      <Products />
+           <HelpHere></HelpHere>
+      <AppleExperience></AppleExperience>
+      <Textbottom></Textbottom>
 
     </StoreMain>
   );

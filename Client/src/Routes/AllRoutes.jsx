@@ -8,6 +8,7 @@ import Signup from '../Utkarsh/Authorizations/Signup'
 import Payment from '../Arun/Cart/Payment'
 import CheckoutPage from '../Arun/Cart/CheckoutPage'
 import Cart from '../harshal/Cart'
+import Store from '../Manju/Store'
 
 const AllRoutes = () => {
   return (
@@ -15,7 +16,7 @@ const AllRoutes = () => {
 
       <Route path={'/singleProduct/:id'} element={<SingleProduct/>}/>
       <Route path={'/'} element={<Home/>}/>
-      <Route path={'/products'} element={<Products/>}/>
+      <Route path={'/products'} element={<Store/>}/>
       <Route path={'/login'} element={<Login/>}/>
       <Route path={'/signup'} element={<Signup/>}/>
       <Route path={'/payment'} element={<Payment/>}/>

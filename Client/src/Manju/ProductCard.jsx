@@ -20,7 +20,7 @@ const ProductCard = ({ product }) => {
         </DetailsB>
       </DivB>
     </Div>
-  );
+  );  
 };
 
 export default ProductCard;
