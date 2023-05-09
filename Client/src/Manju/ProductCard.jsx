@@ -29,11 +29,13 @@ display: flex;
   padding: 3rem 0;
 `;
 const DivB = styled.div`
-// border:5px solid red;
+border:1px  ;
+border-style:solid;
+border-color: rgb(210,210,210);
   width: 80%;
   height: 420px;
   margin: auto;
-  padding: 1rem;
+  padding: 2rem;
   transition: 0.6s ease-in-out;
   display: flex;
   flex-direction: column;
@@ -49,11 +51,15 @@ const DivB = styled.div`
   }
 `;
 const Image = styled.img`
-  width: 60%;
+  width: 100%;
+  margin:auto;
+
 `;
 const DetailsA = styled.div``;
 const Title = styled.h2`
   font-weight: 600;
+  font-size: 22px;
+  text-align: center;
 `;
 const DetailsB = styled.div`
   display: flex;
