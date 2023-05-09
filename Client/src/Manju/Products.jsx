@@ -11,7 +11,7 @@ const Products = () => {
 
   const dispatch = useDispatch();
   useEffect(() => {
-    dispatch(getProducts("http://localhost:8080/product"));
+    dispatch(getProducts("https://fancy-cyan-robe.cyclic.app/product"));
   }, []);
   let { isLoading, isError, products } = useSelector(
     (store) => store.productsReducer

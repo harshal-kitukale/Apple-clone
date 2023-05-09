@@ -18,7 +18,7 @@ const handleLogin=()=>{
   email,password
    }
 // Connection between BE and FE
-   fetch('http://localhost:8080/user/login',{
+   fetch('https://fancy-cyan-robe.cyclic.app/user/login',{
     method:'POST',
     headers:{
         'Content-Type':'application/json'

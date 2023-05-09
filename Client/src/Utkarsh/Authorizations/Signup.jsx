@@ -18,7 +18,7 @@ const Signup = () => {
       email,
       password,
     };
-    fetch("http://localhost:8080/user/register", {
+    fetch("https://fancy-cyan-robe.cyclic.app/user/register", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",

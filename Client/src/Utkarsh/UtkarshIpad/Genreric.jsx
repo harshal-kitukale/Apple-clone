@@ -20,7 +20,7 @@ console.log(category)
   const getCat=()=>{
     // dispatch(productsRequest());
     axios
-      .get(`http://localhost:8080/product/search?category=${category}`)
+      .get(`https://fancy-cyan-robe.cyclic.app/product/search?category=${category}`)
       .then((res) => {
         // dispatch(getProductsSuccess(res.data));
         console.log(res.data)

@@ -58,7 +58,7 @@ setProdData(res)
     // }, 1500);
     // console.log(nproducts);
     const {title,category,specs,memory,storage,dtlimage,price}=prodData
-    fetch('http://localhost:8080/cart/add',{
+    fetch('https://fancy-cyan-robe.cyclic.app/cart/add',{
       method:'POST',
       headers:{
           'Content-Type':'application/json'

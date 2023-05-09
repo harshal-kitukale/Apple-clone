@@ -57,9 +57,13 @@ const Cart = () => {
   console.log(arr1);
 
   // billDetailFunction(cart);
-  const remove = (id) => {
-    // dispatch(removeFromCartAction(id));
-    // billDetailFunction(cart);
+  const remove = (id) => { 
+    axios
+    .delete(`https://fancy-cyan-robe.cyclic.app/cart/delete/${id}`)
+    .then((res) => {
+      console.log(res.data)
+      // dispatch(addToCartAction(res.data));
+    });
     console.log(id);
   };
   const changePrice = (id) => {
@@ -75,7 +79,7 @@ const Cart = () => {
 
   useEffect(()=>{
     axios
-    .get('http://localhost:8080/cart')
+    .get('https://fancy-cyan-robe.cyclic.app/cart')
     .then((res) => {
       // dispatch(getProductsSuccess(res.data));
       setCartData(res.data)
