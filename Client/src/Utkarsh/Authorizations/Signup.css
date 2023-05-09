@@ -146,6 +146,7 @@ p {
 
 .form__input {
   background-color: #171717;
+  color:#ffff;
   border: 2px solid #191919;
   border-radius: 1em;
   padding: 1em 1.25em;
@@ -155,7 +156,8 @@ p {
 
 .form__input:focus,
 .form__input:hover {
-  background-color: #1f1f1f;
+  background-color: #191919;
+  color:#ffff
 }
 
 .form__label {
