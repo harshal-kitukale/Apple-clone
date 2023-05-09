@@ -9,7 +9,8 @@ import Music from "../UtkarshImages/Music.png";
 import Arcade from "../UtkarshImages/Arcade.png";
 import education from "../UtkarshImages/education.png";
 import EducationHello from "../UtkarshImages/EducationHello.png";
-import AccessoriesSlider from "../UtkarshSlider/AccessoriesSlider";const Ipad = () => {
+import AccessoriesSlider from "../UtkarshSlider/AccessoriesSlider";
+const Ipad = () => {
   return (
     <div style={{ backgroundColor: "rgb(255, 255, 255)" }}>
       <Box>
