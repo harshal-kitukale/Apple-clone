@@ -24,7 +24,7 @@ export const Home = () => {
     <a href="" style={{color:"white"}}>Buy Now</a>
 </div>
 </div>
-{/* <div id='banner3'>
+<div id='banner3'>
 <h2><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/Apple_logo_white.svg/800px-Apple_logo_white.svg.png" alt="" width={40}/> Watch</h2>
 <h3>A healthy leap ahead</h3>
 <div className='banner_links'>
@@ -80,9 +80,9 @@ export const Home = () => {
     <a href="" style={{color:"white"}}>Buy Now</a>
 </div>
     </div>
-</div> */}
-{/* <Slider/>
-<Footer/> */}
+</div>
+<Slider/>
+<Footer/>
     </div>
 
   )
