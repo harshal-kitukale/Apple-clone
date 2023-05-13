@@ -41,7 +41,7 @@
 <h3>Cart</h3>
 <img src="/Images/cart.png" alt="homepage"/>
 <h3>Checkout Page</h3>
-<img src="/Images/checkoute.png" alt="homepage"/>
+<img src="/Images/checkout.png" alt="homepage"/>
 <h3>Ipad Page</h3>
 <img src="/Images/IpadProd.png" alt="homepage"/>
 <h3>Mac Page</h3>
