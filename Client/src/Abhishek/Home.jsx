@@ -3,7 +3,6 @@ import { Navbar } from './Navbar'
 import './Styles/home.css'
 import { Footer } from './Footer'
 import { Slider } from './Slider'
-// import {CaptionCarousel} from './Slider'
 export const Home = () => {
   return (
     <div id='home_style'>
@@ -25,7 +24,7 @@ export const Home = () => {
 </div>
 </div>
 <div id='banner3'>
-<h2><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/Apple_logo_white.svg/800px-Apple_logo_white.svg.png" alt="" width={40} style={{margin:"auto"}}/> Watch</h2>
+<h2><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/Apple_logo_white.svg/800px-Apple_logo_white.svg.png" alt="" width={40}/> Watch</h2>
 <h3>A healthy leap ahead</h3>
 <div className='banner_links'>
     <a href="" style={{color:"white"}}>Learn More</a>
@@ -80,7 +79,7 @@ export const Home = () => {
     <a href="" style={{color:"white"}}>Buy Now</a>
 </div>
     </div>
-</div>
+</div> 
 <Slider/>
 <Footer/>
     </div>
