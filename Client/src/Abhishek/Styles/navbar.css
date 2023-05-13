@@ -26,9 +26,15 @@ nav{
     min-width: 1024px;
     height: 48px;
     max-height: 44px;
-    background: rgb(67, 67, 68);
+    /* background: rgb(67, 67, 68); */
     /* font-size: 17px; */
     user-select: none;
+/* From https://css.glass */
+background: rgba(8, 0, 0, 0.753);
+/* border-radius: 16px; */
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(5.7px);
+-webkit-backdrop-filter: blur(5.7px);
 }
 
 div.navbar_box{
@@ -63,4 +69,5 @@ li.navbar_submenu svg{
     cursor: pointer;
 }
 
+/* From https://css.glass */
 

@@ -33,7 +33,7 @@ export const Home = () => {
 </div>
 <div id='banner4'>
     <div className='banner4_sub'>
-        <h4><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Apple_logo_black.svg/800px-Apple_logo_black.svg.png " alt="" width={30} /> Trade In</h4>
+        <h4><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Apple_logo_black.svg/800px-Apple_logo_black.svg.png " alt="" width={30} style={{margin:"auto"}} /> Trade In</h4>
         <h5>Upgrade and save. It's that easy.</h5>
         <div className='banner_links'>
     <a href="" style={{color:"white"}}>See what your device is worth.</a>
@@ -72,7 +72,7 @@ export const Home = () => {
         
     </div>
     <div className='banner4_sub5'>
-       <h4><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Apple_logo_black.svg/800px-Apple_logo_black.svg.png" alt="" width={30}/> WATCH</h4>
+       <h4><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Apple_logo_black.svg/800px-Apple_logo_black.svg.png" alt="" width={30} style={{margin:"auto"}}/> WATCH</h4>
         <h5>ULTRA <br /> Adventure awaits </h5>
         <div className='banner_links'>
     <a href="" style={{color:"white"}}>Learn More</a>
