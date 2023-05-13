@@ -31,7 +31,7 @@
   <li>Vercel: For FrontEnd</li>
   <ul>
 <h3>HomePage</h3>
-<img src="/Images/homepage.png" alt="homepage" width="70%"/>
+<img src="/Images/homepage.png" alt="homepage"/>
 <h3>Login/SignUp </h3>
 <img src="/Images/Login.png" alt="homepage"/>
 <h3>Products Page</h3>
