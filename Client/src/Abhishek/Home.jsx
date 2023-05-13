@@ -1,3 +1,4 @@
+
 import React from "react";
 // import { Navbar } from "./Navbar";
 import "./Styles/home.css";
@@ -149,3 +150,4 @@ export const Home = () => {
     </div>
   );
 };
+
