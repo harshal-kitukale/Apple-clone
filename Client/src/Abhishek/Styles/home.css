@@ -53,6 +53,13 @@
     margin-left: 15px;
     color:rgb(38, 124, 211);
     text-decoration: none;
+    /* border: 1px solid black; */
+    background-color:rgb(38, 124, 211) ;
+    padding: 5px;
+    border-radius: 20px;
+}
+.banner_links a:hover{
+    text-decoration: none;
 }
 #banner2{
    margin-top: 5px;

@@ -28,6 +28,8 @@ import CartCard from "./CartCard";
 // import styled from "styled-components";
 import { arr1 } from "./data";
 import axios from "axios";
+import { Navbar } from "../Abhishek/Navbar";
+import { Footer } from "../Abhishek/Footer";
 
 export let billDetail;
 const billDetailFunction = (cart) => {
@@ -113,7 +115,7 @@ const Cart = () => {
 
   return (
     <>
-      {/* <Navbar /> */}
+      <Navbar/>
       {/* <Box margin={"1rem"} color={"teal"} fontSize="0.8rem">
         {" "}
         <Span>MY BAG </Span>- - - - - - - - - - - - - ADDRESS - - - - - - - - -
@@ -435,6 +437,7 @@ const Cart = () => {
         </GridItem>
       </Grid>
       {/* <Footer /> */}
+      <Footer/>
     </>
   );
 };

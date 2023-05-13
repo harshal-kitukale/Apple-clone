@@ -1,6 +1,7 @@
 footer {
     width: 100%;
     min-height: 105vh;
+    margin-top: 10px;
     display: flex;
     align-items: center;
     justify-content: space-between;
