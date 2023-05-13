@@ -50,8 +50,6 @@
 <img src="/Images/EditProduct.png" alt="homepage"/>
 <h3>Admin Add Product</h3>
 <img src="/Images/addProduct.png" alt="homepage"/>
-<h3>Error Page</h3>
-<img src="/Images/Error.png" alt="homepage"/>
 
 <h1>Members</h1>
 <h3><a href="https://github.com/harshal-kitukale">Harshal Kitukale(Team Lead) </a>responsible for building Cart & Single Product section.</h3>
