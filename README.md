@@ -31,25 +31,25 @@
   <li>Vercel: For FrontEnd</li>
   <ul>
 <h3>HomePage</h3>
-<img src="./Client/public/Images/Homepage.png" alt="homepage"/>
+<img src="./Client/public/Images/Homepage.png" alt="homepage" width="70%"/>
 <h3>Login/SignUp </h3>
-<img src="/Images/login.png" alt="homepage"/>
+<img src="./Client/public/Images/Login.png" alt="homepage"/>
 <h3>Products Page</h3>
-<img src="/Images/Products.png" alt="homepage"/>
+<img src="./Client/public/Images/Store.png" alt="homepage"/>
 <h3>Single Product</h3>
-<img src="/Images/singleProduct.png" alt="homepage"/>
+<img src="./Client/public/Images/Homepage.png"alt="homepage"/>
 <h3>Cart</h3>
-<img src="/Images/cart.png" alt="homepage"/>
+<img src="./Client/public/Images/Homepage.png" alt="homepage"/>
 <h3>Checkout Page</h3>
-<img src="/Images/checkout.png" alt="homepage"/>
+<img src="./Client/public/Images/Homepage.png" alt="homepage"/>
 <h3>Order Details</h3>
-<img src="/Images/ordersummary.png" alt="homepage"/>
+<img src="./Client/public/Images/Homepage.png" alt="homepage"/>
 <h3>Admin Dashboard</h3>
-<img src="/Images/AdminPanel.png" alt="homepage"/>
+<img src="./Client/public/Images/Homepage.png"alt="homepage"/>
 <h3>Admin Update Product</h3>
-<img src="/Images/EditProduct.png" alt="homepage"/>
+<img src="./Client/public/Images/Homepage.png"alt="homepage"/>
 <h3>Admin Add Product</h3>
-<img src="/Images/addProduct.png" alt="homepage"/>
+<img src="./Client/public/Images/Homepage.png" alt="homepage"/>
 
 <h1>Members</h1>
 <h3><a href="https://github.com/harshal-kitukale">Harshal Kitukale(Team Lead) </a>responsible for building Cart & Single Product section.</h3>
