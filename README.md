@@ -1,30 +1,65 @@
 # hunky-point-1424
-<h1>Apple.com Website</h1>
-<p>Apple Comapny  is an American computer and consumer electronics company famous for creating the iPhone, iPad and Macintosh computers. Apple is one of the largest companies globally with a market cap of over 2 trillion dollars.</p>
 
-<div>
-  <h1>Tech Stack Used</h1>
+<h1><a href="https://frontend-apple.vercel.app/">Apple-Clone</a></h1>
 
-   <h3>Chakra-Ui</h3>
-   <h3>Node.js</h3>
-   <h3>Express.js</h3>
-   <h3>MongoDB</h3>
-  <h3>React.js</h3>
-  <h3>Redux</h3>
-  <h3>Chart.js</h3>
-      <h3>Cyclic</h3>
-  <h3>Versel</h3>
-  </div>
-  <h1>Home Page</h1>
-  <img src="https://github.com/masai-course/utkarsh_fw20_1149/assets/106021674/be91c486-e4d5-45be-998b-6020db689960" alt="home" />
-  <br/>
-  <h1>Ipad Page</h1>
-    <img src="https://github.com/masai-course/utkarsh_fw20_1149/assets/106021674/b820dcdd-f027-4d40-af52-8b537b26f03b" alt="home" />
-    <br/>
-    <h1>Login Page </h1>
-    <img src="https://github.com/masai-course/utkarsh_fw20_1149/assets/106021674/03c74982-4183-420b-a87b-314ea9a92b74" />
->     <h1>MacBook Page</h1>
->     <img src="https://github.com/masai-course/utkarsh_fw20_1149/assets/106021674/22c4f4a7-ed69-4e3e-b181-c0397c2d03dd" />
+<h2>Overview</h2>
+<p>An E-commerce website for purchasing electronics products such as ipad,iphone,Mac and other accessories.</p>
+
+<h2>Features:</h2>
+<h3>User Side:</h3>
+<ul>
+<li>Login/SignUp</li>
+<li>Different Products in store</li>
+<li>Shop by different Categories of Product</li>
+<li>Cart Management</li>
+<li>Private Route to Cart Page</li>
+<li>Add,Change and update Address on checkout page</li>
+</ul>
+<h1>Tech Stacks:</h1>
+<ul>
+<li>JavaScript</li>
+<li>Reactjs</li>
+<li>Chakra UI</li>
+<li>HTML</li>
+ <li>CSS</li>
+<li>MonogoDB</li>
+ <li>Express</li>
+</ul>
+<h2>Deployment Servers used:</h2>
+<ul>
+  <li>Cyclic: For BackEnd</li>
+  <li>Vercel: For FrontEnd</li>
+  <ul>
+<h3>HomePage</h3>
+<img src="./Client/public/Images/Homepage.png" alt="homepage"/>
+<h3>Login/SignUp </h3>
+<img src="/Images/login.png" alt="homepage"/>
+<h3>Products Page</h3>
+<img src="/Images/Products.png" alt="homepage"/>
+<h3>Single Product</h3>
+<img src="/Images/singleProduct.png" alt="homepage"/>
+<h3>Cart</h3>
+<img src="/Images/cart.png" alt="homepage"/>
+<h3>Checkout Page</h3>
+<img src="/Images/checkout.png" alt="homepage"/>
+<h3>Order Details</h3>
+<img src="/Images/ordersummary.png" alt="homepage"/>
+<h3>Admin Dashboard</h3>
+<img src="/Images/AdminPanel.png" alt="homepage"/>
+<h3>Admin Update Product</h3>
+<img src="/Images/EditProduct.png" alt="homepage"/>
+<h3>Admin Add Product</h3>
+<img src="/Images/addProduct.png" alt="homepage"/>
+<h3>Error Page</h3>
+<img src="/Images/Error.png" alt="homepage"/>
+
+<h1>Members</h1>
+<h3><a href="https://github.com/harshal-kitukale">Harshal Kitukale(Team Lead) </a>responsible for building Cart & Single Product section.</h3>
+<h3><a href="https://github.com/arun24hrs">Arun Kumar Rana </a>responsible for building Checkout & Payment section.</h3>
+<h3><a href="https://github.com/Sahil9214">Utkarsh Singhal </a>responsible for building Login/SignUp and Ipad Category section.</h3>
+<h3><a href="https://github.com/manju145">Manju Yadav </a>responsible for building Store section.</h3>
+    <h3><a href="https://github.com/Avneesh002">Avneesh Grover </a>responsible for building BackEnd Structure.</h3>
+    <h3><a href="https://github.com/AbhishekGupta1212">Abhishek Gupta </a>responsible for buiding Homepage & Mac category section</h3>
 
 
     
