@@ -8,38 +8,39 @@ import {
   HStack,
   Image,
   Select,
+  Spinner,
   Text,
 } from "@chakra-ui/react";
 import { useEffect, useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { useParams } from "react-router";
-
+import { useToast } from "@chakra-ui/react";
 import { StandardSizes } from "./StandardSizes";
 
 import { getSingleProduct } from "../Redux/productsReducer/products.action";
 export const SingleProduct = () => {
-  const [data, setData] = useState("");
-const [prodData,setProdData]=useState({})
+  // const [data, setData] = useState("");
+  const [prodData, setProdData] = useState({});
   const { id } = useParams();
-  console.log(id)
+  const toast = useToast();
+  console.log(id);
   // const products=useSelector((store)=>store.productsReducer)
   // console.log(products)
-  const [value, setValue] = useState(true);
-  const [loading, setLoading] = useState(true);
+  const [value, setValue] = useState(false);
+  const [loading, setLoading] = useState(false);
   const dispatch = useDispatch();
-const getItem=()=>{
-  let items = JSON.parse(localStorage.getItem("cart")) || [];
-  if (items.length > 0) {
-    items.map((item) => (item.id === id ? setValue(true) : ""));
-  }
-}
+  const getItem = () => {
+    let items = JSON.parse(localStorage.getItem("cart")) || [];
+    if (items.length > 0) {
+      items.map((item) => (item.id === id ? setValue(true) : ""));
+    }
+  };
   useEffect(() => {
-dispatch(getSingleProduct(id)).then((res)=>{
-setProdData(res)
-})
-
+    dispatch(getSingleProduct(id)).then((res) => {
+      setProdData(res);
+    });
   }, []);
-  console.log(prodData)
+  console.log(prodData);
   function changeTheproducts(key, value) {
     // let newproducts = {
     //   ...products,
@@ -47,41 +48,49 @@ setProdData(res)
     // };
     // console.log(newproducts, 1);
   }
-  console.log(data);
+  // console.log(data);
   const AddToBasket = (e) => {
     // e.preventDefault();
     // dispatch(AddToCart(id));
-    // setLoading(true)
-    // setTimeout(() => {
-    //   setLoading(false)
-    //   getItem()
-    // }, 1500);
-    // console.log(nproducts);
-    const {title,category,specs,memory,storage,dtlimage,price}=prodData
-    fetch('https://fancy-cyan-robe.cyclic.app/cart/add',{
-      method:'POST',
-      headers:{
-          'Content-Type':'application/json'
+    setLoading(true)
+    setTimeout(() => {
+      setLoading(false)
+      setValue(true)
+      getItem()
+    }, 1500);
+
+    
+    const { title, image, category, specs, memory, storage, dtlimage, price } =
+      prodData;
+    fetch("https://fancy-cyan-robe.cyclic.app/cart/add", {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
       },
-      body:JSON.stringify({title,category,specs,memory,storage,dtlimage,price})
-     }).then(res=>res.json())
-     .catch(err=>console.log(err))
+      body: JSON.stringify({
+        title,
+        image,
+        category,
+        specs,
+        memory,
+        storage,
+        dtlimage,
+        price,
+      }),
+    })
+      .then((res) => res.json())
+      .catch((err) => console.log(err));
+
+    toast({
+      position: "bottom",
+      title: "Product Added To The Cart",
+      description: `your ${title} now in the cart. `,
+      status: "success",
+      duration: 4000,
+      isClosable: true,
+    });
+
   };
-  // if (data === "") {
-  //   return (
-  //     <>
-  //       <Spinner
-  //         thickness="4px"
-  //         speed="0.65s"
-  //         emptyColor="gray.200"
-  //         color="blue.500"
-  //         size="xl"
-  //         position={"absolute"}
-  //         top={"300px"}
-  //       />
-  //     </>
-  //   );
-  // }
   return (
     <>
       {/* <Navbar /> */}
@@ -145,24 +154,23 @@ setProdData(res)
                 {" "}
                 Details of your Brand new {prodData.category}
               </Text>
-              {
-                prodData?.specs?.map((ele) => {
-                  <Box></Box>;
-                  if (ele == "unified memory") {
-                    return (
-                      <Text lineHeight={"30px"}>
-                        - {"8 GB"} {ele}
-                      </Text>
-                    );
-                  } else if (ele == "SSD storage") {
-                    return (
-                      <Text lineHeight={"30px"}>
-                        - {"64 GB"} {ele}
-                      </Text>
-                    );
-                  }
-                  return <Text lineHeight={"30px"}>- {ele}</Text>;
-                })}
+              {prodData?.specs?.map((ele) => {
+                <Box></Box>;
+                if (ele == "unified memory") {
+                  return (
+                    <Text lineHeight={"30px"}>
+                      - {"8 GB"} {ele}
+                    </Text>
+                  );
+                } else if (ele == "SSD storage") {
+                  return (
+                    <Text lineHeight={"30px"}>
+                      - {"64 GB"} {ele}
+                    </Text>
+                  );
+                }
+                return <Text lineHeight={"30px"}>- {ele}</Text>;
+              })}
             </Box>
           </Box>
           <Box w={{ base: "100%", md: "40%" }}>
@@ -171,7 +179,7 @@ setProdData(res)
               mt={{ base: "10px", md: "0px" }}
               fontSize={"30px"}
             >
-              {data.product}
+              {/* {data.product} */}
             </Heading>
             <Text
               fontSize={"24px"}
@@ -258,16 +266,17 @@ setProdData(res)
                 >
                   {value?"ADDED":"ADD TO CART"}
                 </Button> */}
-                <Button
-                  colorScheme="blue"
-                  // bg="rgb(236, 61, 37)"
-                  w={"100%"}
-                  onClick={AddToBasket}
-                  // isDisabled={value}
-                  spinnerPlacement="start"
-                >
-                  Add To Bag
-                </Button>
+                  <Button
+                    colorScheme="blue"
+                    w={"100%"}
+                    onClick={AddToBasket}
+                    spinnerPlacement="start"
+                    isDisabled={value}
+                    isLoading={loading}
+                    loadingText={loading ? "ADDING TO THE CART" : ""}
+                  >
+                    {value?"Added":"Add To Bag"}
+                  </Button>
                 </HStack>
               </Box>
             </Box>

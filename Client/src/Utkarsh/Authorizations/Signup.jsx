@@ -7,10 +7,15 @@ import googleplus from "../UtkarshImages/googleplus.png";
 import appleplus from "../UtkarshImages/appleplus.png";
 import imac from "../UtkarshImages/imac.jpg";
 import girls from "../UtkarshVideos/girls.mp4";
+import { useToast } from "@chakra-ui/react";
+import { useNavigate } from "react-router-dom";
+
 const Signup = () => {
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
   const [password, setPass] = useState("");
+  const toast = useToast();
+  const navigate=useNavigate()
   const handleSubmit = (e) => {
     e.preventDefault();
     const payload = {
@@ -26,8 +31,60 @@ const Signup = () => {
       body: JSON.stringify(payload),
     })
       .then((res) => res.json())
-      .then((res) => console.log(res))
-      .catch((err) => console.log(err));
+      .then((res) =>{ 
+        console.log(res);
+        if (res.msg=="All fields are required"){
+          toast({
+          position: "bottom",
+          title: "Signup ",
+          description: `${res.msg} `,
+          status: "warning",
+          duration: 4000,
+          isClosable: true,
+        })
+      }
+        else if(res.msg=="Account already exists") {
+            toast({
+            position: "bottom",
+            title: "Signup ",
+            description: `${res.msg} `,
+            status: "info",
+            duration: 4000,
+            isClosable: true,
+          })
+        }
+        else if (res.status=="Something went wrong, Try Again"){
+          toast({
+            position: "bottom",
+            title: "Signup ",
+            description: `${res.msg} `,
+            status: "error",
+            duration: 4000,
+            isClosable: true,
+          })
+        }
+        else if (res.status=="Registration successful"){
+          toast({
+            position: "bottom",
+            title: "Signup ",
+            description: `${res.msg} `,
+            status: "success",
+            duration: 4000,
+            isClosable: true,
+          })
+          navigate("/login");
+        }
+    })
+    .catch((err) => {
+       toast({
+        position: "bottom",
+        title: "Failed ",
+        description: `Signup Failed `,
+        status: "error",
+        duration: 4000,
+        isClosable: true,
+      });
+    })
   };
   return (
     <div>

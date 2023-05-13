@@ -17,7 +17,7 @@ import apple from "../UtkarshImages/apple_color.png";
 import applePay from "../UtkarshImages/applePay.png";
 export default function AccessoriesSlider() {
   return (
-    <div className="div_apple">
+    <div className="div_apple" style={{padding:"0px 0px 20px 0px",height:"500px"}}>
         <br/>
         <br/>
       <Text className="accessories_span_store">

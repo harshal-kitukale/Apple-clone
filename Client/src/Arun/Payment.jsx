@@ -17,8 +17,9 @@ import {
 } from "@chakra-ui/modal";
 import { Select } from "@chakra-ui/select";
 import { useDispatch, useSelector } from "react-redux";
-import { Navbar } from "../../Abhishek/Navbar";
-import { Footer } from "../../Abhishek/Footer";
+import { Navbar } from "../Abhishek/Navbar";
+// import { Footer } from "../Abhishek/Footer";
+import { useNavigate } from "react-router-dom";
 
 const address = JSON.parse(localStorage.getItem("userAddress"));
 
@@ -28,7 +29,7 @@ const Payment = () => {
   const [viewNetBanking, setViewNetBanking] = React.useState(false);
   const [payStatus, setPayStatus] = React.useState(false);
   const { isOpen, onOpen, onClose } = useDisclosure();
-
+ const navigate=useNavigate()
   const dispatch = useDispatch();
 
   const data = useSelector((store) => console.log(store));
@@ -83,7 +84,9 @@ const Payment = () => {
               <Button colorScheme="blue" mr={3} onClick={handlePaymentStatus}>
                 Close
               </Button>
-              <Button variant="outline">Continue Shopping</Button>
+              {/* <Link to="/"> */}
+              <Button variant="outline" onClick={()=>navigate("/")}>Continue Shopping</Button>
+              {/* </Link> */}
             </HStack>
           </ModalContent>
         </Modal>
@@ -160,15 +163,17 @@ const Payment = () => {
               </Box>
             </HStack>
             <Button
-              display={viewCard ? "block" : "none"}
+              display={viewCard ? "flex" : "none"}
               onClick={handlePaymentModal}
               colorScheme="blue"
-              width={"70%"}
+              width={"70%"}      
               isLoading={payStatus}
               loadingText="Confirming Payment Status"
+              spinnerPlacement='start'
             >
               Pay now
             </Button>
+            
           </VStack>
           <VStack w={"100%"} alignItems={"left"}>
             <Box
@@ -216,7 +221,7 @@ const Payment = () => {
               </Box>
             </HStack>
             <Button
-              display={viewNetBanking ? "block" : "none"}
+              display={viewNetBanking ? "flex" : "none"}
               onClick={handlePaymentModal}
               colorScheme="blue"
               width={"70%"}
@@ -259,7 +264,7 @@ const Payment = () => {
               </HStack>
             </VStack>
             <Button
-              display={viewCod ? "block" : "none"}
+              display={viewCod ? "flex" : "none"}
               onClick={handlePaymentModal}
               colorScheme="blue"
               width={"70%"}
@@ -275,7 +280,7 @@ const Payment = () => {
           <Summary />
         </Box>
       </HStack>
-      <Footer />
+      {/* <Footer /> */}
     </Box>
   );
 };

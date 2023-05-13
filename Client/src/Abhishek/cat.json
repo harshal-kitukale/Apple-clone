@@ -95,6 +95,32 @@
         "title":"Shop iPhone"
       }    
 ],
+"iPad":[
+    {
+        "img":"https://www.apple.com/v/ipad/home/cd/images/chapternav/ipad_light__fcshltpasu6i_large.svg",
+        "title":"Ipad"
+      },
+      {
+        "img":"https://www.apple.com/v/ipad/home/cd/images/chapternav/ipad_compare_light__bdpd7ul1iasy_large.svg",
+        "title":"Ipad Compare"
+      },
+      {
+        "img":"https://www.apple.com/v/ipad/home/cd/images/chapternav/apple_pencil_light__b56nts0623aq_large.svg",
+        "title":"Pencil"
+      },
+      {
+        "img":"https://www.apple.com/v/ipad/home/cd/images/chapternav/keyboard_light__emvaymybnp6q_large.svg",
+        "title":" Keyboard"
+      },
+      {
+        "img":"https://www.apple.com/v/ipad/home/cd/images/chapternav/ipados_light__iolxd8nzzcqe_large.svg",
+        "title":"IpadOS"
+      },
+      {
+        "img":"https://www.apple.com/v/ipad/home/cd/images/chapternav/shop_ipad_light__cruwa0cotbwy_large.svg",
+        "title":"Shop Ipad"
+      }  
+],
 "Watch":[
     {
         "img":"https://www.apple.com/v/watch/bc/images/overview/icons/watch_nav_ultra_light__d7rvvbq6y24i_large.svg",

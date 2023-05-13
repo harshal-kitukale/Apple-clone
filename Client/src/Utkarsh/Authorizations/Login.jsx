@@ -1,7 +1,7 @@
 import { Flex, Box, Text, Image } from "@chakra-ui/react";
-import React ,{useState} from "react";
+import React, { useState } from "react";
 import "./Login.css";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import apple from "../UtkarshImages/apple.png";
 import left from "../UtkarshImages/left.png";
 import googleplus from "../UtkarshImages/googleplus.png";
@@ -9,25 +9,63 @@ import appleplus from "../UtkarshImages/appleplus.png";
 import imac from "../UtkarshImages/imac.jpg";
 import Iphone14 from "../UtkarshImages/Iphone14.jpg";
 import fast from "../UtkarshVideos/fast.mp4";
-const Login = () => {
-  const [email,setEmail]=useState('')
-  const [password,setPass]=useState('')
+import { useToast } from "@chakra-ui/react";
 
-const handleLogin=()=>{
-  const payload={
-  email,password
-   }
-// Connection between BE and FE
-   fetch('https://fancy-cyan-robe.cyclic.app/user/login',{
-    method:'POST',
-    headers:{
-        'Content-Type':'application/json'
-    },
-    body:JSON.stringify(payload)
-   }).then(res=>res.json())
-   .then(res=>localStorage.setItem("token",res.token))
-   .catch(err=>console.log(err))
-}
+const Login = () => {
+  const [email, setEmail] = useState("");
+  const [password, setPass] = useState("");
+  const toast = useToast();
+  const navigate = useNavigate();
+  const handleLogin = (e) => {
+    e.preventDefault();
+    const payload = {
+      email,
+      password,
+    };
+    // Connection between BE and FE
+    fetch("https://fancy-cyan-robe.cyclic.app/user/login", {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify(payload),
+    })
+      .then((res) => res.json())
+      .then((res) => {
+        console.log(res);
+        if (res.msg == "wrong credential") {
+          toast({
+            position: "bottom",
+            title: "Failed ",
+            description: `${res.msg}`,
+            status: "error",
+            duration: 4000,
+            isClosable: true,
+          });
+        } else if (res.msg == "login successful") {
+          localStorage.setItem("token", res.token);
+          toast({
+            position: "bottom",
+            title: "Login ",
+            description: `${res.msg} `,
+            status: "success",
+            duration: 4000,
+            isClosable: true,
+          });
+          navigate("/products");
+        }
+      })
+      .catch((err) => {
+        toast({
+          position: "bottom",
+          title: "Failed ",
+          description: `Login Failed `,
+          status: "error",
+          duration: 4000,
+          isClosable: true,
+        });
+      });
+  };
 
   return (
     <div>
@@ -101,8 +139,8 @@ const handleLogin=()=>{
                       Email
                     </label>
                     <input
-                     value={email}
-                     onChange={(e)=>setEmail(e.target.value)}
+                      value={email}
+                      onChange={(e) => setEmail(e.target.value)}
                       id="email"
                       class="form__input"
                       name="email"
@@ -120,8 +158,8 @@ const handleLogin=()=>{
                       Password
                     </label>
                     <input
-                     value={password}
-                     onChange={(e)=>setPass(e.target.value)}
+                      value={password}
+                      onChange={(e) => setPass(e.target.value)}
                       id="password"
                       class="form__input"
                       name="password"

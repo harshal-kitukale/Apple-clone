@@ -18,12 +18,15 @@ import CartItem from "./CartItem";
 import Summary from "./Summary";
 import Payment from "./Payment";
 import data from "./db.json"
-import { useSelector } from "react-redux";
-import { Navbar } from "../../Abhishek/Navbar";
+import { useSelector,useDispatch } from "react-redux";
+import { Navbar } from "../Abhishek/Navbar";
 import { useNavigate } from "react-router";
+import { CartData } from "../Redux/cartReducer/action";
+
 
 const CheckoutPage = () => {
-  const cartData = useSelector((store)=> (store.cartReducer))
+  const { cart, isLoading } = useSelector((store) => store.cartReducer);
+  const dispatch = useDispatch()
   const toast = useToast();
   const navigate = useNavigate();
   const [toggleForm, setToggleForm] = React.useState(false);
@@ -51,6 +54,7 @@ const CheckoutPage = () => {
   };
 
   const handleContact = (e) => {
+    console.log(e.target.value);
     const newContact = {
       ...contactDetails,
       [e.target.name]: e.target.value,
@@ -58,31 +62,32 @@ const CheckoutPage = () => {
     setContactDetails(newContact);
   };
 
-  const handleAddressSubmit = () => {
-    if (
-      addressDetails.fName === "" || addressDetails.lName === "" || addressDetails.street === "" || addressDetails.zip === "" || addressDetails.state === "" || addressDetails.country === "" || contactDetails.email === "" || contactDetails.mobile === ""
-    ) {
-      // toast({
-      //   title: "Warning! Form Incomplete",
-      //   description: "Please fill all the details",
-      //   status: "warning",
-      //   duration: 3000,
-      //   isClosable: true,
-      //   position: "bottom",
-      // });
-      console.log(addressDetails)
-      window.alert("Form Incomplete, please fill all fields.")
-      return;
-    } else {
-    }
-    localStorage.setItem("userAddress", JSON.stringify(addressDetails));
-    navigate("/payment")
+  const handleAddressSubmit = (e) => {
+      e.preventDefault()
+    // if (
+    //   addressDetails.fName === "" || addressDetails.lName === "" || addressDetails.street === "" || addressDetails.zip === "" || addressDetails.state === "" ||  contactDetails.email === "" || contactDetails.mobile === ""
+    // ) {
+    //   toast({
+    //     title: "Warning! Form Incomplete",
+    //     description: "Please fill all the details",
+    //     status: "warning",
+    //     duration: 3000,
+    //     isClosable: true,
+    //     position: "bottom",
+    //   });
+    //   console.log(addressDetails)
+      // window.alert("Form Incomplete, please fill all fields.")
+    // } else {
+      localStorage.setItem("userAddress", JSON.stringify(addressDetails));
+      navigate("/payment")
+    // }
 
   };
 
 useEffect(()=> {
-
+  dispatch(CartData);
 },[])
+console.log(cart);
 
   return (
     <Box w={"80%"} m={"auto"}>
@@ -110,7 +115,7 @@ useEffect(()=> {
       </HStack>
       <HStack gap="20px">
         <Box w={"70%"}>
-          {data && data.db.map((el) => (
+          { cart.data!==0 &&cart?.data?.map((el) => (
             <CartItem key={el.price + el.title} {...el} />
           ))}
         </Box>

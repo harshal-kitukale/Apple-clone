@@ -8,8 +8,12 @@ import {
   VStack,
 } from "@chakra-ui/layout";
 import React from "react";
+import {billDetailFunction,billDetail} from "../harshal/bill"
+import { useSelector } from "react-redux";
 
-const Summary = () => {
+  const Summary = () => {
+  const { cart, isLoading } = useSelector((store) => store.cartReducer);
+  billDetailFunction(cart.data || cart);
   return (
     <Box
       border={"1px solid gray"}
@@ -29,12 +33,12 @@ const Summary = () => {
             borderBottom={"1px solid black"}
             py={"20px"}
           >
-            <Text fontWeight={"bold"}>2 items</Text>
+            <Text fontWeight={"bold"}>{cart?.data?.length} items</Text>
             <Link _hover={{color: "red"}}>Edit Bag</Link>
           </HStack>
           <HStack justify={"space-between"}>
             <Text  m={"1px"}>Subtotal</Text>
-            <Text>$2,100</Text>
+            <Text>${billDetail.cart_total}</Text>
           </HStack>
           <HStack justify={"space-between"}>
             <Text m={"1px"}>Shipping</Text>
@@ -46,7 +50,7 @@ const Summary = () => {
             pb={"30px"}
           >
             <Text  m={"1px"}>Estimated Tax</Text>
-            <Text>$123</Text>
+            <Text>${billDetail.gst}</Text>
           </HStack>
           <HStack
             justify={"space-between"}
@@ -54,7 +58,7 @@ const Summary = () => {
             pb={"20px"}
           >
             <Text fontWeight={"bold"}  m={"1px"}>Total</Text>
-            <Text fontWeight={"bold"}>$3,234</Text>
+            <Text fontWeight={"bold"}>${billDetail.total_amount}</Text>
           </HStack>
         </Stack>
       </VStack>

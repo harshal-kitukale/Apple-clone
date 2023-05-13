@@ -17,13 +17,13 @@ const CartCard = ({
   title,
   price,
   category,
-  id,
+  _id,
   remove,
   changePrice,
 }) => {
   const removeItem = (e) => {
     // e.preventDefault()
-    remove(id);
+    remove(_id);
   };
   const handleSelect = (e) => {
     // e.preventDefault()
