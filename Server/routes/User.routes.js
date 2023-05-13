@@ -8,25 +8,27 @@ require("dotenv").config();
 // Register Route
 
 userRouter.post("/register", async (req, res) => {
-  const { name, email, password, age, location } = req.body;
+  const { name, email, password} = req.body;
 
   try {
-    const ifAvailable = await UserModel.find({ email });
-
-    if (ifAvailable.length > 0) {
-      res.status(200).send({ msg: "Account already exists" });
+    if (name == "" || email == "" || password == "") {
+      res.status(400).send({ msg: "All fields are required" });
     } else {
-      bcrypt.hash(password, 4, async (err, hash) => {
-        const user = new UserModel({
-          name,
-          email,
-          password: hash,
-          age,
-          location,
+      const ifAvailable = await UserModel.find({ email });
+
+      if (ifAvailable.length > 0) {
+        res.status(200).send({ msg: "Account already exists" });
+      } else {
+        bcrypt.hash(password, 4, async (err, hash) => {
+          const user = new UserModel({
+            name,
+            email,
+            password: hash,
+          });
+          await user.save();
         });
-        await user.save();
-      });
-      res.status(200).send({ msg: "Registration successful" });
+        res.status(200).send({ msg: "Registration successful" });
+      }
     }
   } catch (err) {
     res.status(400).send({ msg: "Something went wrong, Try Again" });
