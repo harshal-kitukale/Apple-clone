@@ -27,7 +27,7 @@ export const getSingleProduct = (id) => (dispatch) => {
   dispatch({ type: PRODUCTS_REQUEST });
 
   return axios
-    .get(`https://fancy-cyan-robe.cyclic.app/product/singleProduct/${id}`)
+    .get(`https://gold-ostrich-toga.cyclic.app//product/singleProduct/${id}`)
     .then((res) => {
       return(res.data);
     })

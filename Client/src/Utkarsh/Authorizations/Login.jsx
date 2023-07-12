@@ -23,7 +23,7 @@ const Login = () => {
       password,
     };
     // Connection between BE and FE
-    fetch("https://fancy-cyan-robe.cyclic.app/user/login", {
+    fetch("https://gold-ostrich-toga.cyclic.app//user/login", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",

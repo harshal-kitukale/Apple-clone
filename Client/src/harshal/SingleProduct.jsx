@@ -62,7 +62,7 @@ export const SingleProduct = () => {
     
     const { title, image, category, specs, memory, storage, dtlimage, price } =
       prodData;
-    fetch("https://fancy-cyan-robe.cyclic.app/cart/add", {
+    fetch("https://gold-ostrich-toga.cyclic.app//cart/add", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",

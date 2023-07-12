@@ -35,7 +35,7 @@ export const AddToCart =(id) =>
   (dispatch) => {
     dispatch(cartProductsRequest())
     axios
-      .get(`https://fancy-cyan-robe.cyclic.app/${id}`)
+      .get(`https://gold-ostrich-toga.cyclic.app//${id}`)
       .then((res) => {
         console.log("asdf",res.data)
         dispatch(addToCartAction(res.data));
@@ -50,7 +50,7 @@ export const AddToCart =(id) =>
   export const CartData=(dispatch)=>{
     dispatch(cartProductsRequest())
     axios
-     .get('https://fancy-cyan-robe.cyclic.app/cart')
+     .get('https://gold-ostrich-toga.cyclic.app//cart')
      .then((res) => {
       console.log(res.data)
       dispatch(getCartDataSuccess(res.data));
@@ -63,7 +63,7 @@ export const AddToCart =(id) =>
   export const RemoveCartData=(id)=>(dispatch)=>{
     // dispatch(cartProductsRequest())
    return ( axios
-    .delete(`https://fancy-cyan-robe.cyclic.app/cart/delete/${id}`)
+    .delete(`https://gold-ostrich-toga.cyclic.app//cart/delete/${id}`)
     .then((res) => {
       console.log(res.data)
     })

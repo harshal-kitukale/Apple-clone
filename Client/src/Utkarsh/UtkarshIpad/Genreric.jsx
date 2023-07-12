@@ -24,7 +24,7 @@ const Generic = () => {
     // dispatch(productsRequest());
     axios
       .get(
-        `https://fancy-cyan-robe.cyclic.app/product/search?category=${category}`
+        `https://gold-ostrich-toga.cyclic.app//product/search?category=${category}`
       )
       .then((res) => {
         // dispatch(getProductsSuccess(res.data));

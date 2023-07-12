@@ -11,7 +11,7 @@ const Products = () => {
 
   const dispatch = useDispatch();
   useEffect(() => {
-    dispatch(getProducts("https://fancy-cyan-robe.cyclic.app/product"));
+    dispatch(getProducts("https://gold-ostrich-toga.cyclic.app//product"));
   }, []);
   let { isLoading, isError, products } = useSelector(
     (store) => store.productsReducer
