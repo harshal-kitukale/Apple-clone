@@ -1,9 +1,9 @@
 # hunky-point-1424
 
-<h1><a href="https://frontend-apple.vercel.app/">Apple-Clone</a></h1>
+<h1><a href="https://splendorous-lokum-dcf5ba.netlify.app">Apple-Clone</a></h1>
 
 <h2>Overview</h2>
-<p>An E-commerce website for purchasing electronics products such as ipad,iphone,Mac and other accessories.</p>
+<p>An E-commerce website for purchasing electronics products such as iPad,iPhone, Mac and other accessories.</p>
 
 <h2>Features:</h2>
 <h3>User Side:</h3>
@@ -13,7 +13,7 @@
 <li>Shop by different Categories of Product</li>
 <li>Cart Management</li>
 <li>Private Route to Cart Page</li>
-<li>Add,Change and update Address on checkout page</li>
+<li>Add, Change and update Address on checkout page</li>
 </ul>
 <h1>Tech Stacks:</h1>
 <ul>
