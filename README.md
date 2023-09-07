@@ -1,6 +1,6 @@
 # hunky-point-1424
 
-<h1><a href="[https://splendorous-lokum-dcf5ba.netlify.app](https://splendorous-lokum-dcf5ba.netlify.app/)">Apple-Clone</a></h1>
+<h1><a href="https://splendorous-lokum-dcf5ba.netlify.app">Apple-Clone</a></h1>
 
 <h2>Overview</h2>
 <p>An E-commerce website for purchasing electronics products such as iPad,iPhone, Mac and other accessories.</p>
