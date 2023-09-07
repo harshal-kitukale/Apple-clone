@@ -19,11 +19,12 @@
 <ul>
 <li>JavaScript</li>
 <li>Reactjs</li>
+ <li>NodeJs</li>
+<li>MonogoDB</li>
+ <li>Express</li>
 <li>Chakra UI</li>
 <li>HTML</li>
  <li>CSS</li>
-<li>MonogoDB</li>
- <li>Express</li>
 </ul>
 <h2>Deployment Servers used:</h2>
 <ul>
