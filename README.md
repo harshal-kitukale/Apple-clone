@@ -17,11 +17,11 @@
 </ul>
 <h1>Tech Stacks:</h1>
 <ul>
-<li>JavaScript</li>
 <li>Reactjs</li>
  <li>NodeJs</li>
 <li>MonogoDB</li>
  <li>Express</li>
+<li>JavaScript</li>
 <li>Chakra UI</li>
 <li>HTML</li>
  <li>CSS</li>
